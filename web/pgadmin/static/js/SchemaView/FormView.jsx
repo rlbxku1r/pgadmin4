@@ -149,7 +149,7 @@ export function getFieldMetaData(field, schema, value, viewHelperProps, onlyMode
 export default function FormView({
   value, schema={}, viewHelperProps, isNested=false, accessPath, dataDispatch, hasSQLTab,
   getSQLValue, onTabChange, firstEleRef, className, isDataGridForm=false, isTabView=true, visible}) {
-  let defaultTab = 'General';
+  let defaultTab = gettext('General');
   let tabs = {};
   let tabsClassname = {};
   const [tabValue, setTabValue] = useState(0);

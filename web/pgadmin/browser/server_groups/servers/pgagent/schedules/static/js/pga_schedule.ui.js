@@ -305,7 +305,7 @@ export default class PgaJobScheduleSchema extends BaseUISchema {
           '<ul><li>',
           gettext('Schedules are specified using a '),
           '<strong>', gettext('cron-style'), '</strong>',
-          'format.',
+          gettext('format.'),
           '</li><li>',
           gettext('For each selected time or date element, the schedule will execute.'),
           '</li><li>',

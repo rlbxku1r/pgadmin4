@@ -802,7 +802,7 @@ const usePropsStyles = makeStyles((theme)=>({
 function SchemaPropertiesView({
   getInitData, viewHelperProps, schema={}, ...props}) {
   const classes = usePropsStyles();
-  let defaultTab = 'General';
+  let defaultTab = gettext('General');
   let tabs = {};
   let tabsClassname = {};
   let groupLabels = {};
