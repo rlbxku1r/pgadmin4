@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-20 21:05+0900\n"
+"PO-Revision-Date: 2025-07-20 21:15+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -8077,7 +8077,7 @@ msgstr "ステップ"
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:62
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:67
 msgid "Job Step..."
-msgstr "ジョブスッテプ..."
+msgstr "ジョブステップ..."
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:73
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:84
