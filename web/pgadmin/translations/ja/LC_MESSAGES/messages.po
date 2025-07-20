@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-20 21:15+0900\n"
+"PO-Revision-Date: 2025-07-20 21:23+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -17300,7 +17300,7 @@ msgstr "実施される変更: %s"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:155
 msgid "EOL Options Menu"
-msgstr "改行コードの選択メニュー"
+msgstr "改行コードのオプションメニュー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:157
 msgid "LF"
