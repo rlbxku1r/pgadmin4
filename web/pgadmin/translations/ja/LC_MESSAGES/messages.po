@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-20 21:23+0900\n"
+"PO-Revision-Date: 2025-07-20 21:26+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: pgadmin/__init__.py:350 pgadmin/authenticate/internal.py:26
 msgid "Incorrect username or password."
-msgstr "ユーザ名またはパスワードが違います。"
+msgstr "ユーザー名またはパスワードが違います。"
 
 #: pgadmin/__init__.py:353
 msgid "Unauthorised access, permission denied."
@@ -51,7 +51,7 @@ msgstr "%(appname)s について"
 #: pgadmin/misc/bgprocess/static/js/Processes.jsx:222
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/NewConnectionDialog.jsx:121
 msgid "Server"
-msgstr "サーバ"
+msgstr "サーバー"
 
 #: pgadmin/about/__init__.py:72
 msgid "Desktop"
@@ -89,7 +89,7 @@ msgstr "Python のバージョン"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:70
 msgid "Current User"
-msgstr "現在のユーザ"
+msgstr "現在のユーザー"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:79
 msgid "Electron Version"
@@ -98,7 +98,7 @@ msgstr "Electron のバージョン"
 #: pgadmin/about/static/js/AboutComponent.jsx:88 pgadmin/browser/__init__.py:86
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:35
 msgid "Browser"
-msgstr "ブラウザ"
+msgstr "ブラウザー"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:97
 msgid "Operating System"
@@ -114,7 +114,7 @@ msgstr "ログファイル"
 
 #: pgadmin/about/static/js/AboutComponent.jsx:127
 msgid "pgAdmin Server Configuration"
-msgstr "pgAdmin サーバの構成"
+msgstr "pgAdmin サーバーの構成"
 
 #: pgadmin/about/static/js/about.js:43
 #, python-format
@@ -141,7 +141,7 @@ msgstr "ログイン失敗"
 
 #: pgadmin/authenticate/internal.py:28
 msgid "Email/Username not provided"
-msgstr "メールアドレス/ユーザ名が未指定です"
+msgstr "メールアドレス/ユーザー名が未指定です"
 
 #: pgadmin/authenticate/internal.py:29
 msgid "Password not provided"
@@ -149,7 +149,7 @@ msgstr "パスワードが未指定です"
 
 #: pgadmin/authenticate/internal.py:30
 msgid "Email/Username is not valid"
-msgstr "メールアドレス/ユーザ名が不正です"
+msgstr "メールアドレス/ユーザー名が不正です"
 
 #: pgadmin/authenticate/internal.py:96
 msgid "internal"
@@ -179,7 +179,7 @@ msgstr "LDAP ディレクトリの検索中にエラーが発生しました: {}
 #: pgadmin/authenticate/ldap.py:34
 #, python-brace-format
 msgid "Error connecting to the LDAP server: {}\n"
-msgstr "LDAP サーバへの接続中にエラーが発生しました: {}\n"
+msgstr "LDAP サーバーへの接続中にエラーが発生しました: {}\n"
 
 #: pgadmin/authenticate/ldap.py:48
 msgid "ldap"
@@ -192,7 +192,7 @@ msgstr "LDAP の構成エラー: バインドパスワードを設定してく�
 #: pgadmin/authenticate/ldap.py:148
 #, python-brace-format
 msgid "Error binding to the LDAP server: {}\n"
-msgstr "LDAP サーバへのバインド中にエラーが発生しました: {}\n"
+msgstr "LDAP サーバーへのバインド中にエラーが発生しました: {}\n"
 
 #: pgadmin/authenticate/ldap.py:153
 #, python-brace-format
@@ -218,11 +218,11 @@ msgstr "複数の結果が見つかりました。"
 
 #: pgadmin/authenticate/ldap.py:315
 msgid "Could not find the specified user."
-msgstr "指定されたユーザが見つかりませんでした。"
+msgstr "指定されたユーザーが見つかりませんでした。"
 
 #: pgadmin/authenticate/oauth2.py:284
 msgid "Please set the configuration parameters properly."
-msgstr "構成パラメータを正しく設定してください。"
+msgstr "構成パラメーターを正しく設定してください。"
 
 #: pgadmin/authenticate/webserver.py:74
 msgid "webserver"
@@ -253,11 +253,11 @@ msgstr "コードを入力"
 msgid ""
 "User has not registered the Time-based One-Time Password (TOTP) "
 "Authenticator for authentication."
-msgstr "ユーザが時間ベースのワンタイムパスワード (TOTP) 認証の利用登録をしていません。"
+msgstr "ユーザーが時間ベースのワンタイムパスワード (TOTP) 認証の利用登録をしていません。"
 
 #: pgadmin/authenticate/mfa/authenticator.py:68
 msgid "User does not have valid HASH to generate the OTP."
-msgstr "ユーザが OTP 生成用の有効なハッシュを用意していません。"
+msgstr "ユーザーが OTP 生成用の有効なハッシュを用意していません。"
 
 #: pgadmin/authenticate/mfa/authenticator.py:126
 msgid ""
@@ -307,7 +307,7 @@ msgstr "確認コードを {} に送信しました。メールに記載され�
 
 #: pgadmin/authenticate/mfa/email.py:150
 msgid "User has not registered for email authentication"
-msgstr "ユーザがメール認証の利用登録をしていません"
+msgstr "ユーザーがメール認証の利用登録をしていません"
 
 #: pgadmin/authenticate/mfa/email.py:182
 msgid "Email Authentication"
@@ -345,7 +345,7 @@ msgstr "メモ"
 msgid ""
 "This email address will only be used for two factor authentication "
 "purposes. The email address for the user account will not be changed."
-msgstr "このメールアドレスは 2 段階認証目的のみに使用されます。ユーザアカウントのメールアドレスが変更されることはありません。"
+msgstr "このメールアドレスは 2 段階認証目的のみに使用されます。ユーザーアカウントのメールアドレスが変更されることはありません。"
 
 #: pgadmin/authenticate/mfa/email.py:242
 msgid "Enter code here"
@@ -365,7 +365,7 @@ msgstr "認証方式が指定されていません。"
 
 #: pgadmin/authenticate/mfa/views.py:64
 msgid "No user supported authentication method provided"
-msgstr "ユーザ対応の認証方式が指定されていません"
+msgstr "ユーザー対応の認証方式が指定されていません"
 
 #: pgadmin/authenticate/mfa/views.py:175
 #, python-brace-format
@@ -440,19 +440,19 @@ msgid ""
 "correctly."
 msgstr ""
 "指定された MASTER_PASSWORD_HOOK ユーティリティ {0} "
-"から、マスタパスワードを取得できませんでした。フックユーティリティが正しく設定されていることを確認してください。"
+"から、マスターパスワードを取得できませんでした。フックユーティリティが正しく設定されていることを確認してください。"
 
 #: pgadmin/browser/__init__.py:788
 msgid "Incorrect master password"
-msgstr "マスタパスワードが違います"
+msgstr "マスターパスワードが違います"
 
 #: pgadmin/browser/__init__.py:834
 msgid "Master password cannot be empty"
-msgstr "マスタパスワードは必須です"
+msgstr "マスターパスワードは必須です"
 
 #: pgadmin/browser/__init__.py:918
 msgid "pgAdmin user password changed successfully"
-msgstr "pgAdmin ユーザのパスワードが正常に変更されました"
+msgstr "pgAdmin ユーザーのパスワードが正常に変更されました"
 
 #: pgadmin/browser/__init__.py:965
 #, python-brace-format
@@ -479,7 +479,7 @@ msgstr "空のオブジェクトの集合を表示"
 msgid ""
 "If turned off, then all object collections which are empty will be hidden"
 " from browser tree."
-msgstr "無効にすると、何もないオブジェクトの集合は、すべてブラウザツリーに表示されなくなります。"
+msgstr "無効にすると、何もないオブジェクトの集合は、すべてブラウザーツリーに表示されなくなります。"
 
 #: pgadmin/browser/register_browser_preferences.py:38
 msgid "Show template databases?"
@@ -487,7 +487,7 @@ msgstr "テンプレートデータベースを表示"
 
 #: pgadmin/browser/register_browser_preferences.py:45
 msgid "Hide shared servers?"
-msgstr "共有サーバを隠す"
+msgstr "共有サーバーを隠す"
 
 #: pgadmin/browser/register_browser_preferences.py:46
 #: pgadmin/utils/constants.py:22
@@ -496,17 +496,17 @@ msgstr "表示"
 
 #: pgadmin/browser/register_browser_preferences.py:48
 msgid "If set to True, then all shared servers will be hidden from browser tree"
-msgstr "True の場合、すべての共有サーバがブラウザツリーに表示されなくなります"
+msgstr "True の場合、すべての共有サーバーがブラウザーツリーに表示されなくなります"
 
 #: pgadmin/browser/register_browser_preferences.py:55
 msgid "Object explorer tree state saving interval"
-msgstr "オブジェクトエクスプローラのツリー状態の保存間隔"
+msgstr "オブジェクトエクスプローラーのツリー状態の保存間隔"
 
 #: pgadmin/browser/register_browser_preferences.py:58
 msgid ""
 "Object explorer state saving interval in seconds. Use -1 to disable the "
 "tree saving mechanism."
-msgstr "オブジェクトエクスプローラの状態を何秒おきに保存するか指定します。全く保存させない場合は -1 にしてください。"
+msgstr "オブジェクトエクスプローラーの状態を何秒おきに保存するか指定します。全く保存させない場合は -1 にしてください。"
 
 #: pgadmin/browser/register_browser_preferences.py:65
 msgid "Confirm on close or refresh?"
@@ -516,7 +516,7 @@ msgstr "ページを閉じる・更新する際に確認"
 msgid ""
 "Confirm closure or refresh of the browser or browser tab is intended "
 "before proceeding."
-msgstr "ブラウザを閉じたり、再読み込みする前に確認します。"
+msgstr "ブラウザーを閉じたり、再読み込みする前に確認します。"
 
 #: pgadmin/browser/register_browser_preferences.py:75
 msgid "Confirm before Close/Reset in object properties dialog?"
@@ -600,7 +600,7 @@ msgstr "Alt/Option"
 #: pgadmin/static/js/BrowserComponent.jsx:94
 #: pgadmin/tools/user_management/PgAdminPermissions.py:38
 msgid "Object Explorer"
-msgstr "オブジェクトエクスプローラ"
+msgstr "オブジェクトエクスプローラー"
 
 #: pgadmin/browser/register_browser_preferences.py:147
 msgid "Tabbed panel backward"
@@ -661,7 +661,7 @@ msgstr "直接デバッグ"
 
 #: pgadmin/browser/register_browser_preferences.py:358
 msgid "Refresh object explorer"
-msgstr "オブジェクトエクスプローラを再読み込み"
+msgstr "オブジェクトエクスプローラーを再読み込み"
 
 #: pgadmin/browser/register_browser_preferences.py:373
 msgid "Add grid row"
@@ -713,7 +713,7 @@ msgstr ""
 
 #: pgadmin/browser/register_browser_preferences.py:435
 msgid "Debugger tab title"
-msgstr "デバッガタブのタイトル"
+msgstr "デバッガータブのタイトル"
 
 #: pgadmin/browser/register_browser_preferences.py:439
 #, python-format
@@ -743,7 +743,7 @@ msgstr "クエリツール"
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:28
 #: pgadmin/tools/user_management/PgAdminPermissions.py:61
 msgid "Debugger"
-msgstr "デバッガ"
+msgstr "デバッガー"
 
 #: pgadmin/browser/register_browser_preferences.py:449
 #: pgadmin/tools/schema_diff/__init__.py:48
@@ -769,13 +769,13 @@ msgstr "PSQL ツール"
 
 #: pgadmin/browser/register_browser_preferences.py:459
 msgid "Open in new browser tab"
-msgstr "新しいブラウザタブに開く"
+msgstr "新しいブラウザータブに開く"
 
 #: pgadmin/browser/register_browser_preferences.py:463
 msgid ""
 "Select Query Tool, Debugger, Schema Diff, ERD Tool or PSQL Tool from the "
 "drop-down to set open in new browser tab for that particular module."
-msgstr "クエリツール、デバッガ、スキーマ比較、ERD ツール、PSQL ツールのうち、新しいブラウザタブに開くモジュールを選択します。"
+msgstr "クエリツール、デバッガー、スキーマ比較、ERD ツール、PSQL ツールのうち、新しいブラウザータブに開くモジュールを選択します。"
 
 #: pgadmin/browser/register_browser_preferences.py:472
 msgid "Select open new tab..."
@@ -793,7 +793,7 @@ msgstr "オブジェクトのパンくずリストを有効化"
 msgid ""
 "Enable breadcrumbs to show the complete path of an object in the object "
 "explorer. The breadcrumbs are displayed on object mouse hover."
-msgstr "オブジェクトエクスプローラのオブジェクトが、どのパスに位置しているのかを示すパンくずリストを有効にします。パンくずリストが表示されるのは、オブジェクトにマウスを合わせたときです。"
+msgstr "オブジェクトエクスプローラーのオブジェクトが、どのパスに位置しているのかを示すパンくずリストを有効にします。パンくずリストが表示されるのは、オブジェクトにマウスを合わせたときです。"
 
 #: pgadmin/browser/register_browser_preferences.py:505
 msgid "Show comment with object breadcrumbs?"
@@ -832,7 +832,7 @@ msgstr "必須のプロパティが入力されていません。"
 #: pgadmin/tools/sqleditor/__init__.py:1057
 #: pgadmin/tools/sqleditor/__init__.py:1490 pgadmin/utils/exception.py:37
 msgid "Connection to the server has been lost."
-msgstr "サーバへの接続が失われました。"
+msgstr "サーバーへの接続が失われました。"
 
 #: pgadmin/browser/utils.py:733
 #, python-brace-format
@@ -842,54 +842,54 @@ msgstr "指定された{}が見つかりませんでした。"
 #: pgadmin/browser/server_groups/__init__.py:202
 #: pgadmin/browser/server_groups/__init__.py:211
 msgid "The specified server group cannot be deleted."
-msgstr "指定されたサーバグループは削除できません。"
+msgstr "指定されたサーバーグループは削除できません。"
 
 #: pgadmin/browser/server_groups/__init__.py:263
 #: pgadmin/browser/server_groups/__init__.py:337
 msgid "The specified server group already exists."
-msgstr "指定されたサーバグループはすでに存在します。"
+msgstr "指定されたサーバーグループはすでに存在します。"
 
 #: pgadmin/browser/server_groups/__init__.py:351
 msgid "No server group name was specified"
-msgstr "サーバグループ名が指定されていません"
+msgstr "サーバーグループ名が指定されていません"
 
 #: pgadmin/browser/server_groups/__init__.py:428
 msgid "Could not find the server group."
-msgstr "サーバグループが見つかりませんでした。"
+msgstr "サーバーグループが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:135
 #: pgadmin/browser/server_groups/servers/__init__.py:1039
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/__init__.py:46
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/static/js/pgd_replication_servers.js:22
 msgid "Servers"
-msgstr "サーバ"
+msgstr "サーバー"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:597
 #, python-brace-format
 msgid "The specified server group with id# {0} could not be found."
-msgstr "指定された ID# {0} のサーバグループは見つかりませんでした。"
+msgstr "指定された ID# {0} のサーバーグループは見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:618
 #, python-brace-format
 msgid "Could not find the server with id# {0}."
-msgstr "id# {0} のサーバは見つかりませんでした。"
+msgstr "id# {0} のサーバーは見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:698
 msgid ""
 "The specified server could not be found.\n"
 "Does the user have permission to access the server?"
 msgstr ""
-"指定されたサーバが見つかりませんでした。\n"
-"サーバへのアクセス権限を確認してください。"
+"指定されたサーバーが見つかりませんでした。\n"
+"サーバーへのアクセス権限を確認してください。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:720
 msgid "Server deleted"
-msgstr "サーバが削除されました"
+msgstr "サーバーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:733
 #: pgadmin/browser/server_groups/servers/__init__.py:2074
 msgid "Could not find the required server."
-msgstr "必要なサーバが見つかりませんでした。"
+msgstr "必要なサーバーが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:776
 #: pgadmin/dashboard/static/js/SystemStats/CpuDetails.jsx:158
@@ -924,7 +924,7 @@ msgstr "管理用データベース"
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:71
 #: pgadmin/tools/user_management/static/js/Users.jsx:201
 msgid "Username"
-msgstr "ユーザ名"
+msgstr "ユーザー名"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:780
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:87
@@ -954,12 +954,12 @@ msgstr "不正なホストアドレスです"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:821
 msgid "No parameters were changed."
-msgstr "パラメータは変更されませんでした。"
+msgstr "パラメーターは変更されませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:917
 #, python-brace-format
 msgid "'{0}' is not allowed to modify, when server is connected."
-msgstr "サーバに接続している間は '{0}' を変更できません。"
+msgstr "サーバーに接続している間は '{0}' を変更できません。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1133
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:721
@@ -1008,7 +1008,7 @@ msgstr "サーバに接続している間は '{0}' を変更できません。"
 #: pgadmin/tools/sqleditor/utils/macros.py:150
 #, python-brace-format
 msgid "Could not find the required parameter ({})."
-msgstr "必要なパラメータ ({}) が見つかりませんでした。"
+msgstr "必要なパラメーター ({}) が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1245
 #, python-brace-format
@@ -1017,39 +1017,39 @@ msgid ""
 "\n"
 "{}"
 msgstr ""
-"サーバに接続できません:\n"
+"サーバーに接続できません:\n"
 "\n"
 "{}"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1334
 msgid "Server has no active connection for generating statistics."
-msgstr "サーバへの有効な接続がないため、統計を生成できません。"
+msgstr "サーバーへの有効な接続がないため、統計を生成できません。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1435
 msgid "Please enter the server details to connect"
-msgstr "接続するサーバの詳細を入力してください"
+msgstr "接続するサーバーの詳細を入力してください"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1613
 #: pgadmin/tools/schema_diff/__init__.py:374
 #: pgadmin/tools/sqleditor/__init__.py:2539
 msgid "Server connected."
-msgstr "サーバに接続しました。"
+msgstr "サーバーに接続しました。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1655
 msgid "Server could not be disconnected."
-msgstr "サーバへの接続を切断できませんでした。"
+msgstr "サーバーへの接続を切断できませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1659
 msgid "Server disconnected."
-msgstr "サーバへの接続を切断しました。"
+msgstr "サーバーへの接続を切断しました。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1679
 msgid "Could not reload the server configuration."
-msgstr "サーバ設定を再読み込みできませんでした。"
+msgstr "サーバー設定を再読み込みできませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1684
 msgid "Server configuration reloaded."
-msgstr "サーバ設定を再読み込みしました。"
+msgstr "サーバー設定を再読み込みしました。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1730
 #, python-brace-format
@@ -1064,7 +1064,7 @@ msgstr "名前付きリストアポイントの作成に失敗しました ({0})
 #: pgadmin/browser/server_groups/servers/__init__.py:1793
 #: pgadmin/browser/server_groups/servers/__init__.py:1805
 msgid "Could not find the required parameter(s)."
-msgstr "必要なパラメータが見つかりませんでした。"
+msgstr "必要なパラメーターが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1814
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:133
@@ -1095,7 +1095,7 @@ msgstr "WAL の適用を再開しました"
 #: pgadmin/browser/server_groups/servers/__init__.py:1922
 #: pgadmin/browser/server_groups/servers/__init__.py:1980
 msgid "Please connect the server."
-msgstr "サーバに接続してください。"
+msgstr "サーバーに接続してください。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:2101
 #: pgadmin/browser/server_groups/servers/__init__.py:2133
@@ -1162,7 +1162,7 @@ msgstr "データベース"
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:224
 #: pgadmin/misc/cloud/__init__.py:169
 msgid "Could not find the server."
-msgstr "サーバが見つかりませんでした。"
+msgstr "サーバーが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:576
 msgid "Database connected."
@@ -1179,7 +1179,7 @@ msgstr "データベースへの接続を切断しました。"
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:838
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2331
 msgid "Could not find the database on the server."
-msgstr "データベースをサーバから見つけられませんでした。"
+msgstr "データベースをサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:997
 msgid "Database could not be deleted."
@@ -1256,7 +1256,7 @@ msgstr "キャストが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:609
 msgid "Could not find the specified cast on the server."
-msgstr "指定されたキャストをサーバから見つけられませんでした。"
+msgstr "指定されたキャストをサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:625
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/__init__.py:658
@@ -2316,39 +2316,39 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:49
 msgid "Event Triggers"
-msgstr "イベントトリガ"
+msgstr "イベントトリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:311
 msgid "Could not find the specified event trigger."
-msgstr "指定されたイベントトリガが見つかりませんでした。"
+msgstr "指定されたイベントトリガーが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:370
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:665
 msgid "Could not find the event trigger information."
-msgstr "イベントトリガ情報が見つかりませんでした。"
+msgstr "イベントトリガー情報が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:576
 msgid "The specified event trigger could not be found.\n"
-msgstr "指定されたイベントトリガが見つかりませんでした。\n"
+msgstr "指定されたイベントトリガーが見つかりませんでした。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:595
 msgid "Event trigger dropped"
-msgstr "イベントトリガが削除されました"
+msgstr "イベントトリガーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:741
 msgid "Could not find the specified event trigger on the server."
-msgstr "指定されたイベントトリガをサーバから見つけられませんでした。"
+msgstr "指定されたイベントトリガーをサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:23
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:39
 msgid "Event Trigger"
-msgstr "イベントトリガ"
+msgstr "イベントトリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:53
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:59
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:65
 msgid "Event Trigger..."
-msgstr "イベントトリガ..."
+msgstr "イベントトリガー..."
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:58
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.ui.js:100
@@ -2390,13 +2390,13 @@ msgstr "所有者"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:63
 msgid "System event trigger?"
-msgstr "システムのイベントトリガ"
+msgstr "システムのイベントトリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:70
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:104
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:200
 msgid "Trigger enabled?"
-msgstr "トリガを有効化"
+msgstr "トリガーを有効化"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:73
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:109
@@ -2434,7 +2434,7 @@ msgstr "ALWAYS"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:43
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:324
 msgid "Trigger function"
-msgstr "トリガ関数"
+msgstr "トリガー関数"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:84
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.ui.js:67
@@ -2546,7 +2546,7 @@ msgstr "セキュリティ"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.ui.js:117
 msgid "Event trigger function cannot be empty."
-msgstr "イベントトリガの関数は必須です。"
+msgstr "イベントトリガーの関数は必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:39
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:31
@@ -2572,7 +2572,7 @@ msgstr "拡張が削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/__init__.py:509
 msgid "Could not find the extension on the server."
-msgstr "拡張をサーバから見つけられませんでした。"
+msgstr "拡張をサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:62
 msgid "Extension"
@@ -2630,64 +2630,64 @@ msgstr "名前は必須です。"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:52
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:24
 msgid "Foreign Data Wrappers"
-msgstr "外部データラッパ"
+msgstr "外部データラッパー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:344
 msgid "Could not find the specified foreign data wrapper."
-msgstr "指定された外部データラッパが見つかりませんでした。"
+msgstr "指定された外部データラッパーが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:387
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:754
 msgid "Could not find the foreign data wrapper information."
-msgstr "外部データラッパの情報が見つかりませんでした。"
+msgstr "外部データラッパーの情報が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:586
 msgid "The specified foreign data wrapper could not be found.\n"
-msgstr "指定された外部データラッパが見つかりませんでした。\n"
+msgstr "指定された外部データラッパーが見つかりませんでした。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:610
 msgid "Foreign Data Wrapper dropped"
-msgstr "外部データラッパが削除されました"
+msgstr "外部データラッパーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/__init__.py:814
 msgid "Could not find the foreign data wrapper on the server."
-msgstr "外部データラッパをサーバから見つけられませんでした。"
+msgstr "外部データラッパーをサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:52
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:24
 msgid "Foreign Servers"
-msgstr "外部サーバ"
+msgstr "外部サーバー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:335
 msgid "Could not find the specified foreign server."
-msgstr "指定された外部サーバが見つかりませんでした。"
+msgstr "指定された外部サーバーが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:441
 msgid "The specified foreign server could not be found."
-msgstr "指定された外部サーバが見つかりませんでした。"
+msgstr "指定された外部サーバーが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:581
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:604
 msgid "The specified foreign server could not be found.\n"
-msgstr "指定された外部サーバが見つかりませんでした。\n"
+msgstr "指定された外部サーバーが見つかりませんでした。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:602
 msgid "Foreign Server dropped"
-msgstr "外部サーバが削除されました"
+msgstr "外部サーバーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:38
 msgid "Foreign Server"
-msgstr "外部サーバ"
+msgstr "外部サーバー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:57
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:62
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:67
 msgid "Foreign Server..."
-msgstr "外部サーバ..."
+msgstr "外部サーバー..."
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.ui.js:53
 msgid "System foreign server?"
-msgstr "システムの外部サーバ"
+msgstr "システムの外部サーバー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.ui.js:66
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.ui.js:68
@@ -2804,33 +2804,33 @@ msgstr "権限"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:57
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:24
 msgid "User Mappings"
-msgstr "ユーザマッピング"
+msgstr "ユーザーマッピング"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:343
 msgid "Could not find the specified user mapping."
-msgstr "指定されたユーザマッピングが見つかりませんでした。"
+msgstr "指定されたユーザーマッピングが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:437
 msgid "The specified user mappings could not be found."
-msgstr "指定されたユーザマッピングが見つかりませんでした。"
+msgstr "指定されたユーザーマッピングが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:558
 msgid "The specified user mapping could not be found.\n"
-msgstr "指定されたユーザマッピングが見つかりませんでした。\n"
+msgstr "指定されたユーザーマッピングが見つかりませんでした。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:632
 msgid "User Mapping dropped"
-msgstr "ユーザマッピングが削除されました"
+msgstr "ユーザーマッピングが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:38
 msgid "User Mapping"
-msgstr "ユーザマッピング"
+msgstr "ユーザーマッピング"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:57
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:62
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:67
 msgid "User Mapping..."
-msgstr "ユーザマッピング..."
+msgstr "ユーザーマッピング..."
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.ui.js:36
 #: pgadmin/browser/server_groups/servers/templates/servers/sql/default/stats.sql:3
@@ -2841,29 +2841,29 @@ msgstr "ユーザマッピング..."
 #: pgadmin/static/js/Dialogs/ChangePasswordContent.jsx:24
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/NewConnectionDialog.jsx:185
 msgid "User"
-msgstr "ユーザ"
+msgstr "ユーザー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.ui.js:45
 msgid "System user mapping?"
-msgstr "システムのユーザマッピング"
+msgstr "システムのユーザーマッピング"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:38
 msgid "Foreign Data Wrapper"
-msgstr "外部データラッパ"
+msgstr "外部データラッパー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:57
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:63
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:69
 msgid "Foreign Data Wrapper..."
-msgstr "外部データラッパ..."
+msgstr "外部データラッパー..."
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.ui.js:55
 msgid "System foreign data wrapper?"
-msgstr "システムの外部データラッパ"
+msgstr "システムの外部データラッパー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.ui.js:61
 msgid "Handler"
-msgstr "ハンドラ"
+msgstr "ハンドラー"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.ui.js:66
 msgid "Validator"
@@ -2911,7 +2911,7 @@ msgstr "信用"
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:111
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:115
 msgid "Handler function"
-msgstr "ハンドラ関数"
+msgstr "ハンドラー関数"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:143
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:169
@@ -2925,7 +2925,7 @@ msgstr "検証関数"
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.ui.js:224
 msgid "Handler function cannot be empty."
-msgstr "ハンドラ関数は必須です。"
+msgstr "ハンドラー関数は必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/__init__.py:50
 #: pgadmin/browser/server_groups/servers/databases/publications/static/js/publication.js:23
@@ -3113,7 +3113,7 @@ msgid ""
 "                    It may have been removed by another user."
 msgstr ""
 "データベースのスキーマが見つかりませんでした。\n"
-"                    他のユーザによって削除された可能性があります。"
+"                    他のユーザーによって削除された可能性があります。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:601
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:1132
@@ -3124,14 +3124,14 @@ msgid ""
 msgstr ""
 "\n"
 "データベースのスキーマが見つかりませんでした。\n"
-"他のユーザによって削除された可能性があります。\n"
+"他のユーザーによって削除された可能性があります。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:648
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:951
 msgid ""
 "Could not find the schema in the database. It may have been removed by "
 "another user."
-msgstr "データベースのスキーマが見つかりませんでした。他のユーザによって削除された可能性があります。"
+msgstr "データベースのスキーマが見つかりませんでした。他のユーザーによって削除された可能性があります。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:818
 msgid "The specified schema could not be found.\n"
@@ -3152,7 +3152,7 @@ msgid ""
 "                It may have been removed by another user."
 msgstr ""
 "データベースのスキーマが見つかりませんでした。\n"
-"                他のユーザによって削除された可能性があります。"
+"                他のユーザーによって削除された可能性があります。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/aggregates/__init__.py:51
 #: pgadmin/browser/server_groups/servers/databases/schemas/aggregates/static/js/aggregate.js:21
@@ -3417,7 +3417,7 @@ msgid ""
 msgstr ""
 "\n"
 "データベースのドメインが見つかりませんでした。\n"
-"他のユーザによって削除されたか、他のスキーマへ移動された可能性があります。\n"
+"他のユーザーによって削除されたか、他のスキーマへ移動された可能性があります。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:683
 msgid "Domain dropped"
@@ -3529,7 +3529,7 @@ msgstr "外部テーブル"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:829
 msgid "Foreign Table dropped"
-msgstr "外部データラッパが削除されました"
+msgstr "外部データラッパーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1629
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1674
@@ -3543,13 +3543,13 @@ msgstr "-- まず列を作成してください..."
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1248
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/__init__.py:836
 msgid "Trigger(s) have been disabled"
-msgstr "トリガが無効になりました"
+msgstr "トリガーが無効になりました"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/__init__.py:1908
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1250
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/__init__.py:838
 msgid "Trigger(s) have been enabled"
-msgstr "トリガが有効になりました"
+msgstr "トリガーが有効になりました"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/foreign_table_columns/static/js/foreign_table_column.js:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/foreign_table_columns/static/js/foreign_table_column.js:58
@@ -3577,7 +3577,7 @@ msgstr "外部テーブル..."
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:104
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:112
 msgid "Trigger(s)"
-msgstr "トリガ"
+msgstr "トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:79
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:77
@@ -3610,7 +3610,7 @@ msgstr "システムの外部テーブル"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:122
 msgid "Foreign server"
-msgstr "外部サーバ"
+msgstr "外部サーバー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:127
 msgid "Inherits"
@@ -3618,7 +3618,7 @@ msgstr "継承"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:254
 msgid "Foreign server cannot be empty."
-msgstr "外部サーバは必須です。"
+msgstr "外部サーバーは必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:412
 msgid "Inherited from"
@@ -3707,7 +3707,7 @@ msgstr "全文検索設定ノードをデータベースノードから見つけ
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:450
 msgid "Provide at least copy config or parser."
-msgstr "コピーする設定か、パーサを選択してください。"
+msgstr "コピーする設定か、パーサーを選択してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:518
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/__init__.py:544
@@ -3764,7 +3764,7 @@ msgstr "システムの全文検索設定"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.ui.js:136
 msgid "Parser"
-msgstr "パーサ"
+msgstr "パーサー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.ui.js:149
 msgid "Copy config"
@@ -3772,7 +3772,7 @@ msgstr "コピーする設定"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.ui.js:184
 msgid "Select parser or configuration to copy."
-msgstr "パーサ、もしくはコピーする設定を選択してください。"
+msgstr "パーサー、もしくはコピーする設定を選択してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/__init__.py:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:27
@@ -3823,28 +3823,28 @@ msgstr "テンプレート"
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:49
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:24
 msgid "FTS Parsers"
-msgstr "全文検索パーサ"
+msgstr "全文検索パーサー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:306
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:664
 msgid "Could not find the FTS Parser node."
-msgstr "全文検索パーサノードが見つかりませんでした。"
+msgstr "全文検索パーサーノードが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:360
 msgid "Could not find the FTS Parser node in the database node."
-msgstr "全文検索パーサノードをデータベースノードから見つけられませんでした。"
+msgstr "全文検索パーサーノードをデータベースノードから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:482
 msgid "Could not find the FTS Parser node to update."
-msgstr "更新する全文検索パーサノードが見つかりませんでした。"
+msgstr "更新する全文検索パーサーノードが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:538
 msgid "The specified FTS parser could not be found.\n"
-msgstr "指定された全文検索パーサノードが見つかりませんでした。\n"
+msgstr "指定された全文検索パーサーノードが見つかりませんでした。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:561
 msgid "FTS Parser dropped"
-msgstr "全文検索パーサが削除されました"
+msgstr "全文検索パーサーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:886
 #, python-brace-format
@@ -3852,26 +3852,26 @@ msgid ""
 "Could not generate reversed engineered query for the FTS Parser.\n"
 "{0}"
 msgstr ""
-"全文検索パーサをリバースエンジニアリングしたクエリを生成できませんでした。\n"
+"全文検索パーサーをリバースエンジニアリングしたクエリを生成できませんでした。\n"
 "{0}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:894
 msgid "Could not generate reversed engineered query for FTS Parser node."
-msgstr "全文検索パーサノードをリバースエンジニアリングしたクエリを生成できませんでした。"
+msgstr "全文検索パーサーノードをリバースエンジニアリングしたクエリを生成できませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:39
 msgid "FTS Parser"
-msgstr "全文検索パーサ"
+msgstr "全文検索パーサー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:54
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:65
 msgid "FTS Parser..."
-msgstr "全文検索パーサ..."
+msgstr "全文検索パーサー..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.ui.js:52
 msgid "System FTS parser?"
-msgstr "システムの全文検索パーサ"
+msgstr "システムの全文検索パーサー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.ui.js:58
 msgid "Start function"
@@ -3982,7 +3982,7 @@ msgstr "プロシージャ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1913
 msgid "Trigger Functions"
-msgstr "トリガ関数"
+msgstr "トリガー関数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:60
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:66
@@ -4099,7 +4099,7 @@ msgstr "サポート関数"
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.ui.js:72
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:1112
 msgid "Parameters"
-msgstr "パラメータ"
+msgstr "パラメーター"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:428
 msgid "Return type cannot be empty."
@@ -4121,17 +4121,17 @@ msgstr "プロシージャ..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:28
 msgid "Trigger functions"
-msgstr "トリガ関数"
+msgstr "トリガー関数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:67
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:73
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:79
 msgid "Trigger function..."
-msgstr "トリガ関数..."
+msgstr "トリガー関数..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:110
 msgid "System trigger function?"
-msgstr "システムのトリガ関数"
+msgstr "システムのトリガー関数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:137
 msgid "trigger"
@@ -4337,7 +4337,7 @@ msgstr "パッケージ..."
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:70
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:76
 msgid "This option is only available on EPAS servers."
-msgstr "このオプションは EPAS サーバでのみ利用できます。"
+msgstr "このオプションは EPAS サーバーでのみ利用できます。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:91
 msgid "System package?"
@@ -4346,12 +4346,12 @@ msgstr "システムのパッケージ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:100
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:165
 msgid "Header"
-msgstr "ヘッダ"
+msgstr "ヘッダー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:107
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:126
 msgid "Updating the package header definition may remove its existing body."
-msgstr "パッケージヘッダの定義を更新すると、存在するボディを削除してしまうかもしれません。"
+msgstr "パッケージヘッダーの定義を更新すると、存在するボディを削除してしまうかもしれません。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:109
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:128
@@ -4365,7 +4365,7 @@ msgstr "ボディ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.ui.js:152
 msgid "Header cannot be empty."
-msgstr "ヘッダは必須です。"
+msgstr "ヘッダーは必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/__init__.py:56
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.js:27
@@ -4748,20 +4748,20 @@ msgstr "キャッシュ値は必須です。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/__init__.py:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:27
 msgid "Compound Triggers"
-msgstr "複合トリガ"
+msgstr "複合トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/__init__.py:610
 msgid "Compound Trigger is dropped"
-msgstr "複合トリガが削除されました"
+msgstr "複合トリガーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/utils.py:111
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/utils.py:169
 msgid "Could not find the compound trigger in the table."
-msgstr "複合トリガをテーブルから見つけられませんでした。"
+msgstr "複合トリガーをテーブルから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:40
 msgid "Compound Trigger"
-msgstr "複合トリガ"
+msgstr "複合トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:57
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:64
@@ -4769,15 +4769,15 @@ msgstr "複合トリガ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:78
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:95
 msgid "Compound Trigger..."
-msgstr "複合トリガ..."
+msgstr "複合トリガー..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:85
 msgid "Enable compound trigger"
-msgstr "複合トリガを有効化"
+msgstr "複合トリガーを有効化"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:90
 msgid "Disable compound trigger"
-msgstr "複合トリガを無効化"
+msgstr "複合トリガーを無効化"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:110
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/static/js/rule.ui.js:77
@@ -4817,7 +4817,7 @@ msgstr "条件"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:145
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:452
 msgid "System trigger?"
-msgstr "システムのトリガ"
+msgstr "システムのトリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:157
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:108
@@ -4928,7 +4928,7 @@ msgstr "検査制約が削除されました。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:742
 #: pgadmin/browser/server_groups/servers/pgagent/__init__.py:503
 msgid "Could not find the object on the server."
-msgstr "オブジェクトをサーバから見つけられませんでした。"
+msgstr "オブジェクトをサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:883
 msgid "Check constraint updated."
@@ -4969,7 +4969,7 @@ msgstr "排他制約が見つかりませんでした。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:523
 #, python-brace-format
 msgid "Could not find required parameter ({})."
-msgstr "必要なパラメータ ({}) が見つかりませんでした。"
+msgstr "必要なパラメーター ({}) が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:705
 msgid "The specified exclusion constraint could not be found.\n"
@@ -5072,7 +5072,7 @@ msgstr "アクセスメソッドを変更すると、列の一覧が消去され
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:825
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:106
 msgid "Fill factor"
-msgstr "フィルファクタ"
+msgstr "フィルファクター"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.ui.js:329
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.ui.js:220
@@ -5232,7 +5232,7 @@ msgstr "一意性制約"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:541
 #, python-brace-format
 msgid "Could not find at least one required parameter ({})."
-msgstr "必要なパラメータ ({}) がひとつも見つかりませんでした。"
+msgstr "必要なパラメーター ({}) がひとつも見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:758
 msgid "The specified constraint could not be found.\n"
@@ -5435,7 +5435,7 @@ msgstr "一意"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:541
 msgid "Clustered?"
-msgstr "クラスタ"
+msgstr "クラスター"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.ui.js:552
 msgid "Valid?"
@@ -6617,25 +6617,25 @@ msgstr "未使用割合"
 #: pgadmin/tools/backup/static/js/backup.ui.js:322
 #: pgadmin/tools/restore/static/js/restore.ui.js:249
 msgid "Triggers"
-msgstr "トリガ"
+msgstr "トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/__init__.py:318
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/__init__.py:333
 msgid "Could not find the specified trigger function"
-msgstr "指定されたトリガ関数が見つかりませんでした"
+msgstr "指定されたトリガー関数が見つかりませんでした"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/__init__.py:699
 msgid "Trigger is dropped"
-msgstr "トリガが削除されました"
+msgstr "トリガーが削除されました"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/utils.py:171
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/utils.py:285
 msgid "Could not find the trigger in the table."
-msgstr "トリガをテーブルから見つけられませんでした。"
+msgstr "トリガーをテーブルから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:40
 msgid "Trigger"
-msgstr "トリガ"
+msgstr "トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:58
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:65
@@ -6644,15 +6644,15 @@ msgstr "トリガ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:94
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:100
 msgid "Trigger..."
-msgstr "トリガ..."
+msgstr "トリガー..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:214
 msgid "Row trigger?"
-msgstr "行トリガ"
+msgstr "行トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:249
 msgid "Constraint trigger?"
-msgstr "制約トリガ"
+msgstr "制約トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:355
 msgid "Fires"
@@ -6674,7 +6674,7 @@ msgstr "新しいテーブル"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:468
 msgid "Trigger function cannot be empty."
-msgstr "トリガの関数は必須です。"
+msgstr "トリガーの関数は必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/templates/catalog/pg/macros/catalogs.sql:17
 #: pgadmin/browser/server_groups/servers/databases/schemas/templates/catalog/pg/macros/catalogs.sql:25
@@ -6888,11 +6888,11 @@ msgstr "出力関数は必須です"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:891
 msgid "Member Name"
-msgstr "メンバ名"
+msgstr "メンバー名"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:974
 msgid "Please specify the value for member name."
-msgstr "メンバ名を指定してください。"
+msgstr "メンバー名を指定してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:978
 msgid "Please specify the type."
@@ -6950,7 +6950,7 @@ msgstr "別名"
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:185
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:195
 msgid "Members"
-msgstr "メンバ"
+msgstr "メンバー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1357
 msgid "Labels"
@@ -7031,14 +7031,14 @@ msgstr ""
 #: pgadmin/tools/import_export/__init__.py:300
 #: pgadmin/tools/maintenance/__init__.py:181
 msgid "Could not find the given server"
-msgstr "入力されたサーバが見つかりませんでした"
+msgstr "入力されたサーバーが見つかりませんでした"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2321
 #: pgadmin/tools/backup/__init__.py:426
 #: pgadmin/tools/maintenance/__init__.py:193
 #: pgadmin/tools/restore/__init__.py:171
 msgid "Please connect to the server first."
-msgstr "まず、サーバに接続してください。"
+msgstr "まず、サーバーに接続してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2375
 msgid "Materialized view refresh job created."
@@ -7074,7 +7074,7 @@ msgstr "データあり (同時実行)"
 #: pgadmin/tools/import_export/static/js/import_export.js:135
 #: pgadmin/tools/maintenance/static/js/maintenance.js:146
 msgid "Please select server or child node from tree."
-msgstr "ツリーからサーバか子ノードを選択してください。"
+msgstr "ツリーからサーバーか子ノードを選択してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:194
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:220
@@ -7110,7 +7110,7 @@ msgstr "データあり"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:118
 msgid "Parameter"
-msgstr "パラメータ"
+msgstr "パラメーター"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:150
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.ui.js:131
@@ -7139,7 +7139,7 @@ msgstr "セキュリティバリア"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.ui.js:80
 msgid "Security invoker?"
-msgstr "問い合わせユーザの権限で実行"
+msgstr "問い合わせユーザーの権限で実行"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.ui.js:84
 msgid "Check options"
@@ -7366,7 +7366,7 @@ msgstr "テンプレート"
 msgid ""
 "Note: When the preferences setting 'show template databases' is set to "
 "false, then template databases won't be displayed in the object explorer."
-msgstr "注: 'テンプレートデータベースを表示' 設定が無効になっていると、オブジェクトエクスプローラにテンプレートデータベースは表示されません。"
+msgstr "注: 'テンプレートデータベースを表示' 設定が無効になっていると、オブジェクトエクスプローラーにテンプレートデータベースは表示されません。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:254
 msgid "Allow connections?"
@@ -7384,7 +7384,7 @@ msgstr "スキーマ制限"
 msgid ""
 "Note: Changes to the schema restriction will require the Schemas node in "
 "the browser to be refreshed before they will be shown."
-msgstr "注: スキーマ制限の変更を正確に反映させるため、スキーマノードがすでにブラウザ内に表示されていないことを確認してください。"
+msgstr "注: スキーマ制限の変更を正確に反映させるため、スキーマノードがすでにブラウザー内に表示されていないことを確認してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:315
 msgid ""
@@ -7476,7 +7476,7 @@ msgstr "接続"
 msgid ""
 "To apply changes to the connection configuration, please disconnect from "
 "the server and then reconnect."
-msgstr "接続設定の変更を適用するには、いったんサーバから切断し、再接続してください。"
+msgstr "接続設定の変更を適用するには、いったんサーバーから切断し、再接続してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:164
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:92
@@ -7717,7 +7717,7 @@ msgid ""
 "this value to false."
 msgstr ""
 "このサブスクリプションがパブリッシャー側に接続することになったとき、パスワード認証を使うべきかどうか指定します。この値を false "
-"にできるのはスーパユーザだけです。"
+"にできるのはスーパユーザーだけです。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:454
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:31
@@ -7753,7 +7753,7 @@ msgstr "ホスト名、またはアドレスを指定してください。"
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:481
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:584
 msgid "Username must be specified."
-msgstr "ユーザ名は必須です。"
+msgstr "ユーザー名は必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:489
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:592
@@ -7829,7 +7829,7 @@ msgstr "ディレクトリを削除しました"
 #: pgadmin/browser/server_groups/servers/directories/__init__.py:481
 #: pgadmin/browser/server_groups/servers/directories/__init__.py:533
 msgid "Could not find the directory on the server."
-msgstr "サーバにディレクトリが見つかりませんでした。"
+msgstr "サーバーにディレクトリが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/directories/static/js/directory.js:38
 #: pgadmin/tools/backup/static/js/backup.ui.js:549
@@ -7863,7 +7863,7 @@ msgstr "pgAgent ジョブ"
 #: pgadmin/browser/server_groups/servers/pgagent/__init__.py:204
 #: pgadmin/browser/server_groups/servers/pgagent/__init__.py:251
 msgid "Could not find the pgAgent job on the server."
-msgstr "pgAgent ジョブをサーバから見つけられませんでした。"
+msgstr "pgAgent ジョブをサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/__init__.py:573
 msgid "Updated the next runtime to now."
@@ -8109,7 +8109,7 @@ msgid ""
 "Select <strong>Local</strong> if the job step will execute on the local "
 "database server, or <strong>Remote</strong> to specify a remote database "
 "server."
-msgstr "ジョブステップをローカルのデータベースサーバで実行するのであれば<strong>ローカル</strong>、リモートのデータベースサーバを指定するのであれば<strong>リモート</strong>を選択します。"
+msgstr "ジョブステップをローカルのデータベースサーバーで実行するのであれば<strong>ローカル</strong>、リモートのデータベースサーバーを指定するのであれば<strong>リモート</strong>を選択します。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:130
 msgid "Please select the database on which the job step will run."
@@ -8131,7 +8131,7 @@ msgid ""
 "connect.html#LIBPQ-CONNSTRING\" target=\"_blank\">libpq connection "
 "strings</a>."
 msgstr ""
-"リモートデータベースサーバの接続文字列を指定してください。各パラメータは keyword = value の形式で設定します。= "
+"リモートデータベースサーバーの接続文字列を指定してください。各パラメーターは keyword = value の形式で設定します。= "
 "前後のスペースは任意です。空文字や、スペースを含む値を記述するには、シングルクォートで囲います。例: keyword = 'a "
 "value'。値の中のシングルクォートとバックスラッシュは ' や \\ "
 "のように、バックスラッシュでエスケープします。<br>詳しくはドキュメント <a "
@@ -8174,7 +8174,7 @@ msgstr "有効な接続文字列を入力してください。"
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:198
 #, python-format
 msgid "Invalid parameter in the connection string - %s."
-msgstr "接続文字列 %s に不正なパラメータがあります。"
+msgstr "接続文字列 %s に不正なパラメーターがあります。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:216
 msgid "Please specify code to execute."
@@ -8458,7 +8458,7 @@ msgid ""
 "]"
 msgstr ""
 "\n"
-"ロールのメンバ情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
+"ロールのメンバー情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "\n"
 "rolmembers:[{\n"
 "    role: [ロール名],\n"
@@ -8494,7 +8494,7 @@ msgid ""
 "        ]\n"
 msgstr ""
 "\n"
-"ロールのメンバシップ情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
+"ロールのメンバーシップ情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "rolmembers:{\n"
 "    'added': [{\n"
 "        role: [ロール名],\n"
@@ -8531,7 +8531,7 @@ msgid ""
 "]"
 msgstr ""
 "\n"
-"ロールのメンバシップ情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
+"ロールのメンバーシップ情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "rolmembership:[{\n"
 "    role: [ロール名],\n"
 "    admin: True/False\n"
@@ -8566,7 +8566,7 @@ msgid ""
 "        ]\n"
 msgstr ""
 "\n"
-"ロールのメンバシップ情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
+"ロールのメンバーシップ情報は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "rolmembership:{\n"
 "    'added': [{\n"
 "        role: [ロール名],\n"
@@ -8674,7 +8674,7 @@ msgid ""
 "]"
 msgstr ""
 "\n"
-"作成モードでの構成パラメータ/変数は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
+"作成モードでの構成パラメーター/変数は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "variables:[{\n"
 "database: <データベース> または null,\n"
 "name: <構成>,\n"
@@ -8713,7 +8713,7 @@ msgid ""
 "    ]\n"
 msgstr ""
 "\n"
-"更新モードでの構成パラメータ/変数は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
+"更新モードでの構成パラメーター/変数は、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "rolmembership:{\n"
 "'added': [{\n"
 "    database: <データベース> または null,\n"
@@ -8743,15 +8743,15 @@ msgstr "名前は必須です。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:576
 msgid "The current user does not have permission to drop the role."
-msgstr "現在のユーザには、ロールを削除する権限がありません。"
+msgstr "現在のユーザーには、ロールを削除する権限がありません。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:581
 msgid "The current user does not have permission to update the role."
-msgstr "現在のユーザには、ロールを更新する権限がありません。"
+msgstr "現在のユーザーには、ロールを更新する権限がありません。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:587
 msgid "The current user does not have permission to create the role."
-msgstr "現在のユーザには、ロールを作成する権限がありません。"
+msgstr "現在のユーザーには、ロールを作成する権限がありません。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:620
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:872
@@ -8766,7 +8766,7 @@ msgstr ""
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:626
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:878
 msgid "Could not find the role on the database server."
-msgstr "ロールをデータベースサーバから見つけられませんでした。"
+msgstr "ロールをデータベースサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:716
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:734
@@ -8887,7 +8887,7 @@ msgstr "ログイン属性"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:124
 msgid "Superuser?"
-msgstr "スーパーユーザ属性"
+msgstr "スーパーユーザー属性"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:133
 msgid "Create roles?"
@@ -8919,7 +8919,7 @@ msgstr "所属先"
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:185
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:195
 msgid "Membership"
-msgstr "メンバシップ"
+msgstr "メンバーシップ"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:171
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:192
@@ -9011,7 +9011,7 @@ msgstr "移譲/削除"
 
 #: pgadmin/browser/server_groups/servers/static/js/membership.ui.js:33
 msgid "User/Role"
-msgstr "ユーザ/ロール"
+msgstr "ユーザー/ロール"
 
 #: pgadmin/browser/server_groups/servers/static/js/membership.ui.js:45
 msgid "WITH ADMIN"
@@ -9051,7 +9051,7 @@ msgstr "登録 - %s"
 #: pgadmin/browser/server_groups/servers/static/js/server.js:49
 #, python-format
 msgid "Copy Server - %s"
-msgstr "サーバをコピー - %s"
+msgstr "サーバーをコピー - %s"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:58
 #, python-format
@@ -9061,29 +9061,29 @@ msgstr "%s のコピー"
 #: pgadmin/browser/server_groups/servers/static/js/server.js:84
 #: pgadmin/browser/server_groups/servers/static/js/server.js:94
 msgid "Server..."
-msgstr "サーバ..."
+msgstr "サーバー..."
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:89
 #: pgadmin/browser/server_groups/servers/static/js/server.js:249
 msgid "Disconnect from all servers"
-msgstr "すべてのサーバから切断"
+msgstr "すべてのサーバーから切断"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:100
 msgid "Connect Server"
-msgstr "サーバに接続"
+msgstr "サーバーに接続"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:102
 msgid "Database server is already connected."
-msgstr "データベースサーバにはすでに接続されています。"
+msgstr "データベースサーバーにはすでに接続されています。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:107
 #: pgadmin/browser/server_groups/servers/static/js/server.js:876
 msgid "Disconnect from server"
-msgstr "サーバから切断"
+msgstr "サーバーから切断"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:109
 msgid "Database server is already disconnected."
-msgstr "データベースサーバからはすでに切断されています。"
+msgstr "データベースサーバーからはすでに切断されています。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:115
 msgid "Reload Configuration"
@@ -9093,7 +9093,7 @@ msgstr "設定を再読み込み"
 msgid ""
 "Please select a server from the object explorer to reload the "
 "configuration files."
-msgstr "オブジェクトエクスプローラから、設定ファイルを再読み込みするサーバを選択してください。"
+msgstr "オブジェクトエクスプローラーから、設定ファイルを再読み込みするサーバーを選択してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:122
 msgid "Add Named Restore Point..."
@@ -9103,7 +9103,7 @@ msgstr "リストアポイントを追加..."
 msgid ""
 "Please select any server from the object explorer to Add Named Restore "
 "Point."
-msgstr "オブジェクトエクスプローラから、名前付きリストアポイントを追加するサーバを選択してください。"
+msgstr "オブジェクトエクスプローラーから、名前付きリストアポイントを追加するサーバーを選択してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:129
 msgid "Change Password..."
@@ -9111,7 +9111,7 @@ msgstr "パスワードを変更..."
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:131
 msgid "Please connect server to enable change password."
-msgstr "パスワードを変更するには、サーバに接続してください。"
+msgstr "パスワードを変更するには、サーバーに接続してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:136
 msgid "Pause Replay of WAL"
@@ -9121,7 +9121,7 @@ msgstr "WAL の適用を一時停止"
 msgid ""
 "Please select a connected database as a Super user and run in Recovery "
 "mode to Pause Replay of WAL."
-msgstr "WAL の適用を一時停止するには、リカバリモードで実行中のデータベースに、スーパーユーザとして接続してください。"
+msgstr "WAL の適用を一時停止するには、リカバリモードで実行中のデータベースに、スーパーユーザーとして接続してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:143
 msgid "Resume Replay of WAL"
@@ -9131,7 +9131,7 @@ msgstr "WAL の適用を再開"
 msgid ""
 "Please select a connected database as a Super user and run in Recovery "
 "mode to Resume Replay of WAL."
-msgstr "WAL の適用を再開するには、リカバリモードで実行中のデータベースに、スーパーユーザとして接続してください。"
+msgstr "WAL の適用を再開するには、リカバリモードで実行中のデータベースに、スーパーユーザーとして接続してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:150
 msgid "Clear Saved Password"
@@ -9143,24 +9143,24 @@ msgstr "SSH トンネルパスワードを消去"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:166
 msgid "SSH Tunnel password is not saved for selected server."
-msgstr "選択したサーバには SSH トンネルパスワードが保存されていません。"
+msgstr "選択したサーバーには SSH トンネルパスワードが保存されていません。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:171
 msgid "Copy Server..."
-msgstr "サーバをコピー..."
+msgstr "サーバーをコピー..."
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:250
 msgid "Are you sure you want to disconnect from all servers?"
-msgstr "すべてのサーバから切断しますか？"
+msgstr "すべてのサーバーから切断しますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:312
 msgid "Reload server configuration"
-msgstr "サーバ設定を再読み込み"
+msgstr "サーバー設定を再読み込み"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:313
 #, python-format
 msgid "Are you sure you want to reload the server configuration on %s?"
-msgstr "%s のサーバ設定を再読み込みしますか？"
+msgstr "%s のサーバー設定を再読み込みしますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:346
 msgid "Restore point name"
@@ -9179,7 +9179,7 @@ msgstr "保存されたパスワードを消去"
 #: pgadmin/browser/server_groups/servers/static/js/server.js:441
 #, python-format
 msgid "Are you sure you want to clear the saved password for server %s?"
-msgstr "サーバ %s に保存されたパスワードを消去しますか？"
+msgstr "サーバー %s に保存されたパスワードを消去しますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:478
 msgid "Clear SSH Tunnel password"
@@ -9190,32 +9190,32 @@ msgstr "SSH トンネルパスワードを消去"
 msgid ""
 "Are you sure you want to clear the saved password of SSH Tunnel for "
 "server %s?"
-msgstr "サーバ %s に対して保存された SSH トンネルのパスワードを消去しますか？"
+msgstr "サーバー %s に対して保存された SSH トンネルのパスワードを消去しますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:585
 msgid ""
 "You have connected to a server version that is older than is supported by"
 " pgAdmin. This may cause pgAdmin to break in strange and unpredictable "
 "ways. Or a plague of frogs. Either way, you have been warned!"
-msgstr "pgAdmin がサポートしていない、古いバージョンのサーバに接続しました。したがって、想定外の挙動やエラーが発生するかもしれません！"
+msgstr "pgAdmin がサポートしていない、古いバージョンのサーバーに接続しました。したがって、想定外の挙動やエラーが発生するかもしれません！"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:588
 msgid "Server connected"
-msgstr "サーバに接続しました"
+msgstr "サーバーに接続しました"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:649
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:480
 msgid "Connect to server."
-msgstr "サーバに接続。"
+msgstr "サーバーに接続。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:659
 msgid "Connect to Server"
-msgstr "サーバに接続"
+msgstr "サーバーに接続"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:877
 #, python-format
 msgid "Are you sure you want to disconnect from the server <b>%s</b>?"
-msgstr "サーバ <b>%s</b> から切断しますか？"
+msgstr "サーバー <b>%s</b> から切断しますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:26
 #: pgadmin/dashboard/static/js/Dashboard.jsx:809
@@ -9291,7 +9291,7 @@ msgstr "キープアライブ回数"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:78
 msgid "TCP user timeout (milliseconds)"
-msgstr "TCP ユーザタイムアウト (ミリ秒)"
+msgstr "TCP ユーザータイムアウト (ミリ秒)"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:81
 msgid "TTY"
@@ -9340,7 +9340,7 @@ msgstr "認証撤回リストのディレクトリ"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:112
 msgid "Server name indication"
-msgstr "サーバ名の特定 (SNI)"
+msgstr "サーバー名の特定 (SNI)"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:115
 msgid "Require peer"
@@ -9416,15 +9416,15 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:215
 msgid "Server group"
-msgstr "サーバグループ"
+msgstr "サーバーグループ"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:222
 msgid "Shared Server Owner"
-msgstr "共有サーバの所有者"
+msgstr "共有サーバーの所有者"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:229
 msgid "Server type"
-msgstr "サーバの種類"
+msgstr "サーバーの種類"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:233
 msgid "Connected?"
@@ -9485,7 +9485,7 @@ msgstr "サービス"
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:382
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:281
 msgid "Connection Parameters"
-msgstr "接続パラメータ"
+msgstr "接続パラメーター"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:388
 msgid "Use SSH tunneling"
@@ -9600,7 +9600,7 @@ msgstr "SSH トンネルポート番号は必須です。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:622
 msgid "SSH Tunnel username must be specified."
-msgstr "SSH トンネルユーザ名は必須です。"
+msgstr "SSH トンネルユーザー名は必須です。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:631
 msgid "SSH Tunnel identity file must be specified."
@@ -9647,11 +9647,11 @@ msgstr "キーワード"
 
 #: pgadmin/browser/server_groups/servers/static/js/variable.ui.js:209
 msgid "Please select a parameter name."
-msgstr "パラメータ名を選択してください。"
+msgstr "パラメーター名を選択してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/variable.ui.js:216
 msgid "Please enter a value for the parameter."
-msgstr "パラメータの値を入力してください。"
+msgstr "パラメーターの値を入力してください。"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:29
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:26
@@ -9671,7 +9671,7 @@ msgstr "テーブル空間情報が見つかりませんでした。"
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:353
 #, python-brace-format
 msgid "Tablespace created successfully, Set parameter fail: {0}"
-msgstr "テーブル空間の作成には成功しましたが、パラメータの設定は失敗しました: {0}"
+msgstr "テーブル空間の作成には成功しましたが、パラメーターの設定は失敗しました: {0}"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:447
 msgid "The specified tablespace could not be found.\n"
@@ -9684,7 +9684,7 @@ msgstr "テーブル空間が削除されました"
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:536
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:588
 msgid "Could not find the tablespace on the server."
-msgstr "テーブル空間をサーバから見つけられませんでした。"
+msgstr "テーブル空間をサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:59
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:65
@@ -9747,11 +9747,11 @@ msgstr "ストリーミングレプリケーション"
 
 #: pgadmin/browser/server_groups/static/js/server_group.js:22
 msgid "Server Group"
-msgstr "サーバグループ"
+msgstr "サーバーグループ"
 
 #: pgadmin/browser/server_groups/static/js/server_group.js:36
 msgid "Server Group..."
-msgstr "サーバグループ..."
+msgstr "サーバーグループ..."
 
 #: pgadmin/browser/static/js/MainMenuFactory.js:18
 #: pgadmin/browser/static/js/keyboard.js:130
@@ -9815,7 +9815,7 @@ msgstr "登録"
 #: pgadmin/browser/static/js/browser.js:308
 #, python-format
 msgid "Are you sure you want to close the %s browser?"
-msgstr "%s ブラウザを閉じてもよろしいですか？"
+msgstr "%s ブラウザーを閉じてもよろしいですか？"
 
 #: pgadmin/browser/static/js/browser.js:1322
 msgid "Error retrieving details for the node."
@@ -10312,7 +10312,7 @@ msgid ""
 "pgAdmin server not responding, try to login again: ${error.message || "
 "error.response.data.errormsg}"
 msgstr ""
-"pgAdmin サーバが応答していません。もう一度ログインしてみてください: ${error.message || "
+"pgAdmin サーバーが応答していません。もう一度ログインしてみてください: ${error.message || "
 "error.response.data.errormsg}"
 
 #: pgadmin/browser/static/js/heartbeat.js:32
@@ -10320,7 +10320,7 @@ msgstr ""
 msgid ""
 "Server heartbeat logging error: ${error.message || "
 "error.response.data.errormsg}"
-msgstr "サーバハートビートの記録エラー: ${error.message || error.response.data.errormsg}"
+msgstr "サーバーハートビートの記録エラー: ${error.message || error.response.data.errormsg}"
 
 #: pgadmin/browser/static/js/node.js:94
 #, python-format
@@ -10451,8 +10451,8 @@ msgid ""
 "    <strong>{1}</strong>, which is either deprecated or not supported by\n"
 "    pgAdmin 4."
 msgstr ""
-"ブラウザ <strong>{0}</strong> のバージョン <strong>{1}</strong>\n"
-"    が検出されましたが、pgAdmin 4 はこのブラウザ上での動作を推奨・サポートしていません。"
+"ブラウザー <strong>{0}</strong> のバージョン <strong>{1}</strong>\n"
+"    が検出されましたが、pgAdmin 4 はこのブラウザー上での動作を推奨・サポートしていません。"
 
 #: pgadmin/browser/templates/browser/browser.html:6
 #, python-brace-format
@@ -10464,9 +10464,9 @@ msgid ""
 " may\n"
 "    not be fixed."
 msgstr ""
-"ブラウザ <strong>{0}</strong> のバージョン <strong>{1}</strong>\n"
-"    が検出されましたが、pgAdmin 4 はこのブラウザ上での動作を保証していません。\n"
-"    また、このブラウザ固有の問題を報告しても、修正されない可能性があります。"
+"ブラウザー <strong>{0}</strong> のバージョン <strong>{1}</strong>\n"
+"    が検出されましたが、pgAdmin 4 はこのブラウザー上での動作を保証していません。\n"
+"    また、このブラウザー固有の問題を報告しても、修正されない可能性があります。"
 
 #: pgadmin/browser/templates/browser/browser.html:11
 msgid ""
@@ -10475,7 +10475,7 @@ msgid ""
 "see the\n"
 "    supported browsers."
 msgstr ""
-"サポートされているブラウザについては <a class=\"alert-link\"\n"
+"サポートされているブラウザーについては <a class=\"alert-link\"\n"
 "    href=\"https://www.pgadmin.org/faq/#11\" target=\"_new\">FAQ</a> を\n"
 "    ご覧ください。"
 
@@ -10603,7 +10603,7 @@ msgstr "すべて選択を解除"
 
 #: pgadmin/browser/templates/browser/js/messages.js:44
 msgid "Retrieving data from the server..."
-msgstr "サーバからデータを取得しています..."
+msgstr "サーバーからデータを取得しています..."
 
 #: pgadmin/browser/templates/browser/js/messages.js:45
 #: pgadmin/dashboard/static/js/Dashboard.jsx:817
@@ -10619,7 +10619,7 @@ msgstr "サーバからデータを取得しています..."
 #: pgadmin/misc/statistics/static/js/Statistics.jsx:196
 #: pgadmin/misc/statistics/static/js/Statistics.jsx:199
 msgid "Failed to retrieve data from the server."
-msgstr "サーバからのデータ取得に失敗しました。"
+msgstr "サーバーからのデータ取得に失敗しました。"
 
 #: pgadmin/dashboard/__init__.py:45 pgadmin/dashboard/pgd_replication.py:25
 msgid "The number of seconds between graph samples."
@@ -11050,7 +11050,7 @@ msgstr "CSV"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:833
 msgid "Please connect to the selected server to view the dashboard."
-msgstr "ダッシュボードを表示するには、選択したサーバに接続してください。"
+msgstr "ダッシュボードを表示するには、選択したサーバーに接続してください。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:839
 msgid "Loading dashboard..."
@@ -11112,7 +11112,7 @@ msgstr "プリペアドトランザクション"
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:322
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:202
 msgid "Please connect to the selected server to view the graph."
-msgstr "グラフを表示するには、選択したサーバに接続してください。"
+msgstr "グラフを表示するには、選択したサーバーに接続してください。"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:196
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:391
@@ -11132,7 +11132,7 @@ msgstr "グラフの描画中にエラーが発生しました。"
 msgid ""
 "Not connected to the server or the connection to the server has been "
 "closed."
-msgstr "サーバに接続できなかったか、接続が切断されました。"
+msgstr "サーバーに接続できなかったか、接続が切断されました。"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:257
 msgid "Database sessions"
@@ -11140,7 +11140,7 @@ msgstr "データベースセッション"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:257
 msgid "Server sessions"
-msgstr "サーバセッション"
+msgstr "サーバーセッション"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:263
 msgid "Transactions per second"
@@ -11197,7 +11197,7 @@ msgid ""
 "administrators alike."
 msgstr ""
 "pgAdmin はオープンソースで開発されている、PostgreSQL データベース用の管理ツールです。グラフィカルな管理インタフェース、SQL "
-"クエリツール、手続き言語コードのデバッガなど、数多くの機能を備えています。このツールは開発者、データベース管理者、システム管理者などのニーズに応えられるように設計されました。"
+"クエリツール、手続き言語コードのデバッガーなど、数多くの機能を備えています。このツールは開発者、データベース管理者、システム管理者などのニーズに応えられるように設計されました。"
 
 #: pgadmin/dashboard/static/js/WelcomeDashboard.jsx:175
 msgid "Quick Links"
@@ -11205,7 +11205,7 @@ msgstr "クイックリンク"
 
 #: pgadmin/dashboard/static/js/WelcomeDashboard.jsx:186
 msgid "Add New Server"
-msgstr "新しいサーバを追加"
+msgstr "新しいサーバーを追加"
 
 #: pgadmin/dashboard/static/js/WelcomeDashboard.jsx:198
 msgid "Configure pgAdmin"
@@ -11826,7 +11826,7 @@ msgstr "バックグラウンドプロセス '{0}' を終了できませんで�
 
 #: pgadmin/misc/bgprocess/static/js/BgProcessManager.js:171
 msgid "Cloud server deployment is pending"
-msgstr "クラウドサーバの展開が保留中です"
+msgstr "クラウドサーバーの展開が保留中です"
 
 #: pgadmin/misc/bgprocess/static/js/BgProcessManager.js:194
 msgid "Failed Cloud Deployment."
@@ -11868,7 +11868,7 @@ msgstr "失敗しました (終了コード: %s)。"
 
 #: pgadmin/misc/bgprocess/static/js/ProcessDetails.jsx:115
 msgid "Terminated by user."
-msgstr "ユーザにより終了させられました。"
+msgstr "ユーザーにより終了させられました。"
 
 #: pgadmin/misc/bgprocess/static/js/ProcessDetails.jsx:117
 msgid "Terminating the process..."
@@ -11896,7 +11896,7 @@ msgstr "クエリを実行しています"
 #: pgadmin/misc/file_manager/static/js/FileManagerModule.jsx:69
 #: pgadmin/tools/user_management/PgAdminPermissions.py:40
 msgid "Storage Manager"
-msgstr "ストレージマネージャ"
+msgstr "ストレージマネージャー"
 
 #: pgadmin/misc/bgprocess/static/js/ProcessDetails.jsx:174
 msgid "Loading process logs..."
@@ -12006,7 +12006,7 @@ msgstr "資格情報"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:37
 msgid "Cluster Type"
-msgstr "クラスタの種類"
+msgstr "クラスターの種類"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:38
 msgid "Instance Specification"
@@ -12046,11 +12046,11 @@ msgstr "EDB BigAnimal の認証 URL を取得しています..."
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:305
 msgid "Checking cluster name availability..."
-msgstr "クラスタ名が使用できるかを確認しています..."
+msgstr "クラスター名が使用できるかを確認しています..."
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:309
 msgid "Specified cluster name is already used."
-msgstr "指定したクラスタ名はすでに使用されています。"
+msgstr "指定したクラスター名はすでに使用されています。"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:342
 msgid "EDB BigAnimal authentication process is in progress..."
@@ -12078,7 +12078,7 @@ msgstr "認証に失敗しました。アクセスが拒否されました..."
 msgid ""
 "Authentication completed successfully but you do not have permission to "
 "create the cluster."
-msgstr "認証は正常に完了しましたが、クラスタを作成できる権限がありません。"
+msgstr "認証は正常に完了しましたが、クラスターを作成できる権限がありません。"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:363
 msgid "Authentication is aborted."
@@ -12240,7 +12240,7 @@ msgstr ""
 #: pgadmin/misc/cloud/static/js/biganimal_schema.ui.js:402
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:365
 msgid "pgAdmin server group"
-msgstr "pgAdmin サーバグループ"
+msgstr "pgAdmin サーバーグループ"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:169
 msgid ""
@@ -12336,7 +12336,7 @@ msgid ""
 "Error while checking server name availability with Microsoft Azure: "
 "${error.response.data.errormsg}"
 msgstr ""
-"Microsoft Azure でサーバ名が使用できるかどうかの確認中にエラーが発生しました: "
+"Microsoft Azure でサーバー名が使用できるかどうかの確認中にエラーが発生しました: "
 "${error.response.data.errormsg}"
 
 #: pgadmin/misc/cloud/static/js/azure.js:294
@@ -12361,7 +12361,7 @@ msgstr "認証方法"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:62
 msgid "Interactive Browser"
-msgstr "ブラウザ対話"
+msgstr "ブラウザー対話"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:66
 msgid "Azure CLI"
@@ -12374,7 +12374,7 @@ msgid ""
 "authenticate a user interactively."
 msgstr ""
 "Azure CLI では、ローカルマシン上の Azure CLI を介して、現在ログインしている ID "
-"を使用した認証を行います。ブラウザ対話では、新しくブラウザウィンドウが開かれるので、そこからユーザを認証します。"
+"を使用した認証を行います。ブラウザー対話では、新しくブラウザーウィンドウが開かれるので、そこからユーザーを認証します。"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:77
 msgid "Azure tenant id"
@@ -12382,7 +12382,7 @@ msgstr "Azure テナント ID"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:81
 msgid "Enter the Azure tenant ID against which the user is authenticated."
-msgstr "認証するユーザの Azure テナント ID を入力してください。"
+msgstr "認証するユーザーの Azure テナント ID を入力してください。"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:100
 msgid "Click here to authenticate yourself to Microsoft Azure"
@@ -12394,7 +12394,7 @@ msgid ""
 "Azure authentication page in a new browser tab if the Interactive Browser"
 " option is selected."
 msgstr ""
-"ブラウザ対話による認証を選択している場合、上のボタンをクリックすると、新しいブラウザタブで Microsoft Azure "
+"ブラウザー対話による認証を選択している場合、上のボタンをクリックすると、新しいブラウザータブで Microsoft Azure "
 "の認証ページへとリダイレクトされます。"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:329
@@ -12417,11 +12417,11 @@ msgstr "ストレージの容量"
 msgid ""
 "The Admin username must be between 1-63 characters long, and must only "
 "contain alphabetic characters and numbers."
-msgstr "管理者ユーザ名は 1-63 文字の英数字にしてください。"
+msgstr "管理者ユーザー名は 1-63 文字の英数字にしてください。"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:436
 msgid "Specified Admin username is not allowed."
-msgstr "指定した管理者ユーザ名は許可されません。"
+msgstr "指定した管理者ユーザー名は許可されません。"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:454
 msgid ""
@@ -12436,7 +12436,7 @@ msgstr ""
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:480
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:374
 msgid "Admin username"
-msgstr "管理者ユーザ名"
+msgstr "管理者ユーザー名"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:484
 msgid ""
@@ -12445,7 +12445,7 @@ msgid ""
 "\"azure_superuser\", \"azure_pg_admin\", \"admin\", \"administrator\", "
 "\"root\", \"guest\", \"public\", or start with \"pg_\"."
 msgstr ""
-"管理者ユーザ名は 1-63 文字にし、英数字とアンダースコアだけを使ってください。また、ユーザ名を \"azure_superuser\", "
+"管理者ユーザー名は 1-63 文字にし、英数字とアンダースコアだけを使ってください。また、ユーザー名を \"azure_superuser\", "
 "\"azure_pg_admin\", \"admin\", \"administrator\", \"root\", \"guest\", "
 "\"public\" のどれかにしたり、\"pg_\" で始めることはできません。"
 
@@ -12484,7 +12484,7 @@ msgstr "ゾーン冗長の高可用性では、スタンバイレプリカを異
 #: pgadmin/misc/cloud/static/js/biganimal_schema.ui.js:468
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:468
 msgid "Cluster name"
-msgstr "クラスタ名"
+msgstr "クラスター名"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:645
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:475
@@ -12542,7 +12542,7 @@ msgstr "名前は 3 文字以上の小文字アルファベット、数字、ハ
 #: pgadmin/misc/cloud/static/js/biganimal.js:232
 #: pgadmin/misc/cloud/static/js/biganimal_schema.ui.js:60
 msgid "Cluster type"
-msgstr "クラスタの種類"
+msgstr "クラスターの種類"
 
 #: pgadmin/misc/cloud/static/js/biganimal.js:226
 msgid "Public IPs"
@@ -12630,7 +12630,7 @@ msgstr "2"
 
 #: pgadmin/misc/cloud/static/js/biganimal_schema.ui.js:83
 msgid "Cluster provider"
-msgstr "クラスタのプロバイダ"
+msgstr "クラスターのプロバイダ"
 
 #: pgadmin/misc/cloud/static/js/biganimal_schema.ui.js:234
 msgid "Please select volume properties."
@@ -12727,7 +12727,7 @@ msgid ""
 "target=\"_blank\">link</a> for creating client secret."
 msgstr ""
 "Google 認証に使うクライアント ID、クライアントシークレット、その他 OAuth 2.0 "
-"のパラメータを含むクライアントシークレットファイルを選択します。クライアントシークレットの作成については、<a "
+"のパラメーターを含むクライアントシークレットファイルを選択します。クライアントシークレットの作成については、<a "
 "href=\"https://support.google.com/cloud/answer/6158849?hl=en#userconsent&zippy"
 "=%2Cuser-consent%2Cpublic-and-internal-applications\" "
 "target=\"_blank\">リンク</a>を参照してください。"
@@ -12740,7 +12740,7 @@ msgstr "ここをクリックして Google へ認証します"
 msgid ""
 "After clicking the button above you will be redirected to the Google "
 "authentication page in a new browser tab."
-msgstr "上のボタンをクリックすると、新しいブラウザタブで Google の認証ページへとリダイレクトされます。"
+msgstr "上のボタンをクリックすると、新しいブラウザータブで Google の認証ページへとリダイレクトされます。"
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:192
 msgid "Shared core"
@@ -12784,11 +12784,11 @@ msgstr "セカンダリの可用性ゾーンには、プライマリと異なる
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:379
 msgid "Admin username for your Google Cloud Sql PostgreSQL instance."
-msgstr "あなたの Google Cloud SQL for PostgreSQL インスタンスの管理者ユーザ名です。"
+msgstr "あなたの Google Cloud SQL for PostgreSQL インスタンスの管理者ユーザー名です。"
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:388
 msgid "Set a password for the default admin user \"postgres\"."
-msgstr "既定の管理用ユーザ \"postgres\" のパスワードを設定します。"
+msgstr "既定の管理用ユーザー \"postgres\" のパスワードを設定します。"
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:508
 msgid ""
@@ -12897,7 +12897,7 @@ msgstr "ファイルの追加中にエラーがありました:"
 
 #: pgadmin/misc/file_manager/static/js/FileManagerModule.jsx:43
 msgid "Storage Manager..."
-msgstr "ストレージマネージャ..."
+msgstr "ストレージマネージャー..."
 
 #: pgadmin/misc/file_manager/static/js/FileManagerModule.jsx:63
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:514
@@ -13033,7 +13033,7 @@ msgstr "ファイルサイズの上限は (ひとつにつき) %s MB です。"
 
 #: pgadmin/misc/statistics/static/js/Statistics.jsx:190
 msgid "The master password is not set."
-msgstr "マスタパスワードが未設定です。"
+msgstr "マスターパスワードが未設定です。"
 
 #: pgadmin/misc/workspaces/__init__.py:53 pgadmin/tools/__init__.py:87
 #: pgadmin/tools/schema_diff/__init__.py:117
@@ -13043,11 +13043,11 @@ msgstr "この URL は直接要求できません。"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:150
 msgid "Existing Server (Optional)"
-msgstr "既存のサーバ (任意)"
+msgstr "既存のサーバー (任意)"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:205
 msgid "Server Name"
-msgstr "サーバ名"
+msgstr "サーバー名"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:325
 msgid "Database must be specified."
@@ -13060,7 +13060,7 @@ msgstr ""
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:371
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/NewConnectionDialog.jsx:245
 msgid "Connection to pgAdmin server has been lost."
-msgstr "pgAdmin サーバへの接続が失われました。"
+msgstr "pgAdmin サーバーへの接続が失われました。"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:373
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:483
@@ -13068,7 +13068,7 @@ msgstr "pgAdmin サーバへの接続が失われました。"
 #: pgadmin/tools/sqleditor/static/js/components/connectServer.js:15
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/NewConnectionDialog.jsx:247
 msgid "Connect to server"
-msgstr "サーバに接続"
+msgstr "サーバーに接続"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:503
 msgid "Connect & Open Query Tool"
@@ -13116,7 +13116,7 @@ msgid ""
 "tabs, making it easier to organize your work. You can select the existing"
 " servers or create a completely new ad-hoc connection to any database "
 "server as needed."
-msgstr "このワークスペースでは、複数のクエリタブを開いて一括管理することができるため、作業効率が向上します。既存のサーバを選択して接続するのはもちろん、完全に異なるデータベースサーバを指定して、新しい接続を確立させることもできます。"
+msgstr "このワークスペースでは、複数のクエリタブを開いて一括管理することができるため、作業効率が向上します。既存のサーバーを選択して接続するのはもちろん、完全に異なるデータベースサーバーを指定して、新しい接続を確立させることもできます。"
 
 #: pgadmin/misc/workspaces/static/js/WorkspaceWelcomePage.jsx:97
 msgid "Welcome to the PSQL Workspace!"
@@ -13138,11 +13138,11 @@ msgid ""
 "server as needed."
 msgstr ""
 "このワークスペースでは、複数の PSQL "
-"タブを開いて一括管理することができるため、作業効率が向上します。既存のサーバを選択して接続するのはもちろん、完全に異なるデータベースサーバを指定して、新しい接続を確立させることもできます。"
+"タブを開いて一括管理することができるため、作業効率が向上します。既存のサーバーを選択して接続するのはもちろん、完全に異なるデータベースサーバーを指定して、新しい接続を確立させることもできます。"
 
 #: pgadmin/misc/workspaces/static/js/WorkspaceWelcomePage.jsx:120
 msgid "Let's connect to the server"
-msgstr "サーバに接続しましょう"
+msgstr "サーバーに接続しましょう"
 
 #: pgadmin/preferences/__init__.py:101 pgadmin/preferences/__init__.py:134
 #: pgadmin/preferences/__init__.py:138 pgadmin/preferences/__init__.py:145
@@ -13173,11 +13173,11 @@ msgstr "設定を保存しています..."
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:283
 msgid "Object explorer refresh required"
-msgstr "オブジェクトエクスプローラの再読み込みが必要です"
+msgstr "オブジェクトエクスプローラーの再読み込みが必要です"
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:284
 msgid "An object explorer refresh is required. Do you wish to refresh it now?"
-msgstr "オブジェクトエクスプローラを再読み込みする必要があります。今すぐ行いますか？"
+msgstr "オブジェクトエクスプローラーを再読み込みする必要があります。今すぐ行いますか？"
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:293
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:307
@@ -13224,7 +13224,7 @@ msgstr "すべての設定を初期化"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:36
 msgid "This settings is to Show/Hide nodes in the object explorer."
-msgstr "この設定を変更すると、オブジェクトエクスプローラのノードを表示/非表示にできます。"
+msgstr "この設定を変更すると、オブジェクトエクスプローラーのノードを表示/非表示にできます。"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:81
 msgid ""
@@ -13242,7 +13242,7 @@ msgstr "結果グリッド"
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:127
 #: pgadmin/utils/constants.py:33
 msgid "User Interface"
-msgstr "ユーザインタフェース"
+msgstr "ユーザーインタフェース"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:223
 msgid "Failed to reset preferences."
@@ -13266,7 +13266,7 @@ msgstr "既定値として使用"
 
 #: pgadmin/preferences/static/js/components/binary_path.ui.js:45
 msgid "Database Server"
-msgstr "データベースサーバ"
+msgstr "データベースサーバー"
 
 #: pgadmin/preferences/static/js/components/binary_path.ui.js:50
 msgid "Binary Path"
@@ -13343,7 +13343,7 @@ msgstr ""
 
 #: pgadmin/static/js/api_instance.js:48 pgadmin/static/js/socket_instance.js:50
 msgid "Connection to pgAdmin server has been lost"
-msgstr "pgAdmin サーバへの接続が失われました"
+msgstr "pgAdmin サーバーへの接続が失われました"
 
 #: pgadmin/static/js/components/KeyboardShortcuts.jsx:98
 #: pgadmin/static/js/keyboard_shortcuts.js:63
@@ -13409,15 +13409,15 @@ msgid ""
 "if a user is selected or delete any shared servers if no user is "
 "selected. There is no way to reverse this action."
 msgstr ""
-"<b></b> によって作成された共有サーバを移譲するユーザを選択してください。このユーザは現在 <b></b> 個の共有サーバを所有しています。"
-" </br></br> \"変更\" ボタンをクリックすると、所有権の移譲 (ユーザを選択した場合)、または対応する共有サーバの削除 "
-"(ユーザを選択しなかった場合) が行われます。この操作は元に戻せません。"
+"<b></b> によって作成された共有サーバーを移譲するユーザーを選択してください。このユーザーは現在 <b></b> "
+"個の共有サーバーを所有しています。 </br></br> \"変更\" ボタンをクリックすると、所有権の移譲 "
+"(ユーザーを選択した場合)、または対応する共有サーバーの削除 (ユーザーを選択しなかった場合) が行われます。この操作は元に戻せません。"
 
 #: pgadmin/static/js/Dialogs/ChangeOwnershipContent.jsx:36
 msgid ""
 "The shared servers owned by <b></b> will be deleted. Do you wish to "
 "continue?"
-msgstr "<b></b> により所有されている共有サーバは削除されます。よろしいですか？"
+msgstr "<b></b> により所有されている共有サーバーは削除されます。よろしいですか？"
 
 #: pgadmin/static/js/Dialogs/ChangePasswordContent.jsx:26
 msgid "Current Password"
@@ -13440,14 +13440,14 @@ msgstr "保存しない"
 msgid ""
 "Please enter the SSH Tunnel password for the identity file '%s' to "
 "connect the server \"%s\""
-msgstr "識別情報ファイル '%s' でサーバ \"%s\" に接続するための SSH トンネルパスワードを入力してください"
+msgstr "識別情報ファイル '%s' でサーバー \"%s\" に接続するための SSH トンネルパスワードを入力してください"
 
 #: pgadmin/static/js/Dialogs/ConnectServerContent.jsx:68
 #, python-format
 msgid ""
 "Please enter the SSH Tunnel password for the user '%s' to connect the "
 "server \"%s\""
-msgstr "ユーザ '%s' でサーバ \"%s\" に接続するための SSH トンネルパスワードを入力してください"
+msgstr "ユーザー '%s' でサーバー \"%s\" に接続するための SSH トンネルパスワードを入力してください"
 
 #: pgadmin/static/js/Dialogs/ConnectServerContent.jsx:77
 #: pgadmin/static/js/Dialogs/ConnectServerContent.jsx:100
@@ -13457,12 +13457,12 @@ msgstr "パスワードを保存"
 #: pgadmin/static/js/Dialogs/ConnectServerContent.jsx:85
 #, python-format
 msgid "Please enter the password for the user '%s' to connect the server - \"%s\""
-msgstr "ユーザ '%s' でサーバ - \"%s\" に接続するためのパスワードを入力してください"
+msgstr "ユーザー '%s' でサーバー - \"%s\" に接続するためのパスワードを入力してください"
 
 #: pgadmin/static/js/Dialogs/ConnectServerContent.jsx:86
 #, python-format
 msgid "Please enter the password for the user to connect the server - \"%s\""
-msgstr "サーバ - \"%s\" に接続するユーザのパスワードを入力してください"
+msgstr "サーバー - \"%s\" に接続するユーザーのパスワードを入力してください"
 
 #: pgadmin/static/js/Dialogs/ConnectServerContent.jsx:126
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:129
@@ -13484,7 +13484,7 @@ msgstr "OK"
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:63
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:81
 msgid "Please enter your master password."
-msgstr "マスタパスワードを入力してください。"
+msgstr "マスターパスワードを入力してください。"
 
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:67
 #, python-brace-format
@@ -13496,25 +13496,25 @@ msgstr ""
 
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:81
 msgid "Please set a master password for pgAdmin."
-msgstr "pgAdmin にマスタパスワードを設定してください。"
+msgstr "pgAdmin にマスターパスワードを設定してください。"
 
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:85
 msgid ""
 "This is required to unlock saved passwords and reconnect to the database "
 "server(s)."
-msgstr "これは保存されたパスワードを解除し、データベースサーバへ再接続するために必要です。"
+msgstr "これは保存されたパスワードを解除し、データベースサーバーへ再接続するために必要です。"
 
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:85
 msgid ""
 "This will be used to secure and later unlock saved passwords and other "
 "credentials."
-msgstr "パスワードや資格情報を保存・解除する際に、このマスタパスワードが使用されます。"
+msgstr "パスワードや資格情報を保存・解除する際に、このマスターパスワードが使用されます。"
 
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:109
 #: pgadmin/static/js/Dialogs/index.jsx:119
 #: pgadmin/static/js/Dialogs/index.jsx:149
 msgid "Reset Master Password"
-msgstr "マスタパスワードをリセット"
+msgstr "マスターパスワードをリセット"
 
 #: pgadmin/static/js/Dialogs/NamedRestoreContent.jsx:61
 msgid "Enter the name of the restore point to add"
@@ -13548,7 +13548,7 @@ msgstr ""
 
 #: pgadmin/static/js/Dialogs/index.jsx:108
 msgid "Set Master Password"
-msgstr "マスタパスワードを設定"
+msgstr "マスターパスワードを設定"
 
 #: pgadmin/static/js/Dialogs/index.jsx:110
 msgid "Migrate Saved Passwords"
@@ -13562,11 +13562,11 @@ msgstr "保存されたパスワードを解除"
 msgid ""
 "The master password retrieved from the master password hook utility is "
 "different from what was previously retrieved."
-msgstr "マスタパスワードのフックユーティリティから取得したマスタパスワードが、以前取得したものと異なります。"
+msgstr "マスターパスワードのフックユーティリティから取得したマスターパスワードが、以前取得したものと異なります。"
 
 #: pgadmin/static/js/Dialogs/index.jsx:121
 msgid "Do you want to reset your master password to match?"
-msgstr "マスタパスワードが一致するように初期化しますか？"
+msgstr "マスターパスワードが一致するように初期化しますか？"
 
 #: pgadmin/static/js/Dialogs/index.jsx:122
 msgid ""
@@ -13579,17 +13579,17 @@ msgid ""
 "This will remove all the saved passwords. This will also remove "
 "established connections to the server and you may need to reconnect "
 "again. Do you wish to continue?"
-msgstr "これにより、保存されたパスワードはすべて削除されます。また、サーバへの接続もすべて切断されるので、必要に応じて接続し直さなければなりません。続行しますか？"
+msgstr "これにより、保存されたパスワードはすべて削除されます。また、サーバーへの接続もすべて切断されるので、必要に応じて接続し直さなければなりません。続行しますか？"
 
 #: pgadmin/static/js/Dialogs/index.jsx:210
 msgid ""
 "Please make sure to disconnect the server and update the new password in "
 "the pgpass file before performing any other operation"
-msgstr "他の操作をする前に、まずサーバから切断して、pgpass ファイルを新しいパスワードで更新してください"
+msgstr "他の操作をする前に、まずサーバーから切断して、pgpass ファイルを新しいパスワードで更新してください"
 
 #: pgadmin/static/js/Dialogs/index.jsx:232
 msgid "Change pgAdmin User Password"
-msgstr "pgAdmin ユーザのパスワードを変更"
+msgstr "pgAdmin ユーザーのパスワードを変更"
 
 #: pgadmin/static/js/Dialogs/index.jsx:372
 msgid "Rename Tab"
@@ -13850,7 +13850,7 @@ msgstr "忘れたパスワードの復元"
 msgid ""
 "Enter the email address for the user account you wish to recover the "
 "password for:"
-msgstr "パスワードを復元したいユーザアカウントのメールアドレスを入力してください:"
+msgstr "パスワードを復元したいユーザーアカウントのメールアドレスを入力してください:"
 
 #: pgadmin/static/js/SecurityPages/ForgotPasswordPage.jsx:20
 msgid "Email Address"
@@ -13867,7 +13867,7 @@ msgstr "ログイン"
 
 #: pgadmin/static/js/SecurityPages/LoginPage.jsx:36
 msgid "Email Address / Username"
-msgstr "メールアドレス / ユーザ名"
+msgstr "メールアドレス / ユーザー名"
 
 #: pgadmin/static/js/SecurityPages/LoginPage.jsx:41
 msgid "Forgotten your password?"
@@ -14086,11 +14086,11 @@ msgstr "このユーティリティでは、名前に = 記号の入ったデー
 
 #: pgadmin/static/js/tree/tree_utils.js:49
 msgid "Please select server or child node from the object explorer."
-msgstr "オブジェクトエクスプローラからサーバか子ノードを選択してください。"
+msgstr "オブジェクトエクスプローラーからサーバーか子ノードを選択してください。"
 
 #: pgadmin/static/js/tree/tree_utils.js:81
 msgid "Please select a database or its child node from the browser."
-msgstr "ブラウザからデータベースか子ノードを選択してください。"
+msgstr "ブラウザーからデータベースか子ノードを選択してください。"
 
 #: pgadmin/tools/backup/__init__.py:50 pgadmin/tools/backup/__init__.py:163
 #: pgadmin/tools/backup/static/js/backup.js:192
@@ -14099,7 +14099,7 @@ msgstr "バックアップ"
 
 #: pgadmin/tools/backup/__init__.py:130
 msgid "Backing up an object on the server"
-msgstr "サーバのオブジェクトをバックアップしています"
+msgstr "サーバーのオブジェクトをバックアップしています"
 
 #: pgadmin/tools/backup/__init__.py:132
 msgid "Backing up the global objects"
@@ -14107,7 +14107,7 @@ msgstr "グローバルオブジェクトをバックアップしています"
 
 #: pgadmin/tools/backup/__init__.py:134
 msgid "Backing up the server"
-msgstr "サーバをバックアップしています"
+msgstr "サーバーをバックアップしています"
 
 #: pgadmin/tools/backup/__init__.py:137
 msgid "Unknown Backup"
@@ -14116,17 +14116,17 @@ msgstr "不明なバックアップ"
 #: pgadmin/tools/backup/__init__.py:145
 #, python-brace-format
 msgid "Backing up an object on the server '{0}' from database '{1}'"
-msgstr "サーバ '{0}' のデータベース '{1}' からオブジェクトをバックアップしています"
+msgstr "サーバー '{0}' のデータベース '{1}' からオブジェクトをバックアップしています"
 
 #: pgadmin/tools/backup/__init__.py:149
 #, python-brace-format
 msgid "Backing up the global objects on the server '{0}'"
-msgstr "サーバ '{0}' のグローバルオブジェクトをバックアップしています"
+msgstr "サーバー '{0}' のグローバルオブジェクトをバックアップしています"
 
 #: pgadmin/tools/backup/__init__.py:154
 #, python-brace-format
 msgid "Backing up the server '{0}'"
-msgstr "サーバ '{0}' をバックアップしています"
+msgstr "サーバー '{0}' をバックアップしています"
 
 #: pgadmin/tools/backup/__init__.py:165
 msgid "Backup Object"
@@ -14140,7 +14140,7 @@ msgstr "グローバルオブジェクトをバックアップ"
 #: pgadmin/tools/backup/__init__.py:169
 #: pgadmin/tools/backup/static/js/backup.js:158
 msgid "Backup Server"
-msgstr "サーバをバックアップ"
+msgstr "サーバーをバックアップ"
 
 #: pgadmin/tools/backup/static/js/backup.js:64
 #: pgadmin/tools/backup/static/js/backup.js:91
@@ -14151,24 +14151,24 @@ msgstr "グローバルオブジェクトをバックアップ..."
 msgid ""
 "Please select any server from the object explorer to take Backup of "
 "global objects."
-msgstr "グローバルオブジェクトのバックアップを取るサーバをオブジェクトエクスプローラから選択してください。"
+msgstr "グローバルオブジェクトのバックアップを取るサーバーをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/backup/static/js/backup.js:77
 #: pgadmin/tools/backup/static/js/backup.js:105
 msgid "Backup Server..."
-msgstr "サーバをバックアップ..."
+msgstr "サーバーをバックアップ..."
 
 #: pgadmin/tools/backup/static/js/backup.js:81
 #: pgadmin/tools/backup/static/js/backup.js:109
 msgid "Please select any server from the object explorer to take Server Backup."
-msgstr "全体のバックアップを取るサーバをオブジェクトエクスプローラから選択してください。"
+msgstr "全体のバックアップを取るサーバーをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/backup/static/js/backup.js:95
 #: pgadmin/tools/backup/static/js/backup.js:124
 msgid ""
 "Please select any database or schema or table from the object explorer to"
 " take Backup."
-msgstr "バックアップを取るデータベース、スキーマ、またはテーブルをオブジェクトエクスプローラから選択してください。"
+msgstr "バックアップを取るデータベース、スキーマ、またはテーブルをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/backup/static/js/backup.js:118
 #: pgadmin/tools/backup/static/js/backup.js:137
@@ -14573,17 +14573,17 @@ msgstr "pldbgapi 拡張をデータベースから見つけられませんでし
 msgid ""
 "The debugger plugin is not enabled. Please create the pldbgapi extension "
 "in this database."
-msgstr "デバッガプラグインが有効になっていません。pldbgapi 拡張をデータベースに作成してください。"
+msgstr "デバッガープラグインが有効になっていません。pldbgapi 拡張をデータベースに作成してください。"
 
 #: pgadmin/tools/debugger/__init__.py:732
 msgid ""
 "You must be a superuser to set a global breakpoint and perform indirect "
 "debugging."
-msgstr "グローバルなブレークポイントの設定や、間接デバッグの実行には、スーパーユーザ権限が必要です。"
+msgstr "グローバルなブレークポイントの設定や、間接デバッグの実行には、スーパーユーザー権限が必要です。"
 
 #: pgadmin/tools/debugger/__init__.py:742
 msgid "Could not fetch debugger plugin information."
-msgstr "デバッガプラグインの情報を取得できませんでした。"
+msgstr "デバッガープラグインの情報を取得できませんでした。"
 
 #: pgadmin/tools/debugger/__init__.py:749
 msgid ""
@@ -14591,8 +14591,8 @@ msgid ""
 "shared_preload_libraries setting in the postgresql.conf file and restart "
 "the database server for indirect debugging."
 msgstr ""
-"デバッガプラグインが有効になっていません。間接デバッグを行うには postgresql.conf の "
-"shared_preload_libraries 設定にプラグインを追加し、データベースサーバを再起動してください。"
+"デバッガープラグインが有効になっていません。間接デバッグを行うには postgresql.conf の "
+"shared_preload_libraries 設定にプラグインを追加し、データベースサーバーを再起動してください。"
 
 #: pgadmin/tools/debugger/__init__.py:768
 msgid "Please upgrade the pldbgapi extension to 1.1 or above and try again."
@@ -14687,7 +14687,7 @@ msgstr "デバッグ対象の初期化エラー"
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:1019
 #: pgadmin/tools/debugger/static/js/components/DebuggerEditor.jsx:59
 msgid "Debugger Error"
-msgstr "デバッガエラー"
+msgstr "デバッガーエラー"
 
 #: pgadmin/tools/debugger/static/js/DebuggerModule.js:494
 #, python-brace-format
@@ -14715,7 +14715,7 @@ msgstr "既定値を使用"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:433
 msgid "Unable to fetch the arguments from server"
-msgstr "サーバから引数を取得できませんでした"
+msgstr "サーバーから引数を取得できませんでした"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:493
 msgid "Clear failed"
@@ -14727,11 +14727,11 @@ msgstr ""
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:773
 msgid "Debugger Listener Startup Error"
-msgstr "デバッガリスナの開始エラー"
+msgstr "デバッガーリスナの開始エラー"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:797
 msgid "Debugger Listener Startup Set Arguments Error"
-msgstr "デバッガリスナ開始時の引数設定エラー"
+msgstr "デバッガーリスナ開始時の引数設定エラー"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:861
 msgid "Clear All"
@@ -14739,13 +14739,13 @@ msgstr "すべて消去"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:153
 msgid "Debugger Aborted"
-msgstr "デバッガが中断されました"
+msgstr "デバッガーが中断されました"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:154
 msgid ""
 "Debugger has been aborted. On clicking the ok button, debugger panel will"
 " be closed."
-msgstr "デバッガが中断されました。OK ボタンをクリックすると、デバッガパネルが閉じられます。"
+msgstr "デバッガーが中断されました。OK ボタンをクリックすると、デバッガーパネルが閉じられます。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:168
 msgid "Error while starting debugging listener."
@@ -14767,7 +14767,7 @@ msgstr "ブレークポイント情報の取得中にエラーが発生しまし
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:215
 #: pgadmin/utils/constants.py:40
 msgid "Not connected to server or connection with the server has been closed."
-msgstr "サーバに接続していないか、切断されました。"
+msgstr "サーバーに接続していないか、切断されました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:223
 msgid "Error while fetching messages information."
@@ -14826,7 +14826,7 @@ msgstr "対象を実行するための新規セッションを待機していま
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:955
 msgid "Debugger Error: poll_result"
-msgstr "デバッガエラー: poll_result"
+msgstr "デバッガーエラー: poll_result"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:980
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:987
@@ -14870,7 +14870,7 @@ msgstr "レイアウトを初期化"
 
 #: pgadmin/tools/debugger/templates/debugger/direct.html:2
 msgid "Debugger - "
-msgstr "デバッガ - "
+msgstr "デバッガー - "
 
 #: pgadmin/tools/erd/__init__.py:50
 msgid "ERD tool"
@@ -15309,7 +15309,7 @@ msgstr "権限付与ウィザード"
 msgid ""
 "The SQL below will be executed on the database server to grant the "
 "selected privileges. Please click on Finish to complete the process."
-msgstr "データベースサーバに次の SQL を発行し、選択された権限を付与します。これでよろしければ、完了をクリックしてください。"
+msgstr "データベースサーバーに次の SQL を発行し、選択された権限を付与します。これでよろしければ、完了をクリックしてください。"
 
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:44
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:64
@@ -15320,7 +15320,7 @@ msgstr "権限付与ウィザード..."
 msgid ""
 "Please select any database, schema or schema objects from the object "
 "explorer to access Grant Wizard Tool."
-msgstr "権限付与ウィザードを実行するデータベース、スキーマ、またはスキーマオブジェクトをオブジェクトエクスプローラから選択してください。"
+msgstr "権限付与ウィザードを実行するデータベース、スキーマ、またはスキーマオブジェクトをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/import_export/__init__.py:42
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:56
@@ -15337,7 +15337,7 @@ msgstr ""
 #: pgadmin/tools/import_export/__init__.py:123
 #, python-brace-format
 msgid "Copying table data '{0}.{1}' on database '{2}' and server '{3}'"
-msgstr "サーバ '{3}' のデータベース '{2}' にあるテーブル '{0}.{1}' のデータをコピーしています"
+msgstr "サーバー '{3}' のデータベース '{2}' にあるテーブル '{0}.{1}' のデータをコピーしています"
 
 #: pgadmin/tools/import_export/__init__.py:133
 msgid "Export - Copying table data using query"
@@ -15365,7 +15365,7 @@ msgstr "データをエクスポート"
 
 #: pgadmin/tools/import_export/__init__.py:310
 msgid "Please connect to the server first..."
-msgstr "まずサーバに接続してください..."
+msgstr "まずサーバーに接続してください..."
 
 #: pgadmin/tools/import_export/__init__.py:336
 #: pgadmin/tools/import_export/__init__.py:342
@@ -15378,7 +15378,7 @@ msgstr "データをインポート/エクスポート..."
 
 #: pgadmin/tools/import_export/static/js/import_export.js:53
 msgid "Please select any table from the object explorer to Import/Export data."
-msgstr "データをインポート/エクスポートするテーブルをオブジェクトエクスプローラから選択してください。"
+msgstr "データをインポート/エクスポートするテーブルをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:65
 msgid "Export Data Using Query..."
@@ -15633,7 +15633,7 @@ msgstr ""
 #: pgadmin/tools/import_export_servers/static/js/import_export_servers.js:49
 #: pgadmin/tools/user_management/PgAdminPermissions.py:86
 msgid "Import/Export Servers"
-msgstr "サーバをインポート/エクスポート"
+msgstr "サーバーをインポート/エクスポート"
 
 #: pgadmin/tools/import_export_servers/__init__.py:146
 msgid "The specified file is not in the correct format."
@@ -15649,15 +15649,15 @@ msgstr "指定されたファイルが存在しません。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:56
 msgid "Database Servers"
-msgstr "データベースサーバ"
+msgstr "データベースサーバー"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:82
 msgid "Export Servers"
-msgstr "サーバをエクスポート"
+msgstr "サーバーをエクスポート"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:82
 msgid "The selected servers were exported successfully."
-msgstr "選択したサーバを正常にエクスポートしました。"
+msgstr "選択したサーバーを正常にエクスポートしました。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:85
 msgid "Export Error"
@@ -15665,17 +15665,17 @@ msgstr "エクスポートエラー"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:102
 msgid "The selected servers were imported successfully."
-msgstr "選択したサーバを正常にインポートしました。"
+msgstr "選択したサーバーを正常にインポートしました。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:104
 msgid ""
 "The existing server groups and servers were removed, and the selected "
 "servers were imported successfully."
-msgstr "既存のサーバグループとサーバを削除し、選択したサーバを正常にインポートしました。"
+msgstr "既存のサーバーグループとサーバーを削除し、選択したサーバーを正常にインポートしました。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:107
 msgid "Import Servers"
-msgstr "サーバをインポート"
+msgstr "サーバーをインポート"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:110
 msgid "Import error"
@@ -15685,27 +15685,27 @@ msgstr "インポートエラー"
 msgid ""
 "The following servers will be imported. Click the Finish button to "
 "complete the import process."
-msgstr "次のサーバがインポートされます。インポート処理を完了させるには、完了ボタンをクリックします。"
+msgstr "次のサーバーがインポートされます。インポート処理を完了させるには、完了ボタンをクリックします。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:157
 msgid ""
 "All existing server groups and servers will be removed before the servers"
 " above are imported. On a successful import process, the object explorer "
 "will be refreshed."
-msgstr "これらのサーバをインポートする前に、既存のサーバグループとサーバをすべて削除します。インポート処理が成功したら、オブジェクトエクスプローラが再読み込みされます。"
+msgstr "これらのサーバーをインポートする前に、既存のサーバーグループとサーバーをすべて削除します。インポート処理が成功したら、オブジェクトエクスプローラーが再読み込みされます。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:159
 msgid "On a successful import process, the object explorer will be refreshed."
-msgstr "インポート処理が成功したら、オブジェクトエクスプローラが再読み込みされます。"
+msgstr "インポート処理が成功したら、オブジェクトエクスプローラーが再読み込みされます。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:180
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:181
 msgid "Error while fetching Server Groups and Servers."
-msgstr "サーバグループとサーバの取得中にエラーが発生しました。"
+msgstr "サーバーグループとサーバーの取得中にエラーが発生しました。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:237
 msgid "Select the Server Groups/Servers to import/export:"
-msgstr "インポート/エクスポートするサーバグループ/サーバを選択:"
+msgstr "インポート/エクスポートするサーバーグループ/サーバーを選択:"
 
 #: pgadmin/tools/import_export_servers/static/js/import_export_selection.ui.js:65
 msgid "Supports only JSON format."
@@ -15713,18 +15713,18 @@ msgstr "JSON 形式のみをサポートしています。"
 
 #: pgadmin/tools/import_export_servers/static/js/import_export_selection.ui.js:68
 msgid "Remove all the existing servers?"
-msgstr "既存のサーバをすべて削除しますか？"
+msgstr "既存のサーバーをすべて削除しますか？"
 
 #: pgadmin/tools/import_export_servers/static/js/import_export_selection.ui.js:70
 msgid ""
 "If this option is turned on then pgAdmin will remove all the existing "
 "database servers and then import the selected servers. This setting is "
 "applicable only while importing the servers."
-msgstr "このオプションをオンにすると、選択したサーバをインポートする前に、既存のデータベースサーバをすべて削除します。※ここでの設定は、サーバをインポートするとき以外は無視されます。"
+msgstr "このオプションをオンにすると、選択したサーバーをインポートする前に、既存のデータベースサーバーをすべて削除します。※ここでの設定は、サーバーをインポートするとき以外は無視されます。"
 
 #: pgadmin/tools/import_export_servers/static/js/import_export_servers.js:40
 msgid "Import/Export Servers..."
-msgstr "サーバをインポート/エクスポート..."
+msgstr "サーバーをインポート/エクスポート..."
 
 #: pgadmin/tools/maintenance/__init__.py:38
 #: pgadmin/tools/maintenance/__init__.py:114
@@ -15794,7 +15794,7 @@ msgstr "CLUSTER"
 #: pgadmin/tools/maintenance/__init__.py:109
 #, python-brace-format
 msgid "{0} {1} of server {2}"
-msgstr "サーバ {2} の{1} に {0} を実行"
+msgstr "サーバー {2} の{1} に {0} を実行"
 
 #: pgadmin/tools/maintenance/__init__.py:240
 msgid "Maintenance job created."
@@ -15808,7 +15808,7 @@ msgstr "メンテナンス..."
 #: pgadmin/tools/maintenance/static/js/maintenance.js:53
 #: pgadmin/tools/maintenance/static/js/maintenance.js:72
 msgid "Please select any database from the object explorer to do Maintenance."
-msgstr "メンテナンスを行うデータベースをオブジェクトエクスプローラから選択してください。"
+msgstr "メンテナンスを行うデータベースをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.js:168
 msgid "Maintenance error"
@@ -15893,7 +15893,7 @@ msgstr "SYSTEM"
 msgid ""
 "This option is enabled only when the database is selected in the object "
 "explorer."
-msgstr "このオプションは、オブジェクトエクスプローラでデータベースが選択されているときにのみ有効となります。"
+msgstr "このオプションは、オブジェクトエクスプローラーでデータベースが選択されているときにのみ有効となります。"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:306
 msgid "TABLESPACE"
@@ -15940,7 +15940,7 @@ msgstr "PSQL エラー"
 
 #: pgadmin/tools/psql/static/js/PsqlModule.js:154
 msgid "Please select a server/database object."
-msgstr "サーバ/データベースオブジェクトを選択してください。"
+msgstr "サーバー/データベースオブジェクトを選択してください。"
 
 #: pgadmin/tools/psql/static/js/components/PsqlComponent.jsx:89
 msgid "Clipboard write permission required"
@@ -15961,11 +15961,11 @@ msgstr "PSQL 端末にデータを貼り付けるには、クリップボード�
 #: pgadmin/tools/restore/__init__.py:98
 #, python-brace-format
 msgid "Restoring backup on the server '{0}'"
-msgstr "サーバ '{0}' のバックアップをリストアしています"
+msgstr "サーバー '{0}' のバックアップをリストアしています"
 
 #: pgadmin/tools/restore/__init__.py:103
 msgid "Restoring backup on the server"
-msgstr "サーバのバックアップをリストアしています"
+msgstr "サーバーのバックアップをリストアしています"
 
 #: pgadmin/tools/restore/__init__.py:140
 msgid "File could not be found."
@@ -15980,7 +15980,7 @@ msgstr "リストア..."
 msgid ""
 "Please select any schema or table from the object explorer to Restore "
 "data."
-msgstr "データをリストアするスキーマ、またはテーブルをオブジェクトエクスプローラから選択してください。"
+msgstr "データをリストアするスキーマ、またはテーブルをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/restore/static/js/restore.js:134
 msgid "Restore Error"
@@ -16080,17 +16080,17 @@ msgstr "選択されたオブジェクトの DDL 比較はサポートされて�
 
 #: pgadmin/tools/schema_diff/__init__.py:734
 msgid "Server(s) disconnected."
-msgstr "サーバへの接続を切断しました。"
+msgstr "サーバーへの接続を切断しました。"
 
 #: pgadmin/tools/schema_diff/__init__.py:737
 msgid ""
 "Schema diff does not support the comparison between Postgres Server and "
 "EDB Postgres Advanced Server."
-msgstr "スキーマ比較ツールは PostgreSQL サーバと EDB Postgres Advanced Server 間の比較をサポートしていません。"
+msgstr "スキーマ比較ツールは PostgreSQL サーバーと EDB Postgres Advanced Server 間の比較をサポートしていません。"
 
 #: pgadmin/tools/schema_diff/__init__.py:751
 msgid "Source and Target database server must be of the same major version."
-msgstr "比較元と比較対象のデータベースサーバは同じメジャーバージョンで合わせてください。"
+msgstr "比較元と比較対象のデータベースサーバーは同じメジャーバージョンで合わせてください。"
 
 #: pgadmin/tools/schema_diff/__init__.py:800
 #, python-brace-format
@@ -16225,7 +16225,7 @@ msgstr "データベースへの接続エラー ${error.response.data}"
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:653
 #, python-brace-format
 msgid "Error in connect server ${error.response.data}"
-msgstr "サーバへの接続エラー ${error.response.data}"
+msgstr "サーバーへの接続エラー ${error.response.data}"
 
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:752
 msgid "Select Source"
@@ -16237,7 +16237,7 @@ msgstr "比較対象を選択"
 
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:831
 msgid " Source and Target database server must be of the same major version."
-msgstr " 比較元と比較対象のデータベースサーバは同じメジャーバージョンで合わせてください。"
+msgstr " 比較元と比較対象のデータベースサーバーは同じメジャーバージョンで合わせてください。"
 
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:832
 msgid " Database Compare:"
@@ -16245,7 +16245,7 @@ msgstr " データベース比較:"
 
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:833
 msgid " Select the server and database for the source and target and Click"
-msgstr " 比較元と比較対象のサーバ・データベースを選択し、"
+msgstr " 比較元と比較対象のサーバー・データベースを選択し、"
 
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:833
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:836
@@ -16260,7 +16260,7 @@ msgstr "スキーマ比較:"
 msgid ""
 " Select the server, database and schema for the source and target and "
 "Click"
-msgstr " 比較元と比較対象のサーバ・データベース・スキーマを選択し、"
+msgstr " 比較元と比較対象のサーバー・データベース・スキーマを選択し、"
 
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffCompare.jsx:838
 msgid "Note:"
@@ -16296,7 +16296,7 @@ msgstr "検索しています..."
 
 #: pgadmin/tools/search_objects/static/js/SearchObjects.jsx:327
 msgid "Unable to locate this object in the browser."
-msgstr "このオブジェクトをブラウザから見つけられませんでした。"
+msgstr "このオブジェクトをブラウザーから見つけられませんでした。"
 
 #: pgadmin/tools/search_objects/static/js/SearchObjects.jsx:336
 msgid "Searching...."
@@ -16314,7 +16314,7 @@ msgstr "少なくとも 3 文字は入力してください"
 msgid ""
 "Please select a database from the object explorer to search the database "
 "objects."
-msgstr "データベースオブジェクトを検索するデータベースをオブジェクトエクスプローラから選択してください。"
+msgstr "データベースオブジェクトを検索するデータベースをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/search_objects/static/js/index.js:81
 msgid "Search Objects - "
@@ -16344,7 +16344,7 @@ msgstr "トランザクションオブジェクトも、セッションオブジ
 
 #: pgadmin/tools/sqleditor/__init__.py:2053
 msgid "Could not find the required parameter (query)."
-msgstr "必要なパラメータ (query) が見つかりませんでした。"
+msgstr "必要なパラメーター (query) が見つかりませんでした。"
 
 #: pgadmin/tools/sqleditor/command.py:73
 #, python-brace-format
@@ -16365,7 +16365,7 @@ msgstr "更新できない結果セットです。"
 
 #: pgadmin/tools/sqleditor/static/js/SQLEditorModule.js:107
 msgid "Please select a database from the object explorer to access Query Tool."
-msgstr "クエリツールの接続先となるデータベースをオブジェクトエクスプローラから選択してください。"
+msgstr "クエリツールの接続先となるデータベースをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/sqleditor/static/js/SQLEditorModule.js:142
 msgid "First 100 Rows"
@@ -16476,11 +16476,11 @@ msgstr "・ 接続がアイドル状態だったために、強制的に切断�
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolComponent.jsx:521
 msgid "⁃ The application server or database server may have been restarted."
-msgstr "・ アプリケーションサーバか、データベースサーバが再起動された。"
+msgstr "・ アプリケーションサーバーか、データベースサーバーが再起動された。"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolComponent.jsx:522
 msgid "⁃ The user session may have timed out."
-msgstr "・ ユーザのセッションがタイムアウトになった。"
+msgstr "・ ユーザーのセッションがタイムアウトになった。"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolComponent.jsx:524
 msgid "Do you want to continue and establish a new session"
@@ -16525,7 +16525,7 @@ msgstr "セッションはアイドル状態です。トランザクションブ
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolConstants.js:101
 #: pgadmin/tools/sqleditor/utils/constant_definition.py:32
 msgid "The connection with the server is bad."
-msgstr "サーバへの接続に問題があります。"
+msgstr "サーバーへの接続に問題があります。"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolDataGrid/Editors.jsx:244
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolDataGrid/Editors.jsx:295
@@ -16975,7 +16975,7 @@ msgstr "行が影響を受けました"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/QueryHistory.jsx:350
 msgid "Copy to Query Editor"
-msgstr "クエリエディタへコピー"
+msgstr "クエリエディターへコピー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/QueryHistory.jsx:399
 msgid "Fetching history..."
@@ -17064,7 +17064,7 @@ msgstr "実行をキャンセルしました"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:440
 msgid "Server Connected."
-msgstr "サーバに接続しました。"
+msgstr "サーバーに接続しました。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:722
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:66
@@ -17254,7 +17254,7 @@ msgstr "コピーのオプションメニュー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSetToolbar.jsx:463
 msgid "Copy with headers"
-msgstr "ヘッダを付けてコピー"
+msgstr "ヘッダーを付けてコピー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSetToolbar.jsx:469
 msgid "Paste Options Menu"
@@ -17321,7 +17321,7 @@ msgstr "データ並べ替えオブジェクトを正常に更新しました"
 
 #: pgadmin/tools/sqleditor/utils/filter_dialog.py:102
 msgid "Failed to update the data on server."
-msgstr "サーバのデータ更新に失敗しました。"
+msgstr "サーバーのデータ更新に失敗しました。"
 
 #: pgadmin/tools/sqleditor/utils/macros.py:36
 msgid "Macro not found."
@@ -17333,11 +17333,11 @@ msgstr "変更はありません。"
 
 #: pgadmin/tools/sqleditor/utils/macros.py:181
 msgid "Could not find the required parameter (name)."
-msgstr "必要なパラメータ (name) が見つかりませんでした。"
+msgstr "必要なパラメーター (name) が見つかりませんでした。"
 
 #: pgadmin/tools/sqleditor/utils/macros.py:184
 msgid "Could not find the required parameter (sql)."
-msgstr "必要なパラメータ (sql) が見つかりませんでした。"
+msgstr "必要なパラメーター (sql) が見つかりませんでした。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:19
 msgid "Upper case"
@@ -17513,7 +17513,7 @@ msgstr "行の折り返し"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:218
 msgid "Specifies whether or not to wrap SQL code in the editor."
-msgstr "エディタの SQL を折り返すかどうか指定します。"
+msgstr "エディターの SQL を折り返すかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:224
 msgid "Insert bracket pairs?"
@@ -17521,7 +17521,7 @@ msgstr "括弧を挿入"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:227
 msgid "Specifies whether or not to insert paired brackets in the editor."
-msgstr "エディタで括弧を自動的に補完するかどうか指定します。"
+msgstr "エディターで括弧を自動的に補完するかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:234
 msgid "Highlight selection matches?"
@@ -17537,7 +17537,7 @@ msgstr "括弧の対応"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:247
 msgid "Specifies whether or not to highlight matched braces in the editor."
-msgstr "エディタで対になっている括弧を強調表示するかどうか指定します。"
+msgstr "エディターで対になっている括弧を強調表示するかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:254
 msgid "CSV quoting"
@@ -17666,7 +17666,7 @@ msgid ""
 " 1.2, or to reduce by 20 percent, use a value of 0.8. Minimum 0.1, "
 "maximum 10."
 msgstr ""
-"SQL テキストボックスやエディタに表示するフォントの大きさを \"em\" 単位で指定します。1 が標準の相対的な大きさで、100 "
+"SQL テキストボックスやエディターに表示するフォントの大きさを \"em\" 単位で指定します。1 が標準の相対的な大きさで、100 "
 "パーセントを意味します。つまり、1.2 で 20 パーセント大きくなり、0.8 で 20 パーセント小さくなります。0.1 から 10 "
 "の範囲の値を指定できます。"
 
@@ -17966,7 +17966,7 @@ msgstr "ファイル/フォルダーを削除"
 
 #: pgadmin/tools/user_management/__init__.py:55
 msgid "Users"
-msgstr "ユーザ"
+msgstr "ユーザー"
 
 #: pgadmin/tools/user_management/__init__.py:252
 msgid "Owner changed successfully."
@@ -17975,11 +17975,11 @@ msgstr "所有者の変更に成功しました。"
 #: pgadmin/tools/user_management/__init__.py:296
 #, python-brace-format
 msgid "{0} Shared servers are associated with this user."
-msgstr "このユーザには {0} 個の共有サーバが関連付けられています。"
+msgstr "このユーザーには {0} 個の共有サーバーが関連付けられています。"
 
 #: pgadmin/tools/user_management/__init__.py:306
 msgid "No shared servers found"
-msgstr "共有サーバが見つかりませんでした"
+msgstr "共有サーバーが見つかりませんでした"
 
 #: pgadmin/tools/user_management/__init__.py:376
 #: pgadmin/tools/user_management/__init__.py:398
@@ -18015,7 +18015,7 @@ msgstr "フィールドの不足: '{0}'"
 #: pgadmin/tools/user_management/__init__.py:748
 #, python-brace-format
 msgid "Unable to update user '{0}'"
-msgstr "ユーザ '{0}' を更新できません"
+msgstr "ユーザー '{0}' を更新できません"
 
 #: pgadmin/tools/user_management/__init__.py:721
 #, python-brace-format
@@ -18097,7 +18097,7 @@ msgstr "ロック"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:138
 msgid "Username cannot be empty"
-msgstr "ユーザ名は必須です"
+msgstr "ユーザー名は必須です"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:148
 msgid "Email cannot be empty"
@@ -18111,52 +18111,52 @@ msgstr "メールアドレスが不正です: %s"
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:160
 #, python-format
 msgid "Password cannot be empty for user %s"
-msgstr "ユーザ %s のパスワードは必須です"
+msgstr "ユーザー %s のパスワードは必須です"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:164
 #, python-format
 msgid "Password must be at least %s characters for user %s"
-msgstr "%s 文字以上のパスワードをユーザ %s に指定してください"
+msgstr "%s 文字以上のパスワードをユーザー %s に指定してください"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:172
 #, python-format
 msgid "Confirm Password cannot be empty for user %s"
-msgstr "ユーザ %s のパスワードの確認は必須です"
+msgstr "ユーザー %s のパスワードの確認は必須です"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:180
 #, python-format
 msgid "Passwords do not match for user %s"
-msgstr "ユーザ %s のパスワードが一致しません"
+msgstr "ユーザー %s のパスワードが一致しません"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:203
 msgid "Users Saved Successfully"
-msgstr "ユーザを正常に保存しました"
+msgstr "ユーザーを正常に保存しました"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:35
 msgid "Create User..."
-msgstr "ユーザを作成..."
+msgstr "ユーザーを作成..."
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:37
 msgid "Create User"
-msgstr "ユーザを作成"
+msgstr "ユーザーを作成"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:92
 #: pgadmin/tools/user_management/static/js/Users.jsx:105
 msgid "Deleting user..."
-msgstr "ユーザを削除しています..."
+msgstr "ユーザーを削除しています..."
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:95
 msgid "User deleted successfully."
-msgstr "ユーザを正常に削除しました。"
+msgstr "ユーザーを正常に削除しました。"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:103
 msgid "Delete User?"
-msgstr "ユーザを削除しますか？"
+msgstr "ユーザーを削除しますか？"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:103
 #, python-format
 msgid "Are you sure you want to delete the user %s?"
-msgstr "ユーザ %s を削除しますか？"
+msgstr "ユーザー %s を削除しますか？"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:112
 msgid "Change ownership"
@@ -18164,27 +18164,27 @@ msgstr "所有権を変更"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:118
 msgid "Object explorer tree refresh required"
-msgstr "オブジェクトエクスプローラのツリーの再読み込みが必要です"
+msgstr "オブジェクトエクスプローラーのツリーの再読み込みが必要です"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:119
 msgid ""
 "The ownership of the shared server was changed or the shared server was "
 "deleted, so the object explorer tree refresh is required. Do you wish to "
 "refresh the tree?"
-msgstr "共有サーバの所有権が移譲、もしくは削除されたため、オブジェクトエクスプローラの再読み込みが必要です。ツリーを再読み込みしますか？"
+msgstr "共有サーバーの所有権が移譲、もしくは削除されたため、オブジェクトエクスプローラーの再読み込みが必要です。ツリーを再読み込みしますか？"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:145
 #, python-format
 msgid "Edit User - %s"
-msgstr "ユーザを編集 - %s"
+msgstr "ユーザーを編集 - %s"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:179
 msgid "Delete User"
-msgstr "ユーザを削除"
+msgstr "ユーザーを削除"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:189
 msgid "Edit User"
-msgstr "ユーザを編集"
+msgstr "ユーザーを編集"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:192
 msgid "Auth Source"
@@ -18192,11 +18192,11 @@ msgstr ""
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:250
 msgid "Fetching users..."
-msgstr "ユーザを取得しています..."
+msgstr "ユーザーを取得しています..."
 
 #: pgadmin/tools/user_management/static/js/index.js:52
 msgid "User Management"
-msgstr "ユーザ管理"
+msgstr "ユーザー管理"
 
 #: pgadmin/utils/__init__.py:341
 msgid "Utility file not found. Please correct the Binary Path in the Preferences"
@@ -18216,7 +18216,7 @@ msgstr ""
 #: pgadmin/utils/__init__.py:575
 #, python-format
 msgid "Configuration for %s servers dumped to %s"
-msgstr "%s 個のサーバの構成を %s にダンプしました"
+msgstr "%s 個のサーバーの構成を %s にダンプしました"
 
 #: pgadmin/utils/__init__.py:592
 msgid "'Servers' attribute not found in the specified file."
@@ -18225,17 +18225,17 @@ msgstr "指定されたファイルに 'Servers' 属性が見つかりません�
 #: pgadmin/utils/__init__.py:606
 #, python-format
 msgid "'%s' attribute not found for server '%s'"
-msgstr "'%s' 属性がサーバ '%s' に見つかりませんでした"
+msgstr "'%s' 属性がサーバー '%s' に見つかりませんでした"
 
 #: pgadmin/utils/__init__.py:612
 #, python-format
 msgid "Port must be integer for server '%s'"
-msgstr "サーバ '%s' のポートは整数にしてください"
+msgstr "サーバー '%s' のポートは整数にしてください"
 
 #: pgadmin/utils/__init__.py:637
 #, python-format
 msgid "'Host' or 'Service' attribute not found for server '%s'"
-msgstr "サーバ '%s' に 'Host' または 'Service' 属性が見つかりませんでした"
+msgstr "サーバー '%s' に 'Host' または 'Service' 属性が見つかりませんでした"
 
 #: pgadmin/utils/__init__.py:667
 #, python-format
@@ -18250,17 +18250,17 @@ msgstr "入力ファイル %s の読み取りエラー: [%d] %s"
 #: pgadmin/utils/__init__.py:709
 #, python-format
 msgid "Error creating server group '%s': %s"
-msgstr "サーバグループ '%s' の作成エラー: %s"
+msgstr "サーバーグループ '%s' の作成エラー: %s"
 
 #: pgadmin/utils/__init__.py:803
 #, python-format
 msgid "Error creating server '%s': %s"
-msgstr "サーバ '%s' の作成エラー: %s"
+msgstr "サーバー '%s' の作成エラー: %s"
 
 #: pgadmin/utils/__init__.py:843
 #, python-format
 msgid "Error clearing server configuration with error (%s)"
-msgstr "サーバ構成の消去エラー (%s)"
+msgstr "サーバー構成の消去エラー (%s)"
 
 #: pgadmin/utils/ajax.py:162
 msgid "Not implemented."
@@ -18280,7 +18280,7 @@ msgstr "オブジェクトのパンくずリスト"
 
 #: pgadmin/utils/constants.py:26
 msgid "Editor"
-msgstr "エディタ"
+msgstr "エディター"
 
 #: pgadmin/utils/constants.py:27
 msgid "CSV/TXT Output"
@@ -18312,7 +18312,7 @@ msgstr ""
 
 #: pgadmin/utils/constants.py:62
 msgid "Error fetching role information from the database server."
-msgstr "データベースサーバからのロール情報を取得中にエラーが発生しました。"
+msgstr "データベースサーバーからのロール情報を取得中にエラーが発生しました。"
 
 #: pgadmin/utils/constants.py:64
 msgid "Unable to fetch data."
@@ -18375,7 +18375,7 @@ msgstr ""
 #: pgadmin/utils/constants.py:133
 #, python-format
 msgid "The specified user ID (%s) could not be found."
-msgstr "指定されたユーザ ID (%s) が見つかりませんでした。"
+msgstr "指定されたユーザー ID (%s) が見つかりませんでした。"
 
 #: pgadmin/utils/constants.py:142
 msgid ""
@@ -18385,18 +18385,18 @@ msgstr "アクセスが拒否されました: アクセス権が制限されて�
 
 #: pgadmin/utils/constants.py:165
 msgid "Could not find the specified server."
-msgstr "指定されたサーバが見つかりませんでした。"
+msgstr "指定されたサーバーが見つかりませんでした。"
 
 #: pgadmin/utils/exception.py:70
 #, python-brace-format
 msgid ""
 "Connection to the SSH Tunnel for host '{0}' has been lost. Reconnect to "
 "the database server."
-msgstr "ホスト '{0}' に対する SSH トンネルへの接続が失われました。データベースサーバに再接続してください。"
+msgstr "ホスト '{0}' に対する SSH トンネルへの接続が失われました。データベースサーバーに再接続してください。"
 
 #: pgadmin/utils/heartbeat.py:35
 msgid "Manager not found. Stopped Heartbeat logging."
-msgstr "マネージャが見つかりません。ハートビートの記録を停止しました。"
+msgstr "マネージャーが見つかりません。ハートビートの記録を停止しました。"
 
 #: pgadmin/utils/heartbeat.py:51
 msgid "Heartbeat logged successfully."
@@ -18463,7 +18463,7 @@ msgid ""
 "the server#{1}:{2}:\n"
 "{0}"
 msgstr ""
-"psycopg3 接続でのカーソルの作成に失敗しました (サーバ #{1}:{2}):\n"
+"psycopg3 接続でのカーソルの作成に失敗しました (サーバー #{1}:{2}):\n"
 "{0}"
 
 #: pgadmin/utils/driver/psycopg3/connection.py:761
@@ -18471,7 +18471,7 @@ msgstr ""
 msgid ""
 "Attempting to reconnect to the database server (#{server_id}) for the "
 "connection - '{conn_id}'."
-msgstr "接続 '{conn_id}' でデータベースサーバ (#{server_id}) への再接続を試みています。"
+msgstr "接続 '{conn_id}' でデータベースサーバー (#{server_id}) への再接続を試みています。"
 
 #: pgadmin/utils/driver/psycopg3/connection.py:842
 #: pgadmin/utils/driver/psycopg3/connection.py:1376
@@ -18491,26 +18491,26 @@ msgid ""
 "{0}"
 msgstr ""
 "\n"
-"サーバ接続のリセットに失敗しました。\n"
+"サーバー接続のリセットに失敗しました。\n"
 "エラー: {0}"
 
 #: pgadmin/utils/driver/psycopg3/connection.py:1666
 msgid "Not connected to the database server."
-msgstr "データベースサーバに接続していません。"
+msgstr "データベースサーバーに接続していません。"
 
 #: pgadmin/utils/driver/psycopg3/connection.py:1686
 #, python-brace-format
 msgid ""
 "Asynchronous notification \"{0}\" with payload \"{1}\" received from "
 "server process with PID {2}\n"
-msgstr "非同期通知 \"{0}\" とペイロード \"{1}\" を受信しました。送信元サーバのプロセス ID: {2}\n"
+msgstr "非同期通知 \"{0}\" とペイロード \"{1}\" を受信しました。送信元サーバーのプロセス ID: {2}\n"
 
 #: pgadmin/utils/driver/psycopg3/connection.py:1692
 #, python-brace-format
 msgid ""
 "Asynchronous notification \"{0}\" received from server process with PID "
 "{1}\n"
-msgstr "非同期通知 \"{0}\" を受信しました。送信元サーバのプロセス ID: {1}\n"
+msgstr "非同期通知 \"{0}\" を受信しました。送信元サーバーのプロセス ID: {1}\n"
 
 #: pgadmin/utils/driver/psycopg3/connection.py:1729
 msgid "ERROR:  "
