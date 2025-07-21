@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-21 17:14+0900\n"
+"PO-Revision-Date: 2025-07-21 18:40+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -4504,7 +4504,7 @@ msgstr "スキーマ..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:70
 msgid "ERD For Schema"
-msgstr ""
+msgstr "スキーマに対する ERD"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.ui.js:52
 msgid "System schema?"
@@ -5613,7 +5613,7 @@ msgstr "テーブル内容を全消去"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:192
 #, python-format
 msgid "Are you sure you want to truncate table <b>%s</b>?"
-msgstr ""
+msgstr "テーブル <b>%s</b> の内容をすべて消去しますか？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:244
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:226
@@ -6284,7 +6284,7 @@ msgstr "インデックスブロックヒット"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/16_plus/coll_stats.sql:7
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/16_plus/stats.sql:8
 msgid "Last index scan"
-msgstr ""
+msgstr "最終インデックススキャン"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/16_plus/stats.sql:12
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/default/stats.sql:11
@@ -6484,7 +6484,7 @@ msgstr "最終自動アナライズ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/16_plus/coll_table_stats.sql:19
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/16_plus/stats.sql:24
 msgid "Last sequential scan"
-msgstr ""
+msgstr "最終シーケンシャルスキャン"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/16_plus/coll_table_stats.sql:20
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/coll_table_stats.sql:19
@@ -7351,7 +7351,7 @@ msgstr "ICU のルール"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:230
 msgid "Builtin Locale"
-msgstr ""
+msgstr "組み込みのロケール"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:244
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:113
@@ -7394,7 +7394,7 @@ msgstr "スキーマ制限の変更を適用するには、スキーマノード
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:329
 msgid "Please specify Builtin Locale."
-msgstr ""
+msgstr "組み込みのロケールを指定してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/__init__.py:53
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.js:25
@@ -8276,21 +8276,21 @@ msgstr "PID"
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:43
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:31
 msgid "App Name"
-msgstr ""
+msgstr "アプリ名"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:30
 msgid "Client Address"
-msgstr ""
+msgstr "クライアントのアドレス"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:33
 msgid "Client Hostname"
-msgstr ""
+msgstr "クライアントのホスト名"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:36
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:51
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:39
 msgid "Client Port"
-msgstr ""
+msgstr "クライアントのポート番号"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:39
 #: pgadmin/dashboard/static/js/Dashboard.jsx:317
@@ -8362,18 +8362,18 @@ msgstr ""
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:120
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:23
 msgid "Slot Name"
-msgstr ""
+msgstr "スロット名"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:71
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:75
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:79
 msgid "Replication Slot"
-msgstr ""
+msgstr "レプリケーションスロット"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:74
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:27
 msgid "Slot Type"
-msgstr ""
+msgstr "スロットの種類"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:78
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:128
@@ -9563,13 +9563,13 @@ msgstr ""
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:535
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:536
 msgid "Post Connection SQL"
-msgstr ""
+msgstr "接続後の SQL"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:540
 msgid ""
 "Any query specified in the control below will be executed with autocommit"
 " mode enabled for each connection to any database on this server."
-msgstr ""
+msgstr "下の入力欄で指定されたクエリは、このサーバーのあらゆるデータベースとの接続を確立する際に、自動コミットモードを有効にした状態で実行されます。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:543
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:544
@@ -9578,7 +9578,7 @@ msgstr "タグ"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:555
 msgid "Server group must be specified."
-msgstr ""
+msgstr "サーバーグループを指定してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:563
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:297
@@ -10342,7 +10342,7 @@ msgstr "%sを削除"
 
 #: pgadmin/browser/static/js/node.js:179
 msgid "Drop (Cascade)"
-msgstr ""
+msgstr "削除 (カスケード)"
 
 #: pgadmin/browser/static/js/node.js:241
 #, python-format
@@ -10376,23 +10376,25 @@ msgid ""
 "existing connections to the <b>\"%s\"</b> database. Are you sure you want"
 " to proceed?"
 msgstr ""
+"強制的にデータベースを削除しようとしています。これにより、データベース <b>\"%s\"</b> "
+"への既存の接続がすべて切断されます。よろしいですか？"
 
 #: pgadmin/browser/static/js/node.js:536
 #, python-format
 msgid "Drop FORCE %s?"
-msgstr ""
+msgstr "強制的に%sを削除しますか？"
 
 #: pgadmin/browser/static/js/node.js:540
 #, python-format
 msgid ""
 "Are you sure you want to drop the %s <b>\"%s\"</b> and all the objects "
 "that depend on it?"
-msgstr ""
+msgstr "%s <b>\"%s\"</b> と、それに依存するすべてのオブジェクトを削除しますか？"
 
 #: pgadmin/browser/static/js/node.js:541
 #, python-format
 msgid "Drop CASCADE %s?"
-msgstr ""
+msgstr "カスケードで%sを削除しますか？"
 
 #: pgadmin/browser/static/js/node.js:546
 #, python-format
@@ -10402,7 +10404,7 @@ msgstr "%s \"%s\" を削除できません。"
 #: pgadmin/browser/static/js/node.js:553
 #, python-format
 msgid "Are you sure you want to remove the %s <b>\"%s\"</b>?"
-msgstr ""
+msgstr "%s <b>\"%s\"</b> を削除しますか？"
 
 #: pgadmin/browser/static/js/node.js:554
 #, python-format
@@ -10412,12 +10414,12 @@ msgstr "%sを削除しますか？"
 #: pgadmin/browser/static/js/node.js:556
 #, python-format
 msgid "Are you sure you want to drop the %s <b>\"%s\"</b>?"
-msgstr ""
+msgstr "%s <b>\"%s\"</b> を削除しますか？"
 
 #: pgadmin/browser/static/js/node.js:557
 #, python-format
 msgid "Drop %s?"
-msgstr ""
+msgstr "%sを削除しますか？"
 
 #: pgadmin/browser/static/js/node.js:563
 #, python-format
@@ -10436,13 +10438,13 @@ msgstr "削除"
 
 #: pgadmin/browser/static/js/withCheckPermission.js:23
 msgid "Permission Denied"
-msgstr ""
+msgstr "権限がありません"
 
 #: pgadmin/browser/static/js/withCheckPermission.js:24
 msgid ""
 "You don’t have the necessary permissions to access this feature. Please "
 "contact your administrator for assistance"
-msgstr ""
+msgstr "この機能にアクセスするための権限がありません。管理者に連絡・相談してみてください"
 
 #: pgadmin/browser/templates/browser/browser.html:2
 #, python-brace-format
@@ -10552,7 +10554,7 @@ msgstr "'%s' は数値にしてください。"
 
 #: pgadmin/browser/templates/browser/js/messages.js:29
 msgid "Min and Max values are not valid"
-msgstr ""
+msgstr "最小値と最大値が正しくありません"
 
 #: pgadmin/browser/templates/browser/js/messages.js:30
 #, python-format
@@ -11058,7 +11060,7 @@ msgstr "ダッシュボードを読み込んでいます..."
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:862
 msgid "Loading logs..."
-msgstr ""
+msgstr "ログを読み込んでいます..."
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:871
 msgid ""
@@ -11741,11 +11743,11 @@ msgid ""
 "Classic layout, a longstanding and familiar design, and the Workspace "
 "layout, which provides distraction free dedicated areas for the Query "
 "Tool, PSQL, and Schema Diff tools."
-msgstr ""
+msgstr "あなたに合ったレイアウトを選択してみてください。クラシックレイアウトは、今まで通りの馴染みあるデザインがお好みの方におすすめです。一方でワークスペースレイアウトは、クエリツール・PSQL・スキーマ比較ツールそれぞれに専用の作業領域を設けて、複数のツールやタブが入り乱れないようにすることができます。"
 
 #: pgadmin/misc/__init__.py:114
 msgid "Open the Query Tool/PSQL in their respective workspaces"
-msgstr ""
+msgstr "クエリツール/PSQL をそれ専用のワークスペースに開く"
 
 #: pgadmin/misc/__init__.py:118
 msgid ""
@@ -11758,7 +11760,7 @@ msgstr ""
 
 #: pgadmin/misc/__init__.py:129
 msgid "Save the application state?"
-msgstr ""
+msgstr "アプリケーションの状態を保存"
 
 #: pgadmin/misc/__init__.py:133
 msgid ""
@@ -11770,7 +11772,7 @@ msgstr ""
 
 #: pgadmin/misc/__init__.py:143
 msgid "Automatically open downloaded file?"
-msgstr ""
+msgstr "ダウンロードしたファイルを自動的に開く"
 
 #: pgadmin/misc/__init__.py:147
 msgid ""
@@ -11782,7 +11784,7 @@ msgstr ""
 
 #: pgadmin/misc/__init__.py:155
 msgid "Prompt for the download location?"
-msgstr ""
+msgstr "ダウンロードする場所を尋ねる"
 
 #: pgadmin/misc/__init__.py:159
 msgid ""
@@ -12234,7 +12236,7 @@ msgstr "パスワードは 8 文字以上にしてください。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:142
 msgid "Invalid password."
-msgstr ""
+msgstr "無効なパスワードです。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:155
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:471
@@ -13052,11 +13054,11 @@ msgstr "サーバー名"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:325
 msgid "Database must be specified."
-msgstr ""
+msgstr "データベースを指定してください。"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:333
 msgid "User must be specified."
-msgstr ""
+msgstr "ユーザーを指定してください。"
 
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:371
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/NewConnectionDialog.jsx:245
@@ -13234,6 +13236,8 @@ msgid ""
 "version. The default path will be used for server versions that do not "
 "have a path specified."
 msgstr ""
+"対応するバージョンの psql, pg_dump, pg_dumpall, pg_restore "
+"ユーティリティが存在するディレクトリを入力してください。既定のパスとして指定されたものは、パスが未指定のバージョンのサーバーにも使われるようになります。"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:118
 #: pgadmin/utils/constants.py:28
@@ -13527,7 +13531,7 @@ msgstr "題名は必須です"
 
 #: pgadmin/static/js/Dialogs/index.jsx:92
 msgid "Migration failed"
-msgstr ""
+msgstr "マイグレーションに失敗しました"
 
 #: pgadmin/static/js/Dialogs/index.jsx:93
 #, python-brace-format
@@ -13916,7 +13920,7 @@ msgstr "パスワードを再入力"
 
 #: pgadmin/static/js/components/ContextMenu.jsx:57
 msgid "No options"
-msgstr ""
+msgstr "オプションなし"
 
 #: pgadmin/static/js/components/FormComponents.jsx:492
 msgid "Select a file"
@@ -13940,11 +13944,11 @@ msgstr "メッセージを閉じる"
 
 #: pgadmin/static/js/components/FormComponents.jsx:1370
 msgid "Loading"
-msgstr ""
+msgstr "読み込んでいます"
 
 #: pgadmin/static/js/components/KeyboardShortcuts.jsx:93
 msgid "Cmd"
-msgstr ""
+msgstr "Cmd"
 
 #: pgadmin/static/js/components/PgReactDataGrid.jsx:159
 msgid "No rows found."
@@ -14325,7 +14329,7 @@ msgstr "ロック待機のタイムアウト"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:445
 msgid "Table(s)"
-msgstr ""
+msgstr "テーブル"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:448
 #: pgadmin/tools/backup/static/js/backup.ui.js:456
@@ -14342,7 +14346,7 @@ msgstr "テーブルのオプション"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:453
 msgid "Table(s) data"
-msgstr ""
+msgstr "テーブルのデータ"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:461
 msgid "Table(s) and children"
@@ -14464,7 +14468,7 @@ msgstr ""
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:723
 msgid "Exclude patterns"
-msgstr ""
+msgstr "除外するパターン"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:739
 #: pgadmin/tools/backup/static/js/backup.ui.js:745
@@ -14724,7 +14728,7 @@ msgstr "消去に失敗しました"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:741
 msgid "Error occurred: "
-msgstr ""
+msgstr "エラーが発生しました: "
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:773
 msgid "Debugger Listener Startup Error"
@@ -16550,7 +16554,7 @@ msgstr "この列のジオメトリをすべて表示"
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/ConfirmExecuteQueryContent.jsx:51
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/ConfirmPromotionContent.jsx:32
 msgid "Don't ask again"
-msgstr ""
+msgstr "次回から確認しない"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/ConfirmTransactionContent.jsx:22
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:563
