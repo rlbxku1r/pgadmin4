@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-20 21:26+0900\n"
+"PO-Revision-Date: 2025-07-21 17:14+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -11196,7 +11196,8 @@ msgid ""
 "designed to answer the needs of developers, DBAs and system "
 "administrators alike."
 msgstr ""
-"pgAdmin はオープンソースで開発されている、PostgreSQL データベース用の管理ツールです。グラフィカルな管理インタフェース、SQL "
+"pgAdmin はオープンソースで開発されている、PostgreSQL データベース用の管理ツールです。グラフィカルな管理インターフェイス、SQL"
+" "
 "クエリツール、手続き言語コードのデバッガーなど、数多くの機能を備えています。このツールは開発者、データベース管理者、システム管理者などのニーズに応えられるように設計されました。"
 
 #: pgadmin/dashboard/static/js/WelcomeDashboard.jsx:175
@@ -13127,7 +13128,7 @@ msgid ""
 "The PSQL tool allows users to connect to PostgreSQL or EDB Advanced "
 "server using the psql command line interface."
 msgstr ""
-"PSQL ツールでは、psql コマンドラインインタフェースを使用して、PostgreSQL や EDB Advanced Server "
+"PSQL ツールでは、psql コマンドラインインターフェイスを使用して、PostgreSQL や EDB Advanced Server "
 "に接続できます。"
 
 #: pgadmin/misc/workspaces/static/js/WorkspaceWelcomePage.jsx:99
@@ -13242,7 +13243,7 @@ msgstr "結果グリッド"
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:127
 #: pgadmin/utils/constants.py:33
 msgid "User Interface"
-msgstr "ユーザーインタフェース"
+msgstr "ユーザーインターフェイス"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:223
 msgid "Failed to reset preferences."
