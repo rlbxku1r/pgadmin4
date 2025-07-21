@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-21 18:40+0900\n"
+"PO-Revision-Date: 2025-07-21 21:17+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -17160,7 +17160,7 @@ msgstr "ジオメトリビューア"
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSetToolbar.jsx:419
 #: pgadmin/utils/constants.py:32
 msgid "Graph Visualiser"
-msgstr "グラフビジュアライザ"
+msgstr "グラフビジュアライザー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1522
 msgid "No data output. Execute a query to get output."
