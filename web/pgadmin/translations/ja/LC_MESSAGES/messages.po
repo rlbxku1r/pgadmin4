@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 18:34+0900\n"
+"PO-Revision-Date: 2025-07-26 18:38+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -13708,14 +13708,14 @@ msgstr "ズームアウト"
 
 #: pgadmin/static/js/Explain/index.jsx:133
 msgid "Join Filter"
-msgstr "結合フィルタ"
+msgstr "結合フィルター"
 
 #: pgadmin/static/js/Explain/index.jsx:138
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffButtonComponent.jsx:182
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffButtonComponent.jsx:183
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffButtonComponent.jsx:207
 msgid "Filter"
-msgstr "フィルタ"
+msgstr "フィルター"
 
 #: pgadmin/static/js/Explain/index.jsx:142
 msgid "Index Cond"
@@ -13727,7 +13727,7 @@ msgstr "ハッシュ条件"
 
 #: pgadmin/static/js/Explain/index.jsx:151
 msgid "Rows Removed by Filter"
-msgstr "フィルタにより削除された行数"
+msgstr "フィルターにより削除された行数"
 
 #: pgadmin/static/js/Explain/index.jsx:158
 msgid "Buckets"
@@ -16423,7 +16423,7 @@ msgstr "データのフィルタリング"
 
 #: pgadmin/tools/sqleditor/static/js/show_view_data.js:65
 msgid "Data filter can not be empty."
-msgstr "データフィルタは必須です。"
+msgstr "データフィルターは必須です。"
 
 #: pgadmin/tools/sqleditor/static/js/show_view_data.js:86
 msgid "Data Grid Error"
@@ -16521,7 +16521,7 @@ msgstr "マクロを管理"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolComponent.jsx:843
 msgid "Sort/Filter options"
-msgstr "ソート/フィルタのオプション"
+msgstr "ソート/フィルターのオプション"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolConstants.js:97
 #: pgadmin/tools/sqleditor/utils/constant_definition.py:28
@@ -16596,7 +16596,7 @@ msgstr ""
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/FilterDialog.jsx:72
 msgid "SQL Filter"
-msgstr "SQL フィルタ"
+msgstr "SQL フィルター"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/FilterDialog.jsx:96
 msgid "Data Sorting"
@@ -16762,12 +16762,12 @@ msgstr "編集"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:528
 msgid "Sort/Filter"
-msgstr "ソート/フィルタ"
+msgstr "ソート/フィルター"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:530
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:749
 msgid "Filter options"
-msgstr "フィルタのオプション"
+msgstr "フィルターのオプション"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:535
 msgid "No limit"
@@ -16877,11 +16877,11 @@ msgstr "SQL を整形"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:622
 msgid "Filter Options Menu"
-msgstr "フィルタのオプションメニュー"
+msgstr "フィルターのオプションメニュー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:624
 msgid "Filter by Selection"
-msgstr "指定したものでフィルタ"
+msgstr "指定したものでフィルター"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:625
 msgid "Exclude by Selection"
@@ -16889,7 +16889,7 @@ msgstr "指定したものを除外"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:626
 msgid "Remove Sort/Filter"
-msgstr "ソート/フィルタを解除"
+msgstr "ソート/フィルターを解除"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:632
 msgid "Execute Options Menu"
@@ -17115,7 +17115,7 @@ msgstr "変更されたデータがありますが、保存されていません
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:967
 msgid "Applying the new filter..."
-msgstr "新しいフィルタを適用しています..."
+msgstr "新しいフィルターを適用しています..."
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1008
 msgid "Downloading results..."
@@ -17132,7 +17132,7 @@ msgstr "結果の上限を設定しています..."
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1030
 msgid "Removing the filter..."
-msgstr "フィルタを解除しています..."
+msgstr "フィルターを解除しています..."
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1091
 msgid "Fetching rows..."
