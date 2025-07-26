@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 21:58+0900\n"
+"PO-Revision-Date: 2025-07-26 22:16+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -5665,7 +5665,7 @@ msgstr "TOAST タプル対象"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:229
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:835
 msgid "Parallel workers"
-msgstr "パラレルワーカ"
+msgstr "パラレルワーカー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:251
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:840
@@ -7693,7 +7693,7 @@ msgid ""
 "Specifies whether the subscription should be automatically disabled if "
 "any errors are detected by subscription workers during data replication "
 "from the publisher."
-msgstr "パブリッシャーからのデータを複製する際に、サブスクリプションワーカがエラーを検出したら、自動でサブスクリプションを無効にするかどうか指定します。"
+msgstr "パブリッシャーからのデータを複製する際に、サブスクリプションワーカーがエラーを検出したら、自動でサブスクリプションを無効にするかどうか指定します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:438
 msgid "Run as owner?"
@@ -10928,11 +10928,11 @@ msgstr "メモリ"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:349
 msgid "You cannot cancel background worker processes."
-msgstr "バックグラウンドワーカプロセスはキャンセルできません。"
+msgstr "バックグラウンドワーカープロセスはキャンセルできません。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:351
 msgid "You cannot terminate background worker processes."
-msgstr "バックグラウンドワーカプロセスは終了できません。"
+msgstr "バックグラウンドワーカープロセスは終了できません。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:364
 msgid "You are not allowed to cancel the main active session."
