@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 22:16+0900\n"
+"PO-Revision-Date: 2025-07-26 22:57+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -2119,11 +2119,11 @@ msgstr "終了"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:62
 msgid "Frequency"
-msgstr ""
+msgstr "頻度"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:65
 msgid "Select the frequency..."
-msgstr ""
+msgstr "頻度を選択..."
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:83
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:37
@@ -3387,7 +3387,7 @@ msgstr "LC_TYPE"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:151
 msgid "Deterministic"
-msgstr ""
+msgstr "バイト単位の比較"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:187
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/__init__.py:45
@@ -4024,7 +4024,7 @@ msgstr "署名引数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:237
 msgid "Custom return type?"
-msgstr ""
+msgstr "返り値の型を直接指定"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:241
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:264
@@ -4418,6 +4418,8 @@ msgid ""
 "exactly the specified value, and sequence advancement commences with the "
 "following nextval."
 msgstr ""
+"シーケンスオブジェクトの現在値を設定します。ここで指定した値がそのまま、次の nextval() 呼び出し時に返ってきます。シーケンスの進行は 2"
+" 回目以降の nextval() 呼び出しから始まります。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.ui.js:141
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:542
@@ -4636,7 +4638,7 @@ msgstr "継承元"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:288
 msgid "Geometry Type"
-msgstr ""
+msgstr "ジオメトリ型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:306
 msgid "SRID"
@@ -9450,7 +9452,7 @@ msgstr "共有"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:266
 msgid "Shared Username"
-msgstr ""
+msgstr "共有ユーザー名"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:296
 msgid "Connection String"
@@ -11068,7 +11070,7 @@ msgstr "ログを読み込んでいます..."
 msgid ""
 "Please enable the logging to view the server logs or check the log file "
 "is in place or not."
-msgstr ""
+msgstr "サーバーのログを閲覧するには、ログの収集設定を有効にするか、ログファイルが適切な場所に存在しているかどうかを確認してください。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:893
 msgid ""
@@ -11089,11 +11091,11 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:953
 msgid "Log Format"
-msgstr ""
+msgstr "ログの形式"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:965
 msgid "Tabular format?"
-msgstr ""
+msgstr "表として閲覧"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:983
 msgid "Download logs "
@@ -13360,7 +13362,7 @@ msgstr "アプリケーションを終了しますか？"
 #: pgadmin/static/js/ToolErrorView.jsx:28
 #, python-brace-format
 msgid "An error occurred while opening the tool: ${error}"
-msgstr ""
+msgstr "ツールを開く際にエラーが発生しました: ${error}"
 
 #: pgadmin/static/js/api_instance.js:48 pgadmin/static/js/socket_instance.js:50
 msgid "Connection to pgAdmin server has been lost"
@@ -17959,7 +17961,7 @@ msgstr "グラフにプロットされる行数の上限を設定します。こ
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:51
 msgid "Manage Server"
-msgstr "サーバーの管理"
+msgstr "サーバーを管理"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:71
 msgid "Backup Tool (including server and globals)"
@@ -17971,11 +17973,11 @@ msgstr "復元ツール"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:81
 msgid "Import/Export Data"
-msgstr "データのインポート/エクスポート"
+msgstr "データをインポート/エクスポート"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:91
 msgid "Search Objects"
-msgstr "オブジェクトの検索"
+msgstr "オブジェクトを検索"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:116
 msgid "Add Folder"
