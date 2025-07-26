@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 19:18+0900\n"
+"PO-Revision-Date: 2025-07-26 21:58+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -17170,7 +17170,7 @@ msgstr "自動コミットが無効です。データベースへの変更は、
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1436
 msgid "Geometry Viewer"
-msgstr "ジオメトリビューア"
+msgstr "ジオメトリビューアー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1505
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSetToolbar.jsx:419
