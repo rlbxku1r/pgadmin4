@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 18:38+0900\n"
+"PO-Revision-Date: 2025-07-26 19:16+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -3361,7 +3361,7 @@ msgstr "照合順序のコピー"
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:113
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:152
 msgid "Locale Provider"
-msgstr "ロケールプロバイダ"
+msgstr "ロケールプロバイダー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:93
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:158
@@ -8606,7 +8606,7 @@ msgstr ""
 "\n"
 "セキュリティラベルは、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "seclabels:[{\n"
-"    provider: <プロバイダ>,\n"
+"    provider: <プロバイダー>,\n"
 "    label: <ラベル>\n"
 "    },\n"
 "    ...\n"
@@ -8642,19 +8642,19 @@ msgstr ""
 "セキュリティラベルは、以下の形式の JSON オブジェクトを配列にして渡してください:\n"
 "seclabels:{\n"
 "    'added': [{\n"
-"        provider: <プロバイダ>,\n"
+"        provider: <プロバイダー>,\n"
 "        label: <ラベル>\n"
 "        },\n"
 "        ...\n"
 "        ],\n"
 "    'deleted': [{\n"
-"        provider: <プロバイダ>,\n"
+"        provider: <プロバイダー>,\n"
 "        label: <ラベル>\n"
 "        },\n"
 "        ...\n"
 "        ],\n"
 "    'updated': [{\n"
-"        provider: <プロバイダ>,\n"
+"        provider: <プロバイダー>,\n"
 "        label: <ラベル>\n"
 "        },\n"
 "        ...\n"
@@ -9039,7 +9039,7 @@ msgstr "少なくとも権限をひとつ選択してください。"
 #: pgadmin/browser/server_groups/servers/static/js/sec_label.ui.js:23
 #: pgadmin/misc/cloud/static/js/biganimal.js:234
 msgid "Provider"
-msgstr "プロバイダ"
+msgstr "プロバイダー"
 
 #: pgadmin/browser/server_groups/servers/static/js/sec_label.ui.js:27
 msgid "Security label"
@@ -12001,7 +12001,7 @@ msgstr "プロジェクトが未指定です。"
 
 #: pgadmin/misc/cloud/biganimal/__init__.py:311
 msgid "Error retrieving providers."
-msgstr "プロバイダの取得エラー。"
+msgstr "プロバイダーの取得エラー。"
 
 #: pgadmin/misc/cloud/biganimal/__init__.py:332
 msgid "Error retrieving regions."
@@ -12017,7 +12017,7 @@ msgstr "セッションはまだ作成されていません。"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:37
 msgid "Cloud Provider"
-msgstr "クラウドプロバイダ"
+msgstr "クラウドプロバイダー"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:37
 msgid "Credentials"
@@ -12115,7 +12115,7 @@ msgstr "クラウドインスタンスを展開"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:403
 msgid "Select a cloud provider for PostgreSQL database."
-msgstr "PostgreSQL データベースのクラウドプロバイダを選択します。"
+msgstr "PostgreSQL データベースのクラウドプロバイダーを選択します。"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:415
 msgid "The verification code to authenticate the pgAdmin to EDB BigAnimal is: "
@@ -12649,7 +12649,7 @@ msgstr "2"
 
 #: pgadmin/misc/cloud/static/js/biganimal_schema.ui.js:83
 msgid "Cluster provider"
-msgstr "クラスターのプロバイダ"
+msgstr "クラスターのプロバイダー"
 
 #: pgadmin/misc/cloud/static/js/biganimal_schema.ui.js:234
 msgid "Please select volume properties."
