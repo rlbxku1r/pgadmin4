@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 19:16+0900\n"
+"PO-Revision-Date: 2025-07-26 19:18+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -1054,12 +1054,12 @@ msgstr "サーバー設定を再読み込みしました。"
 #: pgadmin/browser/server_groups/servers/__init__.py:1730
 #, python-brace-format
 msgid "Named restore point created: {0}"
-msgstr "名前付きリストアポイントが作成されました: {0}"
+msgstr "名前付き復元ポイントが作成されました: {0}"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1736
 #, python-brace-format
 msgid "Named restore point creation failed ({0})"
-msgstr "名前付きリストアポイントの作成に失敗しました ({0})"
+msgstr "名前付き復元ポイントの作成に失敗しました ({0})"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1793
 #: pgadmin/browser/server_groups/servers/__init__.py:1805
@@ -9099,13 +9099,13 @@ msgstr "オブジェクトエクスプローラーから、設定ファイルを
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:122
 msgid "Add Named Restore Point..."
-msgstr "リストアポイントを追加..."
+msgstr "復元ポイントを追加..."
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:124
 msgid ""
 "Please select any server from the object explorer to Add Named Restore "
 "Point."
-msgstr "オブジェクトエクスプローラーから、名前付きリストアポイントを追加するサーバーを選択してください。"
+msgstr "オブジェクトエクスプローラーから、名前付き復元ポイントを追加するサーバーを選択してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:129
 msgid "Change Password..."
@@ -9166,7 +9166,7 @@ msgstr "%s のサーバー設定を再読み込みしますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:346
 msgid "Restore point name"
-msgstr "リストアポイント名"
+msgstr "復元ポイント名"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:367
 #: pgadmin/static/js/Dialogs/index.jsx:209
@@ -13539,7 +13539,7 @@ msgstr "マスターパスワードをリセット"
 
 #: pgadmin/static/js/Dialogs/NamedRestoreContent.jsx:61
 msgid "Enter the name of the restore point to add"
-msgstr "追加するリストアポイントの名前を入力してください"
+msgstr "追加する復元ポイントの名前を入力してください"
 
 #: pgadmin/static/js/Dialogs/RenameTabContent.jsx:71
 msgid "Title cannot be empty"
@@ -14075,7 +14075,7 @@ msgstr "最大化"
 #: pgadmin/tools/restore/__init__.py:44 pgadmin/tools/restore/__init__.py:111
 #: pgadmin/tools/restore/static/js/restore.js:165
 msgid "Restore"
-msgstr "リストア"
+msgstr "復元"
 
 #: pgadmin/static/js/helpers/Layout/index.jsx:443
 msgid "Close Others"
@@ -14103,7 +14103,7 @@ msgstr "ツリーの保存状態をリセット中にエラーが発生しまし
 msgid ""
 "Databases with = symbols in the name cannot be backed up or restored "
 "using this utility."
-msgstr "このユーティリティでは、名前に = 記号の入ったデータベースをバックアップ、及びリストアすることができません。"
+msgstr "このユーティリティでは、名前に = 記号の入ったデータベースをバックアップ、及び復元することができません。"
 
 #: pgadmin/static/js/tree/tree_utils.js:49
 msgid "Please select server or child node from the object explorer."
@@ -15982,11 +15982,11 @@ msgstr "PSQL 端末にデータを貼り付けるには、クリップボード�
 #: pgadmin/tools/restore/__init__.py:98
 #, python-brace-format
 msgid "Restoring backup on the server '{0}'"
-msgstr "サーバー '{0}' のバックアップをリストアしています"
+msgstr "サーバー '{0}' のバックアップを復元しています"
 
 #: pgadmin/tools/restore/__init__.py:103
 msgid "Restoring backup on the server"
-msgstr "サーバーのバックアップをリストアしています"
+msgstr "サーバーのバックアップを復元しています"
 
 #: pgadmin/tools/restore/__init__.py:140
 msgid "File could not be found."
@@ -15995,22 +15995,22 @@ msgstr "ファイルが見つかりませんでした。"
 #: pgadmin/tools/restore/static/js/restore.js:44
 #: pgadmin/tools/restore/static/js/restore.js:64
 msgid "Restore..."
-msgstr "リストア..."
+msgstr "復元..."
 
 #: pgadmin/tools/restore/static/js/restore.js:51
 msgid ""
 "Please select any schema or table from the object explorer to Restore "
 "data."
-msgstr "データをリストアするスキーマ、またはテーブルをオブジェクトエクスプローラーから選択してください。"
+msgstr "データを復元するスキーマ、またはテーブルをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/restore/static/js/restore.js:134
 msgid "Restore Error"
-msgstr "リストアエラー"
+msgstr "復元エラー"
 
 #: pgadmin/tools/restore/static/js/restore.js:164
 #, python-brace-format
 msgid "Restore (${pgBrowser.Nodes[data._type].label}: ${data.label})"
-msgstr "リストア (${pgBrowser.Nodes[data._type].label}: ${data.label})"
+msgstr "復元 (${pgBrowser.Nodes[data._type].label}: ${data.label})"
 
 #: pgadmin/tools/restore/static/js/restore.ui.js:116
 msgid "Only schema"
@@ -16034,7 +16034,7 @@ msgstr "カスタム、または Tar"
 
 #: pgadmin/tools/restore/static/js/restore.ui.js:458
 msgid "Clean before restore"
-msgstr "リストア前に削除"
+msgstr "復元前に削除"
 
 #: pgadmin/tools/restore/static/js/restore.ui.js:484
 msgid "Single transaction"
