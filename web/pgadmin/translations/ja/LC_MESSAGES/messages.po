@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 16:55+0900\n"
+"PO-Revision-Date: 2025-07-26 18:34+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -11076,10 +11076,12 @@ msgid ""
 "extension in a database using the \"CREATE EXTENSION system_stats;\" SQL "
 "command. Reload pgAdmin once it is installed."
 msgstr ""
+"system_stats 拡張がインストールされていません。この拡張は SQL コマンド \"CREATE EXTENSION "
+"system_stats;\" でデータベースにインストールできます。インストールしたあとは pgAdmin を再読み込みしてください。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:901
 msgid "Failed to verify the presence of system stats extension."
-msgstr ""
+msgstr "system_stats 拡張のインストール状態を確認できませんでした。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:948
 msgid "Table based logs"
@@ -11759,6 +11761,9 @@ msgid ""
 "Tool/PSQL tabs will open in the currently active workspace (either the "
 "default or the workspace selected at the time of opening)"
 msgstr ""
+"この設定はワークスペースレイアウトの使用時にのみ適用されます。False (既定) にすると、クエリツール/PSQL "
+"のタブは、現在使用中のワークスペース (つまり、既定のワークスペースか、その時点で選択していたワークスペース) に開かれます。True "
+"にすると、クエリツール/PSQL のタブは、それぞれ対応するワークスペースに開かれます。"
 
 #: pgadmin/misc/__init__.py:129
 msgid "Save the application state?"
@@ -11771,6 +11776,9 @@ msgid ""
 " data will be automatically restored in the event of an unexpected "
 "shutdown or browser refresh."
 msgstr ""
+"True にすると、開いているツール (クエリツール・PSQL・スキーマ比較・ERD など) "
+"の状態を、未保存のデータも含めて保存します。このデータは pgAdmin "
+"が異常終了してしまったり、ブラウザーを再読み込みした際に自動で復元されます。"
 
 #: pgadmin/misc/__init__.py:143
 msgid "Automatically open downloaded file?"
@@ -11783,6 +11791,10 @@ msgid ""
 "                    will automatically open in the system's default\n"
 "                    application associated with that file type."
 msgstr ""
+"この設定はデスクトップモードでのみ表示・適用\n"
+"                    されます。True にすると、ダウンロードしたファイルを\n"
+"                    自動的に、そのファイルの種類に対応した\n"
+"                    システム既定のアプリケーションで開きます。"
 
 #: pgadmin/misc/__init__.py:155
 msgid "Prompt for the download location?"
@@ -11794,6 +11806,8 @@ msgid ""
 "True, a prompt will appear after clicking the download button, allowing "
 "you to choose the download location"
 msgstr ""
+"この設定はデスクトップモードでのみ表示・適用されます。True "
+"にすると、ダウンロードボタンをクリックした際に、ダウンロード先となる場所を選択できるプロンプトが表示されます。"
 
 #: pgadmin/misc/__init__.py:337
 msgid "Invalid binary path."
@@ -17824,7 +17838,7 @@ msgstr "キーワードの大文字小文字"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1009
 msgid "Convert keywords to upper, lower, or preserve casing."
-msgstr ""
+msgstr "キーワードを大文字、小文字、もしくはそのままにします。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1015
 msgid "Identifier case"
@@ -17832,23 +17846,23 @@ msgstr "識別子の大文字小文字"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1021
 msgid "Convert identifiers to upper, lower, or preserve casing."
-msgstr ""
+msgstr "識別子を大文字、小文字、もしくはそのままにします。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1027
 msgid "Function case"
-msgstr ""
+msgstr "関数名の大文字小文字"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1033
 msgid "Convert function names to upper, lower, or preserve casing."
-msgstr ""
+msgstr "関数名を大文字、小文字、もしくはそのままにします。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1039
 msgid "Data type case"
-msgstr ""
+msgstr "データ型の大文字小文字"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1045
 msgid "Convert data types to upper, lower, or preserve casing."
-msgstr ""
+msgstr "データ型を大文字、小文字、もしくはそのままにします。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1051
 msgid "Spaces around operators?"
