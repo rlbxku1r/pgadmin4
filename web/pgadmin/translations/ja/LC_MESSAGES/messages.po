@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-21 21:17+0900\n"
+"PO-Revision-Date: 2025-07-26 16:55+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -153,7 +153,7 @@ msgstr "メールアドレス/ユーザー名が不正です"
 
 #: pgadmin/authenticate/internal.py:96
 msgid "internal"
-msgstr "内部"
+msgstr "内部認証"
 
 #: pgadmin/authenticate/kerberos.py:161
 msgid "kerberos"
@@ -1914,11 +1914,11 @@ msgstr "ジョブの種類"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:77
 msgid "SELF-CONTAINED"
-msgstr ""
+msgstr "自己完結"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:78
 msgid "PRE-DEFINED"
-msgstr ""
+msgstr "事前定義"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:86
 msgid ""
@@ -1927,6 +1927,9 @@ msgid ""
 "Type is Pre-Defined you need to specify the existing Program and Schedule"
 " names in the Pre-Defined tab."
 msgstr ""
+"ジョブの種類を自己完結にした場合は、アクションと繰り返し間隔をそれぞれ 'アクション' と '繰り返し' "
+"タブで指定する必要があります。一方でジョブの種類を事前定義にした場合は、既存のプログラムとスケジュール名を '事前定義' "
+"タブで指定する必要があります。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:89
 msgid "Run Count"
@@ -1943,7 +1946,7 @@ msgstr "プログラム名"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:104
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:117
 msgid "Pre-Defined"
-msgstr ""
+msgstr "事前定義"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:116
 msgid "Schedule Name"
@@ -1969,7 +1972,7 @@ msgstr "プロシージャは必須です。"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:159
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/static/js/dbms_schedule.ui.js:64
 msgid "Either Start time or Repeat interval must be specified."
-msgstr ""
+msgstr "開始時刻か繰り返し間隔のどちらかを指定してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:175
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_schedules/static/js/dbms_schedule.ui.js:80
@@ -1979,11 +1982,11 @@ msgstr "開始時刻が終了時刻を超えてはいけません"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:185
 msgid "Pre-Defined program name cannot be empty."
-msgstr ""
+msgstr "事前定義のプログラム名は必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.ui.js:191
 msgid "Pre-Defined schedule name cannot be empty."
-msgstr ""
+msgstr "事前定義のスケジュール名は必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_programs/__init__.py:49
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_programs/static/js/dbms_program.js:23
@@ -2077,7 +2080,7 @@ msgstr "DBMS スケジュール..."
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:30
 msgid "Repeat Interval"
-msgstr ""
+msgstr "繰り返し間隔"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:32
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:35
@@ -2130,7 +2133,7 @@ msgstr "日付"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:86
 msgid "YYYYMMDD"
-msgstr ""
+msgstr "YYYYMMDD"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:97
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:170
@@ -2235,7 +2238,7 @@ msgstr "プロシージャ"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:220
 msgid "Number of Arguments"
-msgstr ""
+msgstr "引数の数"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:224
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_job_scheduler_common.ui.js:225
@@ -2308,11 +2311,11 @@ msgstr "開始時刻"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_jobscheduler.ui.js:40
 msgid "End Time"
-msgstr ""
+msgstr "終了時刻"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/static/js/dbms_jobscheduler.ui.js:42
 msgid "Next Run"
-msgstr ""
+msgstr "次回の実行"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/__init__.py:49
 msgid "Event Triggers"
@@ -3398,11 +3401,11 @@ msgstr "システムの照合順序"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:257
 msgid "Definition incomplete. Please provide LC_TYPE."
-msgstr ""
+msgstr "定義が不完全です。LC_TYPE を入力してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.ui.js:262
 msgid "Definition incomplete. Please provide LC_COLLATE."
-msgstr ""
+msgstr "定義が不完全です。LC_COLLATE を入力してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/__init__.py:53
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/static/js/domain.js:27
@@ -3622,7 +3625,7 @@ msgstr "外部サーバーは必須です。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:412
 msgid "Inherited from"
-msgstr ""
+msgstr "継承元"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.ui.js:458
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:356
@@ -5556,7 +5559,6 @@ msgstr "不要タプルの長さ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/pg/default/sql/stats.sql:40
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/ppas/default/sql/stats.sql:40
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:169
-#, fuzzy
 msgid "Free space"
 msgstr "未使用領域"
 
@@ -7331,7 +7333,7 @@ msgstr "ファイルコピー"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:166
 msgid "builtin"
-msgstr ""
+msgstr "組み込み"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:186
 msgid "Character type"
@@ -8228,7 +8230,7 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/static/js/pgd_replication_server_node.ui.js:21
 msgid "Sequence ID"
-msgstr ""
+msgstr "シーケンス ID"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/static/js/pgd_replication_server_node.ui.js:33
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:23
@@ -8237,11 +8239,11 @@ msgstr "グループ名"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/static/js/pgd_replication_server_node.ui.js:36
 msgid "Local DB Name"
-msgstr ""
+msgstr "ローカルの DB 名"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/static/js/pgd_replication_group_node.ui.js:33
 msgid "Streaming Mode"
-msgstr ""
+msgstr "ストリーミングモード"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/static/js/pgd_replication_group_node.ui.js:36
 msgid "Enable Proxy Routing?"
@@ -8253,7 +8255,7 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/static/js/pgd_replication_groups.js:41
 msgid "PGD Replication Group"
-msgstr ""
+msgstr "PGD レプリケーショングループ"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/__init__.py:56
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.js:22
@@ -9412,7 +9414,7 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:138
 msgid "random"
-msgstr ""
+msgstr "ランダム"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:215
 msgid "Server group"
@@ -9470,7 +9472,7 @@ msgstr "GSS 暗号化"
 msgid ""
 "In edit mode the password field is enabled only if Save Password is set "
 "to true."
-msgstr ""
+msgstr "すでに登録済みのサーバーのパスワードは 'パスワードの保存' を有効にしないと編集できません。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:365
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:455
@@ -9524,11 +9526,11 @@ msgstr "識別情報ファイル"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:466
 msgid "Keep alive (seconds)"
-msgstr ""
+msgstr "キープアライブ (秒)"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:475
 msgid "DB restriction type"
-msgstr ""
+msgstr "DB 制限の種類"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:489
 msgid "DB restriction"
@@ -9608,7 +9610,7 @@ msgstr "SSH トンネル識別情報ファイルは必須です。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:640
 msgid "Keep alive must be specified. Specify 0 for no keep alive."
-msgstr ""
+msgstr "キープアライブを指定してください。0 を指定すると、キープアライブが無効になります。"
 
 #: pgadmin/browser/server_groups/servers/static/js/vacuum.ui.js:66
 #: pgadmin/browser/server_groups/servers/static/js/vacuum.ui.js:112
@@ -10753,7 +10755,7 @@ msgstr "折れ線グラフに表示される、線の幅を設定します。"
 
 #: pgadmin/dashboard/__init__.py:531 pgadmin/utils/constants.py:66
 msgid "Server ID not specified."
-msgstr ""
+msgstr "サーバー ID が指定されていません。"
 
 #: pgadmin/dashboard/__init__.py:661 pgadmin/dashboard/__init__.py:688
 #: pgadmin/misc/bgprocess/static/js/Processes.jsx:65
@@ -11093,7 +11095,7 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:983
 msgid "Download logs "
-msgstr ""
+msgstr "ログをダウンロード "
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:1067
 msgid "Sessions"
@@ -11170,7 +11172,7 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/ServerLog.ui.js:41
 msgid "Log"
-msgstr ""
+msgstr "ログ"
 
 #: pgadmin/dashboard/static/js/WelcomeDashboard.jsx:154
 #: pgadmin/misc/workspaces/static/js/config.jsx:17
@@ -11292,12 +11294,12 @@ msgstr ""
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:145
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:203
 msgid "Node"
-msgstr ""
+msgstr "ノード"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:153
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:211
 msgid "Group"
-msgstr ""
+msgstr "グループ"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:161
 msgid "Peer state"
@@ -11312,7 +11314,7 @@ msgstr "PostgreSQL のバージョン"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:185
 msgid "BDR version"
-msgstr ""
+msgstr "BDR のバージョン"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:193
 msgid "Catchup state"
@@ -11538,11 +11540,11 @@ msgstr "アーキテクチャ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:139
 msgid "Os up since seconds"
-msgstr ""
+msgstr "OS の稼働時間 (秒)"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:139
 msgid "os_up_since_seconds"
-msgstr ""
+msgstr "osの稼働時間"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:145
 msgid "Vendor"
@@ -11574,43 +11576,43 @@ msgstr "コア数"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:150
 msgid "Clock speed Hz"
-msgstr ""
+msgstr "クロック速度 (Hz)"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:150
 msgid "clock_speed_hz"
-msgstr ""
+msgstr "クロック速度(hz)"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:151
 msgid "L1 dcache size"
-msgstr ""
+msgstr "L1 データキャッシュのサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:151
 msgid "l1dcache_size"
-msgstr ""
+msgstr "l1dキャッシュサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:152
 msgid "L1 icache size"
-msgstr ""
+msgstr "L1 命令キャッシュのサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:152
 msgid "l1icache_size"
-msgstr ""
+msgstr "l1iキャッシュサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:153
 msgid "L2 cache size"
-msgstr ""
+msgstr "L2 キャッシュのサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:153
 msgid "l2cache_size"
-msgstr ""
+msgstr "l2キャッシュサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:154
 msgid "L3 cache size"
-msgstr ""
+msgstr "L3 キャッシュのサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:154
 msgid "l3cache_size"
-msgstr ""
+msgstr "l3キャッシュサイズ"
 
 #: pgadmin/dashboard/static/js/SystemStats/Summary.jsx:255
 msgid "OS information"
@@ -11935,7 +11937,7 @@ msgstr "中断しています..."
 
 #: pgadmin/misc/bgprocess/static/js/Processes.jsx:88
 msgid "End Process"
-msgstr ""
+msgstr "プロセスを終了"
 
 #: pgadmin/misc/bgprocess/static/js/Processes.jsx:130
 msgid "Acknowledge and Remove"
@@ -12580,7 +12582,7 @@ msgstr "ボリュームの IOPS"
 
 #: pgadmin/misc/cloud/static/js/biganimal.js:249
 msgid "Disk Throughput"
-msgstr ""
+msgstr "ディスクのスループット"
 
 #: pgadmin/misc/cloud/static/js/biganimal.js:254
 msgid "Database Type"
@@ -15407,11 +15409,11 @@ msgstr "データをインポート/エクスポート - テーブル '%s'"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:41
 msgid "Columns to export"
-msgstr ""
+msgstr "エクスポートする列"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:41
 msgid "Columns to import"
-msgstr ""
+msgstr "インポートする列"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:60
 #: pgadmin/tools/import_export_servers/static/js/import_export_selection.ui.js:33
@@ -16960,7 +16962,7 @@ msgstr "クエリのテキストが変更されています。保存しますか
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/Query.jsx:397
 msgid "Promote to Query Tool"
-msgstr "クエリツールに移行"
+msgstr "クエリツールに切り替え"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/QueryHistory.jsx:163
 msgid "Today - "
@@ -17943,23 +17945,23 @@ msgstr "グラフにプロットされる行数の上限を設定します。こ
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:51
 msgid "Manage Server"
-msgstr ""
+msgstr "サーバーの管理"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:71
 msgid "Backup Tool (including server and globals)"
-msgstr ""
+msgstr "バックアップツール (サーバーとグローバルを含む)"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:76
 msgid "Restore Tool"
-msgstr ""
+msgstr "復元ツール"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:81
 msgid "Import/Export Data"
-msgstr ""
+msgstr "データのインポート/エクスポート"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:91
 msgid "Search Objects"
-msgstr ""
+msgstr "オブジェクトの検索"
 
 #: pgadmin/tools/user_management/PgAdminPermissions.py:116
 msgid "Add Folder"
@@ -18029,11 +18031,11 @@ msgstr "'{0}' の変更は禁止されています。"
 
 #: pgadmin/tools/user_management/static/js/Permissions.jsx:51
 msgid "Deselect All"
-msgstr ""
+msgstr "すべて選択を解除"
 
 #: pgadmin/tools/user_management/static/js/Permissions.jsx:115
 msgid "Permissions saved successfully"
-msgstr ""
+msgstr "権限を正常に保存しました"
 
 #: pgadmin/tools/user_management/static/js/Permissions.jsx:175
 msgid "Select Role"
@@ -18080,7 +18082,7 @@ msgstr "ロールを編集"
 
 #: pgadmin/tools/user_management/static/js/Roles.jsx:147
 msgid "Decscription"
-msgstr ""
+msgstr "説明"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:50
 msgid "Authentication source"
@@ -18193,7 +18195,7 @@ msgstr "ユーザーを編集"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:192
 msgid "Auth Source"
-msgstr ""
+msgstr "認証ソース"
 
 #: pgadmin/tools/user_management/static/js/Users.jsx:250
 msgid "Fetching users..."
@@ -18305,7 +18307,7 @@ msgstr "更新速度"
 
 #: pgadmin/utils/constants.py:34
 msgid "File Downloads"
-msgstr ""
+msgstr "ファイルのダウンロード"
 
 #: pgadmin/utils/constants.py:55
 msgid "Transaction ID not found in the session."
@@ -18313,7 +18315,7 @@ msgstr "トランザクション ID がセッションに見つかりません�
 
 #: pgadmin/utils/constants.py:57
 msgid "FAIL TO PROMOTE VIEW/EDIT DATA TO QUERY TOOL"
-msgstr ""
+msgstr "データを閲覧/編集 → クエリツールの切り替えに失敗"
 
 #: pgadmin/utils/constants.py:62
 msgid "Error fetching role information from the database server."
