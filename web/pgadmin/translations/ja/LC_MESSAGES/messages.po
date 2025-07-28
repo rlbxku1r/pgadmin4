@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-26 22:57+0900\n"
+"PO-Revision-Date: 2025-07-28 21:20+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -4642,7 +4642,7 @@ msgstr "ジオメトリ型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:306
 msgid "SRID"
-msgstr ""
+msgstr "SRID"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:324
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:908
@@ -4661,23 +4661,23 @@ msgstr "圧縮方式を選択"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:436
 msgid "PLAIN"
-msgstr ""
+msgstr "PLAIN"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:438
 msgid "MAIN"
-msgstr ""
+msgstr "MAIN"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:440
 msgid "EXTERNAL"
-msgstr ""
+msgstr "EXTERNAL"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:442
 msgid "EXTENDED"
-msgstr ""
+msgstr "EXTENDED"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:447
 msgid "DEFAULT"
-msgstr ""
+msgstr "既定"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.ui.js:502
 msgid "IDENTITY"
@@ -6172,12 +6172,12 @@ msgstr "個別値"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:5
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:5
 msgid "Most common values"
-msgstr "一番多い値"
+msgstr "最頻値"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:6
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:6
 msgid "Most common frequencies"
-msgstr "一番多い頻度"
+msgstr "最頻値の出現率"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:7
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:7
@@ -6192,29 +6192,33 @@ msgstr "相関"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:9
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:9
 msgid "Most common elements"
-msgstr ""
+msgstr "最頻値 (配列要素)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:10
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:10
 msgid "Most common elements frequencies"
-msgstr ""
+msgstr "最頻値の出現率 (配列要素)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:11
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:11
+#, fuzzy
 msgid "Histogram element count"
-msgstr ""
+msgstr "度数分布の数 (配列要素)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:12
+#, fuzzy
 msgid "Histogram range values"
-msgstr ""
+msgstr "度数分布の値 (範囲型)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:13
+#, fuzzy
 msgid "Empty fraction range"
-msgstr ""
+msgstr "空範囲の割合 (範囲型)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:14
+#, fuzzy
 msgid "Histogram bounds range"
-msgstr ""
+msgstr "度数分布の境界 (範囲型)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/16_plus/stats.sql:2
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/default/stats.sql:2
@@ -8222,13 +8226,13 @@ msgstr "出力"
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/__init__.py:49
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/static/js/pgd_replication_groups.js:22
 msgid "PGD Replication Groups"
-msgstr ""
+msgstr "PGD レプリケーショングループ"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/__init__.py:276
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/__init__.py:268
 #: pgadmin/browser/server_groups/servers/replica_nodes/__init__.py:280
 msgid "Could not find the Replication Node."
-msgstr ""
+msgstr "レプリケーションノードが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/pgd_replication_servers/static/js/pgd_replication_server_node.ui.js:21
 msgid "Sequence ID"
@@ -8249,11 +8253,11 @@ msgstr "ストリーミングモード"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/static/js/pgd_replication_group_node.ui.js:36
 msgid "Enable Proxy Routing?"
-msgstr ""
+msgstr "プロキシルーティングを有効化"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/static/js/pgd_replication_group_node.ui.js:39
 msgid "Enable Raft?"
-msgstr ""
+msgstr "Raft を有効化"
 
 #: pgadmin/browser/server_groups/servers/pgd_replication_groups/static/js/pgd_replication_groups.js:41
 msgid "PGD Replication Group"
@@ -8263,7 +8267,7 @@ msgstr "PGD レプリケーショングループ"
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.js:22
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.js:40
 msgid "Replica Nodes"
-msgstr ""
+msgstr "レプリカのノード"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:21
 #: pgadmin/dashboard/static/js/Dashboard.jsx:545
@@ -8911,7 +8915,7 @@ msgstr "ストリーミングレプリケーション、バックアップ属性
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:159
 msgid "Bypass RLS?"
-msgstr ""
+msgstr "行レベルセキュリティを無視"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:164
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:174
@@ -9412,7 +9416,7 @@ msgstr "prefer-standby"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:136
 msgid "Load balance hosts"
-msgstr ""
+msgstr "ホストの負荷分散"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:138
 msgid "random"
@@ -9548,6 +9552,8 @@ msgid ""
 "using the placeholders %HOST%, %PORT%, and %USERNAME%, which will be "
 "replaced with the corresponding server connection information."
 msgstr ""
+"サーバーのホスト名・ポート番号・ユーザー名は、それぞれ %HOST%, %PORT%, %USERNAME% "
+"というプレースホルダー変数で表現することができ、これらは対応するサーバー接続情報に置き換えられてから使用されます。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:520
 msgid "Password exec expiration (seconds)"
@@ -10657,7 +10663,7 @@ msgstr "ブロック I/O 統計の更新速度"
 
 #: pgadmin/dashboard/__init__.py:94
 msgid "Handle & Process count statistics refresh rate"
-msgstr ""
+msgstr "ハンドル & プロセス数の統計の更新間隔"
 
 #: pgadmin/dashboard/__init__.py:103
 msgid ""
@@ -10667,23 +10673,23 @@ msgstr ""
 
 #: pgadmin/dashboard/__init__.py:112
 msgid "Average load statistics refresh rate"
-msgstr ""
+msgstr "平均負荷の統計の更新間隔"
 
 #: pgadmin/dashboard/__init__.py:120
 msgid "CPU usage per process statistics refresh rate"
-msgstr ""
+msgstr "プロセスごとの CPU 使用率の統計の更新間隔"
 
 #: pgadmin/dashboard/__init__.py:128
 msgid "Memory usage statistics refresh rate"
-msgstr ""
+msgstr "メモリ使用量の統計の更新間隔"
 
 #: pgadmin/dashboard/__init__.py:136
 msgid "Swap memory usage statistics refresh rate"
-msgstr ""
+msgstr "スワップメモリ使用量の統計の更新間隔"
 
 #: pgadmin/dashboard/__init__.py:144
 msgid "Memory usage per process statistics refresh rate"
-msgstr ""
+msgstr "プロセスごとのメモリ使用量の統計の更新間隔"
 
 #: pgadmin/dashboard/__init__.py:152
 msgid "I/O analysis statistics refresh rate"
@@ -11422,7 +11428,7 @@ msgstr "CPU 使用率"
 
 #: pgadmin/dashboard/static/js/SystemStats/CpuDetails.jsx:228
 msgid "Load average"
-msgstr ""
+msgstr "平均負荷"
 
 #: pgadmin/dashboard/static/js/SystemStats/CpuDetails.jsx:234
 msgid "Process CPU usage"
@@ -14368,11 +14374,11 @@ msgstr "テーブルのデータ"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:461
 msgid "Table(s) and children"
-msgstr ""
+msgstr "テーブルと、その子テーブル"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:470
 msgid "Table(s) data and children"
-msgstr ""
+msgstr "テーブルと、その子テーブルのデータ"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:520
 #: pgadmin/tools/backup/static/js/backupGlobal.ui.js:71
@@ -14482,7 +14488,7 @@ msgstr "このオプションは INSERT コマンドを使用するときにの�
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:714
 msgid "Include table(s) and Children"
-msgstr ""
+msgstr "テーブルと、その子テーブルを含める"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:723
 msgid "Exclude patterns"
@@ -17705,7 +17711,7 @@ msgstr ""
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:424
 msgid "Font family"
-msgstr ""
+msgstr "フォントファミリー"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:427
 msgid ""
@@ -17784,7 +17790,7 @@ msgstr "行を削除"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:732
 msgid "Filter dialog"
-msgstr ""
+msgstr "フィルターダイアログ"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:800
 msgid "Edit options"
@@ -17914,15 +17920,15 @@ msgstr ""
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1100
 msgid "Logical operator new line"
-msgstr ""
+msgstr "論理演算子前後の改行"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1101
 msgid "Before"
-msgstr ""
+msgstr "前"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1102
 msgid "After"
-msgstr ""
+msgstr "後"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1105
 msgid ""
