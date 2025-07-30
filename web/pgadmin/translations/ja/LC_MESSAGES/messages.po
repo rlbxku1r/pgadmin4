@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-28 21:43+0900\n"
+"PO-Revision-Date: 2025-07-31 04:57+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -8315,7 +8315,7 @@ msgstr "状態"
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:59
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:47
 msgid "Sent LSN"
-msgstr ""
+msgstr "送信済みの LSN"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:43
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:47
@@ -8325,46 +8325,46 @@ msgstr ""
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:63
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:67
 msgid "WAL Details"
-msgstr ""
+msgstr "WAL の詳細"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:46
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:63
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:51
 msgid "Write LSN"
-msgstr ""
+msgstr "書き出し済みの LSN"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:50
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:67
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:55
 msgid "Flush LSN"
-msgstr ""
+msgstr "フラッシュ済みの LSN"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:54
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:71
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:59
 msgid "Replay LSN"
-msgstr ""
+msgstr "適用済みの LSN"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:58
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:65
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:75
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:63
 msgid "Write Lag"
-msgstr ""
+msgstr "書き出しまでの遅延"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:62
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:73
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:79
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:67
 msgid "Flush Lag"
-msgstr ""
+msgstr "フラッシュまでの遅延"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:66
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:81
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:83
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:71
 msgid "Replay Lag"
-msgstr ""
+msgstr "適用までの遅延"
 
 #: pgadmin/browser/server_groups/servers/replica_nodes/static/js/replica_node.ui.js:70
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:120
@@ -9561,14 +9561,14 @@ msgstr "パスワード実行期限 (秒)"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:528
 msgid "Prepare threshold"
-msgstr ""
+msgstr "プリペアド文を生成するまでのクエリ実行回数"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:532
 msgid ""
 "If it is set to 0, every query is prepared the first time it is executed."
 " If it is set to blank, prepared statements are disabled on the "
 "connection."
-msgstr ""
+msgstr "0 にすると、あらゆるクエリの初回実行時に、そのプリペアド文を生成します。未指定にすると、データベース接続単位のプリペアド文を一切生成しません。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:535
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:536
@@ -11287,19 +11287,19 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:71
 msgid "Write lag"
-msgstr ""
+msgstr "書き出しまでの遅延"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:79
 msgid "Flush lag"
-msgstr ""
+msgstr "フラッシュまでの遅延"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:87
 msgid "Replay lag"
-msgstr ""
+msgstr "適用までの遅延"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:134
 msgid "Replay timestamp"
-msgstr ""
+msgstr "適用した日時"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:145
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:203
