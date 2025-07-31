@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-31 04:57+0900\n"
+"PO-Revision-Date: 2025-07-31 22:13+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -10643,57 +10643,57 @@ msgstr "ダッシュボード"
 
 #: pgadmin/dashboard/__init__.py:54
 msgid "Session statistics refresh rate"
-msgstr "セッション統計の更新速度"
+msgstr "セッションの統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:62
 msgid "Transaction throughput refresh rate"
-msgstr "トランザクションスループットの更新速度"
+msgstr "トランザクションスループットを更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:70
 msgid "Tuples in refresh rate"
-msgstr "書き込み行数の更新速度"
+msgstr "書き込み行数を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:78
 msgid "Tuples out refresh rate"
-msgstr "読み取り行数の更新速度"
+msgstr "読み取り行数を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:86
 msgid "Block I/O statistics refresh rate"
-msgstr "ブロック I/O 統計の更新速度"
+msgstr "ブロック I/O 統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:94
 msgid "Handle & Process count statistics refresh rate"
-msgstr "ハンドル & プロセス数の統計の更新間隔"
+msgstr "ハンドル & プロセス数の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:103
 msgid ""
 "Percentage of CPU time used by different process                 modes "
 "statistics refresh rate"
-msgstr ""
+msgstr "プロセスモードごとの CPU 時間使用率の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:112
 msgid "Average load statistics refresh rate"
-msgstr "平均負荷の統計の更新間隔"
+msgstr "平均負荷の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:120
 msgid "CPU usage per process statistics refresh rate"
-msgstr "プロセスごとの CPU 使用率の統計の更新間隔"
+msgstr "プロセスごとの CPU 使用率の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:128
 msgid "Memory usage statistics refresh rate"
-msgstr "メモリ使用量の統計の更新間隔"
+msgstr "メモリ使用量の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:136
 msgid "Swap memory usage statistics refresh rate"
-msgstr "スワップメモリ使用量の統計の更新間隔"
+msgstr "スワップメモリ使用量の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:144
 msgid "Memory usage per process statistics refresh rate"
-msgstr "プロセスごとのメモリ使用量の統計の更新間隔"
+msgstr "プロセスごとのメモリ使用量の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:152
 msgid "I/O analysis statistics refresh rate"
-msgstr ""
+msgstr "I/O 分析の統計を更新する間隔"
 
 #: pgadmin/dashboard/__init__.py:160
 msgid "Show activity?"
@@ -10701,15 +10701,15 @@ msgstr "アクティビティを表示"
 
 #: pgadmin/dashboard/__init__.py:162
 msgid "If set to True, activity will be displayed on dashboards."
-msgstr ""
+msgstr "True にすると、ダッシュボードに稼働状況が表示されます。"
 
 #: pgadmin/dashboard/__init__.py:168
 msgid "Show state?"
-msgstr ""
+msgstr "状態を表示"
 
 #: pgadmin/dashboard/__init__.py:170
 msgid "If set to True, state tables will be displayed on dashboards."
-msgstr ""
+msgstr "True にすると、ダッシュボードに状態テーブルが表示されます。"
 
 #: pgadmin/dashboard/__init__.py:176
 msgid "Long running query thresholds"
@@ -10773,7 +10773,7 @@ msgstr "失敗しました"
 
 #: pgadmin/dashboard/pgd_replication.py:29
 msgid "PGD replication lag refresh rate"
-msgstr ""
+msgstr "PGD レプリケーションの遅延を更新する間隔"
 
 #: pgadmin/dashboard/precondition.py:39
 #, python-brace-format
@@ -10875,7 +10875,7 @@ msgstr "実行クエリの停止中にエラーが発生しました。"
 #: pgadmin/dashboard/static/js/Dashboard.jsx:157
 #: pgadmin/dashboard/static/js/Dashboard.jsx:221
 msgid "Failed to perform the operation."
-msgstr ""
+msgstr "操作の実行に失敗しました。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:181
 msgid "Cancel Active Query?"
@@ -10970,19 +10970,19 @@ msgstr "説明"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:456
 msgid "Failed to download the logs."
-msgstr ""
+msgstr "ログのダウンロードに失敗しました。"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:471
 msgid "View the log details"
-msgstr ""
+msgstr "ログの詳細を閲覧"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:476
 msgid "Error Severity"
-msgstr ""
+msgstr "エラーの重要度"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:486
 msgid "Log Prefix/Timestamp"
-msgstr ""
+msgstr "ログの冒頭/日時"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:540
 msgid "View the active session details"
@@ -11093,7 +11093,7 @@ msgstr "system_stats 拡張のインストール状態を確認できません�
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:948
 msgid "Table based logs"
-msgstr ""
+msgstr "ログの一覧表示"
 
 #: pgadmin/dashboard/static/js/Dashboard.jsx:953
 msgid "Log Format"
@@ -11174,11 +11174,11 @@ msgstr "ブロック I/O"
 
 #: pgadmin/dashboard/static/js/ServerLog.ui.js:25
 msgid "Error severity"
-msgstr ""
+msgstr "エラーの重要度"
 
 #: pgadmin/dashboard/static/js/ServerLog.ui.js:33
 msgid "Log line prefix/timestamp"
-msgstr ""
+msgstr "ログの行の冒頭/日時"
 
 #: pgadmin/dashboard/static/js/ServerLog.ui.js:41
 msgid "Log"
@@ -11259,31 +11259,31 @@ msgstr "詳細を表示"
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:47
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:35
 msgid "Client Addr"
-msgstr ""
+msgstr "クライアントのアドレス"
 
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:89
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:75
 msgid "Reply Time"
-msgstr ""
+msgstr "応答時刻"
 
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:112
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:47
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:23
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:35
 msgid "Active PID"
-msgstr ""
+msgstr "アクティブな PID"
 
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:173
 msgid "Replication Stats"
-msgstr ""
+msgstr "レプリケーションの統計"
 
 #: pgadmin/dashboard/static/js/Replication/LogReplication.jsx:185
 msgid "Replication Slots"
-msgstr ""
+msgstr "レプリケーションスロット"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:63
 msgid "Slot"
-msgstr ""
+msgstr "スロット"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:71
 msgid "Write lag"
@@ -11348,11 +11348,11 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:410
 msgid "Replication lag (Time)"
-msgstr ""
+msgstr "レプリケーションの遅延 (時間)"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:417
 msgid "Replication lag (Size)"
-msgstr ""
+msgstr "レプリケーションの遅延 (サイズ)"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:427
 msgid "Cluster nodes"
@@ -11407,7 +11407,7 @@ msgstr ""
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:39
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:27
 msgid "Usename"
-msgstr ""
+msgstr "ユーザー名"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:39
 msgid "Restart LSN"
@@ -11419,7 +11419,7 @@ msgstr ""
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:47
 msgid "WAL Status"
-msgstr ""
+msgstr "WAL の状態"
 
 #: pgadmin/dashboard/static/js/SystemStats/CpuDetails.jsx:60
 #: pgadmin/dashboard/static/js/SystemStats/CpuDetails.jsx:223
@@ -18325,7 +18325,7 @@ msgstr "タブの設定"
 
 #: pgadmin/utils/constants.py:31
 msgid "Refresh rates"
-msgstr "更新速度"
+msgstr "更新間隔"
 
 #: pgadmin/utils/constants.py:34
 msgid "File Downloads"
