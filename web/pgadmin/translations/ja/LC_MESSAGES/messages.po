@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-07-31 22:13+0900\n"
+"PO-Revision-Date: 2025-08-01 22:58+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -11378,7 +11378,7 @@ msgstr "比較対象"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:39
 msgid "Enabled"
-msgstr ""
+msgstr "有効"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:47
 msgid "Receive LSN"
@@ -11411,11 +11411,11 @@ msgstr "ユーザー名"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:39
 msgid "Restart LSN"
-msgstr ""
+msgstr "再開地点の LSN"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:43
 msgid "Confirmed Flush LSN"
-msgstr ""
+msgstr "確定したフラッシュ LSN"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_slots.ui.js:47
 msgid "WAL Status"
@@ -11476,15 +11476,15 @@ msgstr "消費領域"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:173
 msgid "Total inodes"
-msgstr "合計 inode 数"
+msgstr "合計の inode 数"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:177
 msgid "Used inodes"
-msgstr "消費 inode 数"
+msgstr "消費中の inode 数"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:181
 msgid "Free inodes"
-msgstr "未使用 inode 数"
+msgstr "未使用の inode 数"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:236
 msgid "file_system"
@@ -11504,15 +11504,15 @@ msgstr "ドライブ文字"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:402
 msgid "Data transfer"
-msgstr ""
+msgstr "データ転送"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:404
 msgid "I/O operations count"
-msgstr ""
+msgstr "I/O 操作の数"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:406
 msgid "Time spent in I/O operations"
-msgstr ""
+msgstr "I/O 操作に費やした時間"
 
 #: pgadmin/dashboard/static/js/SystemStats/Storage.jsx:423
 msgid "Disk information"
@@ -11827,11 +11827,11 @@ msgstr "指定された ID のプロセスが見つかりませんでした。"
 
 #: pgadmin/misc/bgprocess/processes.py:57
 msgid ": error: "
-msgstr ""
+msgstr ": エラー: "
 
 #: pgadmin/misc/bgprocess/processes.py:63
 msgid "utility failed with exit code: "
-msgstr ""
+msgstr "ユーティリティが失敗しました。終了コード: "
 
 #: pgadmin/misc/bgprocess/processes.py:271
 msgid "The process has already been started."
@@ -13287,7 +13287,7 @@ msgstr "保存 & 後で再読み込み"
 
 #: pgadmin/preferences/static/js/components/RightPreference.jsx:49
 msgid "Navigate to any below item to view or edit its preferences."
-msgstr ""
+msgstr "次の設定項目の中から、表示・編集したいものを選択します。"
 
 #: pgadmin/preferences/static/js/components/binary_path.ui.js:34
 msgid "Set as default"
@@ -13335,15 +13335,15 @@ msgstr "レイアウトを初期化"
 
 #: pgadmin/settings/__init__.py:146
 msgid "Setting stored"
-msgstr ""
+msgstr "設定を保存しました"
 
 #: pgadmin/settings/__init__.py:438
 msgid "There is no saved content available for this tab."
-msgstr ""
+msgstr "このタブの保存された内容はありません。"
 
 #: pgadmin/settings/__init__.py:449
 msgid "Unable to delete application state data."
-msgstr ""
+msgstr "アプリケーションの状態データを削除できません。"
 
 #: pgadmin/static/js/BrowserComponent.jsx:56
 msgid "Dashboard"
@@ -13385,11 +13385,11 @@ msgstr "アクセスキー"
 
 #: pgadmin/static/js/utils.js:281
 msgid "Please configure the PostgreSQL Binary Path in the Preferences."
-msgstr ""
+msgstr "設定から PostgreSQL のバイナリパスを指定してください。"
 
 #: pgadmin/static/js/utils.js:286
 msgid "Please configure the EDB Advanced Server Binary Path in the Preferences."
-msgstr ""
+msgstr "設定から EDB Advanced Server のバイナリパスを指定してください。"
 
 #: pgadmin/static/js/utils.js:293
 msgid "Configuration required"
@@ -14039,11 +14039,11 @@ msgstr "すべて置換"
 
 #: pgadmin/static/js/helpers/MainMoreToolbar.jsx:23
 msgid "More"
-msgstr ""
+msgstr "その他"
 
 #: pgadmin/static/js/helpers/MainMoreToolbar.jsx:42
 msgid "Nothing to open"
-msgstr ""
+msgstr "開けるものがありません"
 
 #: pgadmin/static/js/helpers/Menu.js:47 pgadmin/static/js/helpers/Menu.js:68
 msgid "Invalid MenuItem instance"
@@ -15370,7 +15370,7 @@ msgstr "サーバー '{3}' のデータベース '{2}' にあるテーブル '{0
 
 #: pgadmin/tools/import_export/__init__.py:133
 msgid "Export - Copying table data using query"
-msgstr ""
+msgstr "エクスポート - クエリを使用してテーブルのデータをコピーしています"
 
 #: pgadmin/tools/import_export/__init__.py:135
 msgid "Import - "
@@ -15411,7 +15411,7 @@ msgstr "データをインポート/エクスポートするテーブルをオ�
 
 #: pgadmin/tools/import_export/static/js/import_export.js:65
 msgid "Export Data Using Query..."
-msgstr ""
+msgstr "クエリを使用してデータをエクスポート..."
 
 #: pgadmin/tools/import_export/static/js/import_export.js:70
 msgid ""
@@ -15422,7 +15422,7 @@ msgstr ""
 #: pgadmin/tools/import_export/static/js/import_export.js:182
 #, python-format
 msgid "Export Data Using Query - database '%s'"
-msgstr ""
+msgstr "クエリを使用してデータをエクスポート - データベース '%s'"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:182
 #, python-format
@@ -15592,7 +15592,7 @@ msgstr "コピーする列の一覧です (任意)。何も指定しなかった
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:316
 msgid "Export Data Query"
-msgstr ""
+msgstr "データをエクスポートするクエリ"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:320
 msgid ""
@@ -15655,7 +15655,7 @@ msgstr ""
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:410
 msgid "Export Data Query can not be empty."
-msgstr ""
+msgstr "データをエクスポートするクエリは必須です。"
 
 #: pgadmin/tools/import_export_servers/__init__.py:42
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:211
@@ -16616,7 +16616,7 @@ msgstr "キーが重複しています。"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/MacrosDialog.jsx:104
 msgid "Name must be unique."
-msgstr ""
+msgstr "名前が重複しています。"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/NewConnectionDialog.jsx:39
 msgid ""
@@ -18024,7 +18024,7 @@ msgstr ""
 
 #: pgadmin/tools/user_management/__init__.py:568
 msgid "Role name must be unique."
-msgstr ""
+msgstr "ロール名が重複しています。"
 
 #: pgadmin/tools/user_management/__init__.py:599
 msgid "User email/username must be unique for an authentication source."
