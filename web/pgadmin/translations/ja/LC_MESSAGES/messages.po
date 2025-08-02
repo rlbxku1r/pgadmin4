@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-01 22:58+0900\n"
+"PO-Revision-Date: 2025-08-02 23:45+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -13522,6 +13522,8 @@ msgid ""
 "${keyringName}. Enter the master password for your existing pgAdmin saved"
 " passwords and they will be re-encrypted and saved when you click OK."
 msgstr ""
+"保存したパスワードは ${keyringName} に保管されている暗号鍵で暗号化されています。現在の pgAdmin "
+"に保存済みのパスワードを解読できるマスターパスワードを入力して OK をクリックすると、それらのパスワードを再暗号化して保存し直します。"
 
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:81
 msgid "Please set a master password for pgAdmin."
@@ -13563,6 +13565,8 @@ msgid ""
 "Passwords previously saved can not be re-encrypted using encryption key "
 "stored in the ${res.data.data.keyring_name}. due to ${error}"
 msgstr ""
+"今までに保存したパスワードを ${res.data.data.keyring_name} "
+"に保管されている暗号鍵を使って再暗号化できません。エラー: ${error}"
 
 #: pgadmin/static/js/Dialogs/index.jsx:95
 msgid "Migration successful"
@@ -13573,7 +13577,7 @@ msgstr "移行が成功しました"
 msgid ""
 "Passwords previously saved are re-encrypted using encryption key stored "
 "in the ${res.data.data.keyring_name}."
-msgstr ""
+msgstr "今までに保存したパスワードを ${res.data.data.keyring_name} に保管されている暗号鍵を使って再暗号化しました。"
 
 #: pgadmin/static/js/Dialogs/index.jsx:108
 msgid "Set Master Password"
@@ -13775,7 +13779,7 @@ msgstr "検索しています..."
 
 #: pgadmin/static/js/QuickSearch/index.jsx:270
 msgid "Please enter minimum 3 characters to search"
-msgstr ""
+msgstr "検索する語句を 3 文字以上は入力してください"
 
 #: pgadmin/static/js/QuickSearch/index.jsx:278
 msgid "MENU ITEMS"
@@ -13810,7 +13814,7 @@ msgstr "更新はありません。"
 
 #: pgadmin/static/js/SchemaView/SchemaDialogView.jsx:206
 msgid "SQL help for this object type."
-msgstr ""
+msgstr "このオブジェクトの種類についての SQL ヘルプです。"
 
 #: pgadmin/static/js/SchemaView/SchemaDialogView.jsx:211
 #: pgadmin/tools/search_objects/static/js/SearchObjects.jsx:437
@@ -13854,7 +13858,7 @@ msgstr "行を編集"
 #: pgadmin/static/js/SchemaView/SchemaState/common.js:256
 #, python-format
 msgid "Maximum %s '%s' allowed"
-msgstr ""
+msgstr "%s 個を超える '%s' は指定できません"
 
 #: pgadmin/static/js/SchemaView/SchemaState/common.js:278
 #, python-format
@@ -15276,15 +15280,15 @@ msgstr "参照先の列"
 
 #: pgadmin/tools/erd/static/js/erd_tool/dialogs/OneToOneDialog.js:44
 msgid "Select constraint"
-msgstr ""
+msgstr "制約を選択"
 
 #: pgadmin/tools/erd/static/js/erd_tool/dialogs/OneToOneDialog.js:57
 msgid "A constraint is required to implement One to One relationship."
-msgstr ""
+msgstr "一対一の関係を表現するには、制約が必要です。"
 
 #: pgadmin/tools/erd/static/js/erd_tool/dialogs/OneToOneDialog.js:76
 msgid "Primary key already exists, please select different constraint."
-msgstr ""
+msgstr "すでに主キーが存在します。別の制約を選択してください。"
 
 #: pgadmin/tools/erd/static/js/erd_tool/nodes/TableNode.jsx:376
 msgid "Check Note"
@@ -15361,7 +15365,7 @@ msgstr "インポート/エクスポート"
 #: pgadmin/tools/import_export/__init__.py:118
 #, python-brace-format
 msgid "Copying table data using query on database '{0}' and server '{1}'"
-msgstr ""
+msgstr "サーバー '{1}' のデータベース '{0}' にあるテーブルのデータを、クエリを使用してコピーしています"
 
 #: pgadmin/tools/import_export/__init__.py:123
 #, python-brace-format
@@ -15417,7 +15421,7 @@ msgstr "クエリを使用してデータをエクスポート..."
 msgid ""
 "Please select any database from the object explorer to Export Data using "
 "query."
-msgstr ""
+msgstr "クエリを使用してデータをエクスポートするデータベースをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:182
 #, python-format
@@ -15461,15 +15465,15 @@ msgstr "テキスト"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:119
 msgid "On Error"
-msgstr ""
+msgstr "エラー発生時"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:125
 msgid "stop"
-msgstr ""
+msgstr "中断"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:129
 msgid "ignore"
-msgstr ""
+msgstr "無視"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:138
 msgid ""
@@ -15479,18 +15483,21 @@ msgid ""
 "the next one. The default is stop. The ignore option is applicable only "
 "for COPY FROM when the FORMAT is text or csv."
 msgstr ""
+"列の入力値をそのデータ型に変換するときに、エラーが発生した場合の動作を指定します。'中断' にするとコマンド自体が失敗し、'無視' "
+"にするとエラーがある入力行を破棄しつつ、そのまま次の行へ進みます。既定は '中断' です。'無視' オプションは、テキストまたは CSV "
+"形式のファイルを COPY FROM でコピーする場合にのみ適用できます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:142
 msgid "Log Verbosity"
-msgstr ""
+msgstr "ログの詳細度"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:148
 msgid "default"
-msgstr ""
+msgstr "既定"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:152
 msgid "verbose"
-msgstr ""
+msgstr "冗長"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:161
 msgid ""
@@ -15499,16 +15506,19 @@ msgid ""
 "processing. This is currently used in COPY FROM command when ON_ERROR "
 "option is set to ignore."
 msgstr ""
+"COPY コマンドが出力するメッセージの量を指定します ('既定' または '冗長')。'冗長' "
+"にすると、処理中に追加のメッセージが出力されます。このオプションは今のところ、COPY FROM コマンドでエラーを '無視' "
+"しつつコピーするときに使用されます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:172
 msgid "Freeze"
-msgstr ""
+msgstr "凍結"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:185
 msgid ""
 "Requests copying the data with rows already frozen, just as they would be"
 " after running the VACUUM FREEZE command."
-msgstr ""
+msgstr "すでに行が凍結された状態 (つまり VACUUM FREEZE コマンド実行後のような状態です) でのデータのコピーを要求します。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:214
 msgid ""
@@ -15551,7 +15561,7 @@ msgstr ""
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:254
 msgid "NULL String"
-msgstr ""
+msgstr "NULL 文字列"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:261
 msgid ""
@@ -15566,7 +15576,7 @@ msgstr ""
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:265
 msgid "Default String"
-msgstr ""
+msgstr "既定値の文字列"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:274
 msgid ""
@@ -15575,6 +15585,8 @@ msgid ""
 " column will be used. This option is allowed only in COPY FROM, and only "
 "when not using binary format"
 msgstr ""
+"既定値を表現する文字列を指定します。この文字列が入力ファイルの中から見つかるたびに、対応する列の既定値を使用します。このオプションは COPY "
+"FROM かつバイナリ形式以外にのみ使用できます"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:303
 msgid "Columns for importing..."
@@ -15598,16 +15610,16 @@ msgstr "データをエクスポートするクエリ"
 msgid ""
 "Specifies A SELECT, VALUES, INSERT, UPDATE, DELETE, or MERGE command "
 "whose results are to be copied."
-msgstr ""
+msgstr "結果をコピーする SELECT, VALUES, INSERT, UPDATE, DELETE, MERGE コマンドを指定します。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:324
 msgid "Force Quote columns"
-msgstr ""
+msgstr "引用符付けを強制する列"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:335
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:345
 msgid "Force Quote columns..."
-msgstr ""
+msgstr "引用符付けを強制する列..."
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:353
 msgid ""
@@ -15616,6 +15628,8 @@ msgid ""
 "will be quoted in all columns. This option is allowed only in COPY TO, "
 "and only when using CSV format."
 msgstr ""
+"指定された列の非 NULL 値を常に引用符付けします。NULL 出力が引用符付けされることはありません。* を指定すると、すべての列の非 NULL"
+" 値を引用符付けします。このオプションは COPY TO かつ CSV 形式にのみ使用できます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:357
 msgid "NOT NULL columns"
@@ -15638,11 +15652,11 @@ msgstr ""
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:377
 msgid "NULL columns"
-msgstr ""
+msgstr "NULL 列"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:386
 msgid "Null columns..."
-msgstr ""
+msgstr "NULL 列..."
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:393
 msgid ""
@@ -15652,6 +15666,9 @@ msgid ""
 " string into NULL. This option is allowed only in COPY FROM, and only "
 "when using CSV format."
 msgstr ""
+"指定された列の値を (引用符付けの有無に関わらず) 'NULL 文字列' と比較し、一致したら値を NULL に設定します。既定の 'NULL "
+"文字列' は空のため、引用符付けされた空の文字列が NULL に変換されます。このオプションは COPY FROM かつ CSV "
+"形式にのみ使用できます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:410
 msgid "Export Data Query can not be empty."
@@ -15946,6 +15963,8 @@ msgid ""
 "for the appropriate server version, or select \"Set as default\" to use "
 "an existing binary path."
 msgstr ""
+"PSQL ユーティリティが見つかりませんでした。設定から適切にサーバーバージョンとバイナリパスを指定するか、既存のバイナリパスを "
+"\"既定値として使用\" してください。"
 
 #: pgadmin/tools/psql/__init__.py:433
 msgid ""
@@ -15959,7 +15978,7 @@ msgstr "セッションが無効です。\r\n"
 
 #: pgadmin/tools/psql/static/js/PsqlModule.js:95
 msgid "Please select a database from the object explorer to access Pql Tool."
-msgstr ""
+msgstr "PSQL ツールでアクセスするデータベースをオブジェクトエクスプローラーから選択してください。"
 
 #: pgadmin/tools/psql/static/js/PsqlModule.js:136
 #: pgadmin/tools/psql/static/js/PsqlModule.js:144
@@ -16181,7 +16200,7 @@ msgstr "結果グリッドを読み込んでいます..."
 
 #: pgadmin/tools/schema_diff/static/js/components/Results.jsx:83
 msgid "DDL Comparision"
-msgstr ""
+msgstr "DDL の比較"
 
 #: pgadmin/tools/schema_diff/static/js/components/Results.jsx:86
 msgid "Source"
@@ -16302,7 +16321,7 @@ msgstr "スキーマ比較では、オブジェクト間の依存関係を解決
 #: pgadmin/tools/schema_diff/static/js/components/SchemaDiffComponent.jsx:72
 #, python-brace-format
 msgid "Error in schema diff initialize ${err.response.data}"
-msgstr ""
+msgstr "スキーマ比較の初期化エラー ${err.response.data}"
 
 #: pgadmin/tools/search_objects/static/js/SearchObjects.jsx:135
 msgid "Object name"
@@ -16318,6 +16337,8 @@ msgid ""
 "%s objects are disabled in the browser. You can enable them in the <a "
 "id=\"prefdlgid\" class=\"pref-dialog-link\">preferences</a>."
 msgstr ""
+"'%s' オブジェクトはブラウザーに表示されていません。<a id=\"prefdlgid\" class=\"pref-dialog-"
+"link\">設定</a>から表示状態を切り替えられます。"
 
 #: pgadmin/tools/search_objects/static/js/SearchObjects.jsx:317
 msgid "Locating..."
@@ -16489,7 +16510,7 @@ msgstr "接続していません"
 msgid ""
 "-- Query text not stored as it exceeds maximum length of "
 "${MAX_QUERY_LENGTH}"
-msgstr ""
+msgstr "-- クエリ内容は保存されませんでした (上限である ${MAX_QUERY_LENGTH} 文字を超えています)"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolComponent.jsx:517
 msgid "Connection Warning"
