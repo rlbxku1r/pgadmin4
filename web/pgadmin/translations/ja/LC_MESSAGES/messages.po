@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-03 20:43+0900\n"
+"PO-Revision-Date: 2025-08-04 05:04+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -17940,13 +17940,13 @@ msgstr "Enter キーで新しく追加した行を自動的にインデントす
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1090
 msgid "Expression Width"
-msgstr ""
+msgstr "式の文字数"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1093
 msgid ""
 "maximum number of characters in parenthesized expressions to be kept on "
 "single line."
-msgstr ""
+msgstr "括弧で囲まれた式を 1 行にまとめる最大文字数です。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1100
 msgid "Logical operator new line"
@@ -17964,17 +17964,17 @@ msgstr "後"
 msgid ""
 "Decides newline placement before or after logical operators (AND, OR, "
 "XOR)."
-msgstr ""
+msgstr "論理演算子 (AND, OR, XOR) の前後どちらに改行を挟むかです。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1112
 msgid "Lines between queries"
-msgstr ""
+msgstr "クエリ間の行数"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1117
 msgid ""
 "Decides how many empty lines to leave between SQL statements. If zero it "
 "puts no new line."
-msgstr ""
+msgstr "SQL 文の間にいくつ空行を挟むかです。0 で空行をなくします。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1124
 msgid "New line before semicolon?"
@@ -18058,7 +18058,7 @@ msgstr "ロール名が重複しています。"
 
 #: pgadmin/tools/user_management/__init__.py:599
 msgid "User email/username must be unique for an authentication source."
-msgstr ""
+msgstr "認証ソースのユーザー名/E メールは重複しないようにしてください。"
 
 #: pgadmin/tools/user_management/__init__.py:615
 #, python-brace-format
@@ -18259,7 +18259,7 @@ msgstr "ユーザー管理"
 
 #: pgadmin/utils/__init__.py:341
 msgid "Utility file not found. Please correct the Binary Path in the Preferences"
-msgstr ""
+msgstr "ユーティリティのファイルが見つかりませんでした。設定から正しいバイナリパスを指定してください"
 
 #: pgadmin/utils/__init__.py:347
 msgid ""
@@ -18270,7 +18270,7 @@ msgstr ""
 #: pgadmin/utils/__init__.py:352
 #, python-format
 msgid "'%s' file not found. Please correct the Binary Path in the Preferences"
-msgstr ""
+msgstr "'%s' ファイルが見つかりませんでした。設定から正しいバイナリパスを指定してください"
 
 #: pgadmin/utils/__init__.py:575
 #, python-format
@@ -18430,6 +18430,8 @@ msgid ""
 "Unable to find a dll needed by the utility. Ensure .dll files needed by "
 "the utility are in the same folder as your executable."
 msgstr ""
+"ユーティリティが必要とする DLL ファイルが見つかりません。ユーティリティが存在するフォルダーに、実行ファイルと .dll "
+"ファイルが一緒に置かれていることを確認してください。"
 
 #: pgadmin/utils/constants.py:133
 #, python-format
