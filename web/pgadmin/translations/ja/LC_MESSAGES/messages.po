@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-02 23:45+0900\n"
+"PO-Revision-Date: 2025-08-03 20:43+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -16510,7 +16510,7 @@ msgstr "接続していません"
 msgid ""
 "-- Query text not stored as it exceeds maximum length of "
 "${MAX_QUERY_LENGTH}"
-msgstr "-- クエリ内容は保存されませんでした (上限である ${MAX_QUERY_LENGTH} 文字を超えています)"
+msgstr "-- クエリのテキストは保存されませんでした (上限である ${MAX_QUERY_LENGTH} 文字を超えています)"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolComponent.jsx:517
 msgid "Connection Warning"
@@ -16617,11 +16617,11 @@ msgstr "降順"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/FilterDialog.jsx:46
 msgid "FIRST"
-msgstr ""
+msgstr "最初"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/FilterDialog.jsx:47
 msgid "LAST"
-msgstr ""
+msgstr "最後"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/FilterDialog.jsx:72
 msgid "SQL Filter"
@@ -16769,13 +16769,13 @@ msgstr "まだ実行中のクエリがあります。それでもこのまま閉
 msgid ""
 "The current transaction is not committed to the database. Do you want to "
 "commit or rollback the transaction?"
-msgstr ""
+msgstr "現在のトランザクションがデータベースにコミットされていません。トランザクションをコミット、またはロールバックしますか？"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:255
 msgid ""
 "The query was executed with a server-side cursor, which runs within a "
 "transaction."
-msgstr ""
+msgstr "クエリはサーバー側のカーソルで実行されており、それ専用のトランザクションが走行中です。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:259
 msgid "Commit transaction?"
@@ -16855,7 +16855,7 @@ msgstr "マクロ"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:579
 msgid "Open file Menu"
-msgstr ""
+msgstr "ファイルを開くメニュー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:582
 msgid "Open in a new tab?"
@@ -16937,7 +16937,7 @@ msgstr "エラー発生時に自動ロールバック"
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:639
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:85
 msgid "Use server cursor?"
-msgstr ""
+msgstr "サーバーカーソルを使用"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:645
 msgid "Explain Options Menu"
@@ -17331,7 +17331,7 @@ msgstr "削除: %s"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:118
 msgid "Query executed with server cursor"
-msgstr ""
+msgstr "サーバーカーソルでクエリが実行されました"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:118
 #, python-format
@@ -17399,7 +17399,7 @@ msgstr "小文字"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:21
 msgid "Preserve"
-msgstr ""
+msgstr "そのまま"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:27
 msgid "Verbose output?"
@@ -17444,6 +17444,8 @@ msgid ""
 "client, enabling examination of large datasets without loading them "
 "entirely into memory."
 msgstr ""
+"True "
+"にすると、クエリを実行したあとのデータ集合を、サーバー側のカーソルを使って取得します。膨大なデータ集合すべてをメモリに読み込まずに、必要な部分のデータだけを受信するため、クライアントへのデータ転送量を抑えられます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:96
 msgid "Prompt to save unsaved query changes?"
@@ -17498,35 +17500,35 @@ msgstr "クエリツールを開くとき、メインウィンドウに表示さ
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:149
 msgid "Open the file in a new tab?"
-msgstr ""
+msgstr "新しいタブにファイルを開く"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:153
 msgid "Specifies whether or not to open the file in a new tab."
-msgstr ""
+msgstr "新しいタブにファイルを開くかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:159
 msgid "Show View/Edit Data Promotion Warning?"
-msgstr ""
+msgstr "'データを閲覧/編集' の切り替え時に警告を表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:163
 msgid ""
 "If set to True, View/Edit Data tool will show promote to Query tool "
 "confirm dialog on query edit."
-msgstr ""
+msgstr "True にすると、'データを閲覧/編集' ツールのクエリ文を編集したとき、クエリツールに切り替える確認のダイアログを表示します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:170
 msgid "Underline query at cursor?"
-msgstr ""
+msgstr "カーソルがあるクエリに下線を引く"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:174
 msgid ""
 "If set to True, query tool will parse and underline the query at the "
 "cursor position."
-msgstr ""
+msgstr "True にすると、カーソル位置のクエリを解析し、その部分に下線を引きます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:181
 msgid "Underlined query execute warning?"
-msgstr ""
+msgstr "下線が引かれたクエリの実行時に警告"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:185
 msgid ""
@@ -17534,6 +17536,8 @@ msgid ""
 "button in the query tool. The warning will appear only if Underline query"
 " at cursor? is set to False."
 msgstr ""
+"True にすると、クエリツールの 'クエリを実行' ボタンをクリックしたときに警告が表示されます。ただし、'カーソルがあるクエリに下線を引く' "
+"が True の場合は、この設定に関わらず警告は表示されません。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:193
 msgid "Plain text mode?"
@@ -17575,11 +17579,11 @@ msgstr "エディターで括弧を自動的に補完するかどうか指定し
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:234
 msgid "Highlight selection matches?"
-msgstr ""
+msgstr "選択中の文字列との一致を強調表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:237
 msgid "Specifies whether or not to highlight matched selected text in the editor."
-msgstr ""
+msgstr "エディターで選択中の文字列と他に一致する箇所を見つけ出し、強調表示するかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:244
 msgid "Brace matching?"
@@ -17678,31 +17682,31 @@ msgstr "'列幅の基準とする項目' が '列のデータ' の場合、こ�
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:372
 msgid "Data result rows per page"
-msgstr ""
+msgstr "1 ページに表示する結果データの行数"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:375
 msgid ""
 "Specify the number of records to fetch in one batch. Changing this value "
 "will override DATA_RESULT_ROWS_PER_PAGE setting from config  file."
-msgstr ""
+msgstr "一度に取得するレコード数を指定します。この値を変更すると、設定ファイルの DATA_RESULT_ROWS_PER_PAGE 設定値を上書きします。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:383
 msgid "Striped rows?"
-msgstr ""
+msgstr "縞模様で行を表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:385
 msgid ""
 "If set to true, the result grid will display rows with alternating "
 "background colors."
-msgstr ""
+msgstr "True にすると、結果グリッドの行の背景を交互に着色して表示します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:391
 msgid "Max column data display length"
-msgstr ""
+msgstr "列のデータに表示する最大文字数"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:393
 msgid "Maximum number of characters to be visible in the data output cell."
-msgstr ""
+msgstr "データ出力セルに表示する最大文字数です。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:399
 msgid "Font size"
@@ -17722,13 +17726,15 @@ msgstr ""
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:414
 msgid "Font ligatures?"
-msgstr ""
+msgstr "フォントの合字"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:417
 msgid ""
 "If set to true, ligatures will be enabled in SQL text boxes and editors "
 "provided the configured font family supports them."
 msgstr ""
+"True にすると、SQL "
+"テキストボックスとエディターに使用されるフォントの合字を有効にします。ただし、そのフォントファミリーが合字をサポートしていない場合は無視されます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:424
 msgid "Font family"
@@ -17740,6 +17746,9 @@ msgid ""
 "font should already be installed on your system. If the font is not "
 "found, the editor will fall back to the default font, Source Code Pro."
 msgstr ""
+"SQL "
+"エディター全体に使用するフォントファミリーを指定します。すでにシステムにインストール済みのフォントを選んでください。フォントが見つからなかった場合は、既定のフォント"
+" (Source Code Pro) にフォールバックします。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:436
 msgid "Connection status"
@@ -17921,13 +17930,13 @@ msgstr "Tab キー、もしくは自動インデントによるタブの挿入�
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1080
 msgid "Auto-indent new line?"
-msgstr ""
+msgstr "新しい行を自動インデント"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1083
 msgid ""
 "Specifies whether the newly added line using enter key should be auto-"
 "indented or not"
-msgstr ""
+msgstr "Enter キーで新しく追加した行を自動的にインデントするかどうか指定します"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1090
 msgid "Expression Width"
