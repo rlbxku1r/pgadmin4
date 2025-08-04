@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-04 05:04+0900\n"
+"PO-Revision-Date: 2025-08-04 22:43+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -6201,22 +6201,18 @@ msgstr "最頻値の出現率 (配列要素)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:11
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:11
-#, fuzzy
 msgid "Histogram element count"
-msgstr "度数分布の数 (配列要素)"
+msgstr "度数分布の要素数 (配列要素)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:12
-#, fuzzy
 msgid "Histogram range values"
-msgstr "度数分布の値 (範囲型)"
+msgstr "度数分布の範囲値 (範囲型)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:13
-#, fuzzy
 msgid "Empty fraction range"
 msgstr "空範囲の割合 (範囲型)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:14
-#, fuzzy
 msgid "Histogram bounds range"
 msgstr "度数分布の境界 (範囲型)"
 
@@ -11313,7 +11309,7 @@ msgstr "グループ"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:161
 msgid "Peer state"
-msgstr ""
+msgstr "ピアの状態"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:177
 #: pgadmin/misc/cloud/static/js/aws.js:213
@@ -11328,23 +11324,23 @@ msgstr "BDR のバージョン"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:193
 msgid "Catchup state"
-msgstr ""
+msgstr "キャッチアップの状態"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:227
 msgid "Leader type"
-msgstr ""
+msgstr "リーダーの種類"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:235
 msgid "Leader"
-msgstr ""
+msgstr "リーダー"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:243
 msgid "Voting?"
-msgstr ""
+msgstr "投票"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:252
 msgid "Voting for"
-msgstr ""
+msgstr "投票の対象"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:410
 msgid "Replication lag (Time)"
@@ -11356,19 +11352,19 @@ msgstr "レプリケーションの遅延 (サイズ)"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:427
 msgid "Cluster nodes"
-msgstr ""
+msgstr "クラスターのノード"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:439
 msgid "Raft status"
-msgstr ""
+msgstr "Raft の状態"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:451
 msgid "Outgoing Replication"
-msgstr ""
+msgstr "レプリケーション - 送信"
 
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:464
 msgid "Incoming Replication"
-msgstr ""
+msgstr "レプリケーション - 受信"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:35
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:35
@@ -11382,27 +11378,27 @@ msgstr "有効"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:47
 msgid "Receive LSN"
-msgstr ""
+msgstr "受信済みの LSN"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:51
 msgid "Receive Commit LSN"
-msgstr ""
+msgstr "受信済みのコミット LSN"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:55
 msgid "Last Replay LSN"
-msgstr ""
+msgstr "最後に適用した LSN"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:59
 msgid "Last Flush LSN"
-msgstr ""
+msgstr "最後にフラッシュした LSN"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:63
 msgid "Replay Timestamp"
-msgstr ""
+msgstr "適用した日時"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:27
 msgid "Target DB"
-msgstr ""
+msgstr "対象の DB"
 
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_outgoing.ui.js:39
 #: pgadmin/dashboard/static/js/Replication/schema_ui/replication_stats.ui.js:27
@@ -17978,11 +17974,11 @@ msgstr "SQL 文の間にいくつ空行を挟むかです。0 で空行をなく
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1124
 msgid "New line before semicolon?"
-msgstr ""
+msgstr "セミコロンの直前で改行"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1127
 msgid "Whether to place query separator (;) on a separate line."
-msgstr ""
+msgstr "クエリの区切り文字 (;) を別の行に分離するかどうかです。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1133
 msgid "Row Limit"
@@ -18050,7 +18046,7 @@ msgstr "ロールが見つかりません"
 msgid ""
 "To proceed, ensure that all users assigned the '{0}' role have been "
 "reassigned."
-msgstr ""
+msgstr "'{0}' ロールを削除する前に、所属しているユーザー全員を他のロールに割り当て直してください。"
 
 #: pgadmin/tools/user_management/__init__.py:568
 msgid "Role name must be unique."
@@ -18266,6 +18262,8 @@ msgid ""
 "Please correct the Binary Path in the Preferences. pgAdmin storage "
 "directory can not be a utility binary directory."
 msgstr ""
+"設定から正しいバイナリパスを指定してください。pgAdmin "
+"のストレージディレクトリを、ユーティリティのバイナリを設置するディレクトリにすることはできません。"
 
 #: pgadmin/utils/__init__.py:352
 #, python-format
