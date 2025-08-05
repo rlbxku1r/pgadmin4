@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-04 22:43+0900\n"
+"PO-Revision-Date: 2025-08-05 20:52+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -161,11 +161,11 @@ msgstr "Kerberos"
 
 #: pgadmin/authenticate/kerberos.py:170
 msgid "Kerberos authentication can't be used as GSSAPI module couldn't be loaded."
-msgstr "GSSAPI モジュールを読み込めないため、Kerberos 認証は使用できません。"
+msgstr "GSSAPI モジュールを読み込めなかったため、Kerberos 認証は使用できません。"
 
 #: pgadmin/authenticate/kerberos.py:210
 msgid "Kerberos authentication failed. Couldn't find kerberos ticket."
-msgstr "Kerberos 認証に失敗しました。Kerberos チケットが見つかりません。"
+msgstr "Kerberos 認証に失敗しました。Kerberos チケットが見つかりませんでした。"
 
 #: pgadmin/authenticate/kerberos.py:240
 msgid "Delegated credentials not supplied."
@@ -174,12 +174,12 @@ msgstr "委任資格情報が設定されていません。"
 #: pgadmin/authenticate/ldap.py:31
 #, python-brace-format
 msgid "Error searching the LDAP directory: {}"
-msgstr "LDAP ディレクトリの検索中にエラーが発生しました: {}"
+msgstr "LDAP ディレクトリの検索中にエラーがありました: {}"
 
 #: pgadmin/authenticate/ldap.py:34
 #, python-brace-format
 msgid "Error connecting to the LDAP server: {}\n"
-msgstr "LDAP サーバーへの接続中にエラーが発生しました: {}\n"
+msgstr "LDAP サーバーへの接続中にエラーがありました: {}\n"
 
 #: pgadmin/authenticate/ldap.py:48
 msgid "ldap"
@@ -192,12 +192,12 @@ msgstr "LDAP の構成エラー: バインドパスワードを設定してく�
 #: pgadmin/authenticate/ldap.py:148
 #, python-brace-format
 msgid "Error binding to the LDAP server: {}\n"
-msgstr "LDAP サーバーへのバインド中にエラーが発生しました: {}\n"
+msgstr "LDAP サーバーへのバインド中にエラーがありました: {}\n"
 
 #: pgadmin/authenticate/ldap.py:153
 #, python-brace-format
 msgid "Error starting TLS: {}\n"
-msgstr "TLS の開始中にエラーが発生しました: {}\n"
+msgstr "TLS の開始中にエラーがありました: {}\n"
 
 #: pgadmin/authenticate/ldap.py:230
 #, python-brace-format
@@ -345,7 +345,7 @@ msgstr "メモ"
 msgid ""
 "This email address will only be used for two factor authentication "
 "purposes. The email address for the user account will not be changed."
-msgstr "このメールアドレスは 2 段階認証目的のみに使用されます。ユーザーアカウントのメールアドレスが変更されることはありません。"
+msgstr "このメールアドレスは 2 段階認証目的にのみ使用されます。ユーザーアカウントのメールアドレスが変更されることはありません。"
 
 #: pgadmin/authenticate/mfa/email.py:242
 msgid "Enter code here"
@@ -370,12 +370,12 @@ msgstr "ユーザー対応の認証方式が指定されていません"
 #: pgadmin/authenticate/mfa/views.py:175
 #, python-brace-format
 msgid "'{}' is already registered'"
-msgstr "既に '{}' は登録されています'"
+msgstr "すでに '{}' は登録されています'"
 
 #: pgadmin/authenticate/mfa/views.py:183
 #, python-brace-format
 msgid "'{}' unregistered from the authentication list."
-msgstr "'{}' を認証リストの登録から解除しました。"
+msgstr "認証リストから '{}' の登録を解除しました。"
 
 #: pgadmin/authenticate/mfa/views.py:189
 #, python-brace-format
@@ -388,7 +388,7 @@ msgstr "ダイアログを閉じてください。"
 
 #: pgadmin/authenticate/mfa/views.py:341
 msgid "Can't access this page, when multi factor authentication is disabled."
-msgstr "このページには、多要素認証を無効化した状態だとアクセスできません。"
+msgstr "このページには、多要素認証を無効にした状態だとアクセスできません。"
 
 #: pgadmin/authenticate/mfa/views.py:346
 msgid "Complete the authentication process first"
@@ -1852,7 +1852,7 @@ msgstr "ジョブを有効化"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.js:76
 msgid "Job is already enabled."
-msgstr "既にジョブは有効です。"
+msgstr "すでにジョブは有効です。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.js:81
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.js:174
@@ -1862,7 +1862,7 @@ msgstr "ジョブを無効化"
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.js:83
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.js:90
 msgid "Job is already disabled."
-msgstr "既にジョブは無効です。"
+msgstr "すでにジョブは無効です。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.js:88
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_jobs/static/js/dbms_job.js:209
@@ -2032,7 +2032,7 @@ msgstr "プログラムを有効化"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_programs/static/js/dbms_program.js:75
 msgid "Program is already enabled."
-msgstr "既にプログラムは有効です。"
+msgstr "すでにプログラムは有効です。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_programs/static/js/dbms_program.js:80
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_programs/static/js/dbms_program.js:166
@@ -2041,7 +2041,7 @@ msgstr "プログラムを無効化"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_programs/static/js/dbms_program.js:82
 msgid "Program is already disabled."
-msgstr "既にプログラムは無効です。"
+msgstr "すでにプログラムは無効です。"
 
 #: pgadmin/browser/server_groups/servers/databases/dbms_job_scheduler/dbms_programs/static/js/dbms_program.js:125
 #, python-format
@@ -7236,7 +7236,7 @@ msgstr "すべてのデータベースから切断"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:120
 msgid "All the databases are already disconnected."
-msgstr "既にどのデータベースからも切断しています。"
+msgstr "すでにどのデータベースからも切断しています。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:125
 msgid "ERD For Database"
