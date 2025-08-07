@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-05 20:52+0900\n"
+"PO-Revision-Date: 2025-08-08 04:56+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -448,7 +448,7 @@ msgstr "マスターパスワードが違います"
 
 #: pgadmin/browser/__init__.py:834
 msgid "Master password cannot be empty"
-msgstr "マスターパスワードは必須です"
+msgstr "マスターパスワードは空にできません"
 
 #: pgadmin/browser/__init__.py:918
 msgid "pgAdmin user password changed successfully"
@@ -459,7 +459,7 @@ msgstr "pgAdmin ユーザーのパスワードが正常に変更されました"
 msgid ""
 "Your account is authenticated using an external {} source. Please contact"
 " the administrators of this service if you need to reset your password."
-msgstr "あなたのアカウントは外部の {} ソースを使用して認証されました。パスワードのリセットが必要な場合は、そのサービスの管理者に連絡してください。"
+msgstr "あなたのアカウントは外部の {} ソースを使用して認証されました。パスワードをリセットする必要がある場合は、そのサービスの管理者に連絡してください。"
 
 #: pgadmin/browser/__init__.py:1077
 msgid ""
@@ -479,7 +479,7 @@ msgstr "空のオブジェクトの集合を表示"
 msgid ""
 "If turned off, then all object collections which are empty will be hidden"
 " from browser tree."
-msgstr "無効にすると、何もないオブジェクトの集合は、すべてブラウザーツリーに表示されなくなります。"
+msgstr "オフにすると、オブジェクトが何もない集合をブラウザーツリーから隠します。"
 
 #: pgadmin/browser/register_browser_preferences.py:38
 msgid "Show template databases?"
@@ -496,31 +496,31 @@ msgstr "表示"
 
 #: pgadmin/browser/register_browser_preferences.py:48
 msgid "If set to True, then all shared servers will be hidden from browser tree"
-msgstr "True の場合、すべての共有サーバーがブラウザーツリーに表示されなくなります"
+msgstr "True にすると、すべての共有サーバーをブラウザーツリーから隠します"
 
 #: pgadmin/browser/register_browser_preferences.py:55
 msgid "Object explorer tree state saving interval"
-msgstr "オブジェクトエクスプローラーのツリー状態の保存間隔"
+msgstr "オブジェクトエクスプローラーのツリー状態を保存する間隔"
 
 #: pgadmin/browser/register_browser_preferences.py:58
 msgid ""
 "Object explorer state saving interval in seconds. Use -1 to disable the "
 "tree saving mechanism."
-msgstr "オブジェクトエクスプローラーの状態を何秒おきに保存するか指定します。全く保存させない場合は -1 にしてください。"
+msgstr "オブジェクトエクスプローラーの状態を何秒おきに保存するか指定します。まったく保存させない場合は -1 にしてください。"
 
 #: pgadmin/browser/register_browser_preferences.py:65
 msgid "Confirm on close or refresh?"
-msgstr "ページを閉じる・更新する際に確認"
+msgstr "ページを閉じたり、再読み込みする際に確認"
 
 #: pgadmin/browser/register_browser_preferences.py:68
 msgid ""
 "Confirm closure or refresh of the browser or browser tab is intended "
 "before proceeding."
-msgstr "ブラウザーを閉じたり、再読み込みする前に確認します。"
+msgstr "ウェブブラウザーのウィンドウやタブを閉じたり、再読み込みする前に確認します。"
 
 #: pgadmin/browser/register_browser_preferences.py:75
 msgid "Confirm before Close/Reset in object properties dialog?"
-msgstr "オブジェクトのプロパティを閉じたり、リセットする前に確認"
+msgstr "オブジェクトのプロパティダイアログを閉じる/リセットする前に確認"
 
 #: pgadmin/browser/register_browser_preferences.py:79
 msgid ""
@@ -604,7 +604,7 @@ msgstr "オブジェクトエクスプローラー"
 
 #: pgadmin/browser/register_browser_preferences.py:147
 msgid "Tabbed panel backward"
-msgstr "タブ付きパネルを戻す"
+msgstr "前のタブ付きパネルへ戻る"
 
 #: pgadmin/browser/register_browser_preferences.py:162
 msgid "Close tab panel"
@@ -612,23 +612,23 @@ msgstr "タブのパネルを閉じる"
 
 #: pgadmin/browser/register_browser_preferences.py:177
 msgid "Tabbed panel forward"
-msgstr "タブ付きパネルを進める"
+msgstr "次のタブ付きパネルへ進む"
 
 #: pgadmin/browser/register_browser_preferences.py:193
 msgid "File main menu"
-msgstr "ファイルメニュー"
+msgstr "ファイルのメインメニュー"
 
 #: pgadmin/browser/register_browser_preferences.py:208
 msgid "Object main menu"
-msgstr "オブジェクトメニュー"
+msgstr "オブジェクトのメインメニュー"
 
 #: pgadmin/browser/register_browser_preferences.py:223
 msgid "Tools main menu"
-msgstr "ツールメニュー"
+msgstr "ツールのメインメニュー"
 
 #: pgadmin/browser/register_browser_preferences.py:238
 msgid "Help main menu"
-msgstr "ヘルプメニュー"
+msgstr "ヘルプのメインメニュー"
 
 #: pgadmin/browser/register_browser_preferences.py:253
 msgid "Open query tool"
@@ -649,7 +649,7 @@ msgstr "オブジェクトを作成"
 
 #: pgadmin/browser/register_browser_preferences.py:313
 msgid "Edit object properties"
-msgstr "オブジェクトのプロパティを変更"
+msgstr "オブジェクトのプロパティを編集"
 
 #: pgadmin/browser/register_browser_preferences.py:328
 msgid "Drop object"
