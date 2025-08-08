@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-08 04:56+0900\n"
+"PO-Revision-Date: 2025-08-08 22:01+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -665,7 +665,7 @@ msgstr "オブジェクトエクスプローラーを再読み込み"
 
 #: pgadmin/browser/register_browser_preferences.py:373
 msgid "Add grid row"
-msgstr "グリッド行を追加"
+msgstr "グリッドに行を追加"
 
 #: pgadmin/browser/register_browser_preferences.py:387
 #: pgadmin/help/__init__.py:27 pgadmin/static/js/Dialogs/index.jsx:388
@@ -681,7 +681,7 @@ msgstr "タブ幅の変動"
 msgid ""
 "If set to True, the tabs will take full size as per the title, it will "
 "also applicable for already opened tabs"
-msgstr "True の場合、タイトルの長さに合わせてタブの幅が伸縮します (すでに開かれているタブにも効果が適用されます)"
+msgstr "True にすると、タイトルの長さに合わせてタブの幅が伸縮します (すでに開かれているタブにも効果が適用されます)"
 
 #: pgadmin/browser/register_browser_preferences.py:409
 msgid "Query tool tab title"
@@ -775,11 +775,11 @@ msgstr "新しいブラウザータブに開く"
 msgid ""
 "Select Query Tool, Debugger, Schema Diff, ERD Tool or PSQL Tool from the "
 "drop-down to set open in new browser tab for that particular module."
-msgstr "クエリツール、デバッガー、スキーマ比較、ERD ツール、PSQL ツールのうち、新しいブラウザータブに開くモジュールを選択します。"
+msgstr "クエリツール・デバッガー・スキーマ比較・ERD ツール・PSQL ツールのうち、新しいブラウザータブに開くモジュールを選択します。"
 
 #: pgadmin/browser/register_browser_preferences.py:472
 msgid "Select open new tab..."
-msgstr "モジュールを選択..."
+msgstr "新しいタブに開くモジュールを選択..."
 
 #: pgadmin/browser/register_browser_preferences.py:480
 msgid "PSQL tool tab title"
@@ -872,7 +872,7 @@ msgstr "指定された ID# {0} のサーバーグループは見つかりませ
 #: pgadmin/browser/server_groups/servers/__init__.py:618
 #, python-brace-format
 msgid "Could not find the server with id# {0}."
-msgstr "id# {0} のサーバーは見つかりませんでした。"
+msgstr "ID# {0} のサーバーは見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:698
 msgid ""
@@ -1037,19 +1037,19 @@ msgstr "サーバーに接続しました。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1655
 msgid "Server could not be disconnected."
-msgstr "サーバーへの接続を切断できませんでした。"
+msgstr "サーバーから切断できませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1659
 msgid "Server disconnected."
-msgstr "サーバーへの接続を切断しました。"
+msgstr "サーバーから切断しました。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1679
 msgid "Could not reload the server configuration."
-msgstr "サーバー設定を再読み込みできませんでした。"
+msgstr "サーバーの構成を再読み込みできませんでした。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1684
 msgid "Server configuration reloaded."
-msgstr "サーバー設定を再読み込みしました。"
+msgstr "サーバーの構成を再読み込みしました。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1730
 #, python-brace-format
@@ -1082,7 +1082,7 @@ msgstr "パスワードが違います。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1868
 msgid "Password changed successfully."
-msgstr "パスワードの変更に成功しました。"
+msgstr "パスワードを正常に変更しました。"
 
 #: pgadmin/browser/server_groups/servers/__init__.py:1905
 msgid "WAL replay paused"
@@ -1100,7 +1100,7 @@ msgstr "サーバーに接続してください。"
 #: pgadmin/browser/server_groups/servers/__init__.py:2101
 #: pgadmin/browser/server_groups/servers/__init__.py:2133
 msgid "The saved password cleared successfully."
-msgstr "保存されたパスワードを消去しました。"
+msgstr "保存されたパスワードを正常に消去しました。"
 
 #: pgadmin/browser/server_groups/servers/ppas.py:15
 #: pgadmin/browser/server_groups/servers/types.py:118
@@ -1111,7 +1111,9 @@ msgstr "EDB Advanced Server のバイナリパス"
 msgid ""
 "Path to the directory containing the EDB Advanced Server utility programs"
 " (pg_dump, pg_restore etc)."
-msgstr "EDB Advanced Server のユーティリティプログラム (pg_dump, pg_restore など) を含むディレクトリのパスです。"
+msgstr ""
+"EDB Advanced Server のユーティリティプログラム (pg_dump, pg_restore など) "
+"を含むディレクトリへのパスです。"
 
 #: pgadmin/browser/server_groups/servers/ppas.py:26
 msgid "EDB Advanced Server"
@@ -1126,7 +1128,7 @@ msgstr "PostgreSQL のバイナリパス"
 msgid ""
 "Path to the directory containing the PostgreSQL utility programs "
 "(pg_dump, pg_restore etc)."
-msgstr "PostgreSQL のユーティリティプログラム (pg_dump, pg_restore など) を含むディレクトリのパスです。"
+msgstr "PostgreSQL のユーティリティプログラム (pg_dump, pg_restore など) を含むディレクトリへのパスです。"
 
 #: pgadmin/browser/server_groups/servers/types.py:61
 #: pgadmin/help/__init__.py:59
@@ -1170,11 +1172,11 @@ msgstr "データベースに接続しました。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:596
 msgid "Database could not be disconnected."
-msgstr "データベースへの接続を切断できませんでした。"
+msgstr "データベースから切断できませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:600
 msgid "Database disconnected."
-msgstr "データベースへの接続を切断しました。"
+msgstr "データベースから切断しました。"
 
 #: pgadmin/browser/server_groups/servers/databases/__init__.py:838
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2331
@@ -16124,7 +16126,7 @@ msgstr "選択されたオブジェクトの DDL 比較はサポートされて�
 
 #: pgadmin/tools/schema_diff/__init__.py:734
 msgid "Server(s) disconnected."
-msgstr "サーバーへの接続を切断しました。"
+msgstr "サーバーから切断しました。"
 
 #: pgadmin/tools/schema_diff/__init__.py:737
 msgid ""
