@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-13 18:51+0900\n"
+"PO-Revision-Date: 2025-08-13 21:52+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -6029,23 +6029,23 @@ msgstr "REMAINDER"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.ui.js:383
 msgid "For range partition From field cannot be empty."
-msgstr "範囲パーティションでは FROM フィールドを空にできません。"
+msgstr "範囲パーティションでは FROM 欄を空にできません。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.ui.js:387
 msgid "For range partition To field cannot be empty."
-msgstr "範囲パーティションでは TO フィールドを空にできません。"
+msgstr "範囲パーティションでは TO 欄を空にできません。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.ui.js:393
 msgid "For list partition In field cannot be empty."
-msgstr "リストパーティションでは IN フィールドを空にできません。"
+msgstr "リストパーティションでは IN 欄を空にできません。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.ui.js:399
 msgid "For hash partition Modulus field cannot be empty."
-msgstr "ハッシュパーティションでは MODULUS フィールドを空にできません。"
+msgstr "ハッシュパーティションでは MODULUS 欄を空にできません。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.ui.js:405
 msgid "For hash partition Remainder field cannot be empty."
-msgstr "ハッシュパーティションでは REMAINDER フィールドを空にできません。"
+msgstr "ハッシュパーティションでは REMAINDER 欄を空にできません。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:68
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:75
@@ -6115,7 +6115,7 @@ msgstr "統計あり"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:542
 msgid "Select to inherit from..."
-msgstr "継承元を取得..."
+msgstr "継承元を選択..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:644
 msgid "RLS Policy?"
@@ -6130,7 +6130,7 @@ msgid ""
 "Please check if any policy exists. If no policy exists for the table, a "
 "default-deny policy is used, meaning that no rows are visible or can be "
 "modified by other users"
-msgstr "何らかのポリシーが、テーブルに存在しているかどうかを確認してください。存在しない場合、拒否を既定とするポリシーを使用します。これにより、すべての行が不可視となり、誰にも変更できなくなります"
+msgstr "テーブルに何らかのポリシーが存在していることを確認してください。そうでなければ、拒否を既定とするポリシーが使用されます。これにより、すべての行が不可視となり、他の誰にも変更できなくなってしまいます"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:657
 msgid "Force RLS Policy?"
@@ -6142,15 +6142,15 @@ msgstr "REPLICA IDENTITY"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:747
 msgid "Of type"
-msgstr "タイプ"
+msgstr "基となる複合型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:778
 msgid "Remove column definitions?"
-msgstr "列定義を削除しますか？"
+msgstr "列の定義を削除しますか？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:779
 msgid "Changing 'Of type' will remove column definitions."
-msgstr "テーブル定義の基となる複合型を変更すると、列定義が削除されます。"
+msgstr "テーブル定義の基となる複合型を変更すると、列の定義が削除されます。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:879
 msgid "Like"
@@ -6159,7 +6159,7 @@ msgstr "LIKE"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:2
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:2
 msgid "Null fraction"
-msgstr "NULL 断片"
+msgstr "NULL の出現率"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:3
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:3
@@ -6299,7 +6299,7 @@ msgstr "最終インデックススキャン"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/16_plus/stats.sql:12
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/default/stats.sql:11
 msgid "Tree level"
-msgstr "ツリーレベル"
+msgstr "ツリー階層"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/16_plus/stats.sql:14
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/default/stats.sql:13
@@ -6335,7 +6335,7 @@ msgstr "リーフページ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/16_plus/stats.sql:17
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/default/stats.sql:16
 msgid "Empty pages"
-msgstr "空ページ"
+msgstr "空のページ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/16_plus/stats.sql:18
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/exclusion_constraint/sql/default/stats.sql:17
@@ -6662,7 +6662,7 @@ msgstr "制約トリガー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:355
 msgid "Fires"
-msgstr "発動"
+msgstr "発動タイミング"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:420
 msgid "Old table"
@@ -6866,7 +6866,7 @@ msgstr "区切り文字"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:780
 msgid "Alignment type"
-msgstr "アライメントの種類"
+msgstr "アライメントのデータ型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:791
 #: pgadmin/misc/cloud/static/js/aws.js:220
