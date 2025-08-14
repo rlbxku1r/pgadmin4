@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-13 21:52+0900\n"
+"PO-Revision-Date: 2025-08-14 23:12+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -6882,7 +6882,7 @@ msgstr "値渡し"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:810
 msgid "Collatable?"
-msgstr "照合順序情報"
+msgstr "照合順序情報の使用"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:828
 msgid "Input function cannot be empty"
@@ -6898,7 +6898,7 @@ msgstr "メンバー名"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:974
 msgid "Please specify the value for member name."
-msgstr "メンバー名を指定してください。"
+msgstr "メンバー名に値を指定してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:978
 msgid "Please specify the type."
@@ -6914,11 +6914,11 @@ msgstr "データ型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1270
 msgid "Composite"
-msgstr "複合型"
+msgstr "複合"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1271
 msgid "Enumeration"
-msgstr "列挙型"
+msgstr "列挙"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1272
 msgid "External"
@@ -6946,7 +6946,7 @@ msgstr "列挙型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1341
 msgid "External Type"
-msgstr "外部タイプ"
+msgstr "外部型"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.ui.js:1347
 msgid "Alias"
@@ -7028,16 +7028,16 @@ msgid ""
 "-- take account of the changes.\n"
 msgstr ""
 "\n"
-"-- ビューの列を変更するには、ビューをいったん削除し、再度作成する必要があります。\n"
-"-- このビューに依存する他のオブジェクトがある場合、ビューの削除に失敗するかもしれません。\n"
-"-- また、このビューを利用する手続き関数の処理を、変更される列に合わせて適切に\n"
-"-- 修正しなければなりません。\n"
+"-- ビューの列を変更するには、そのビューをいったん削除し、再度作成する必要があります。\n"
+"-- このビューに依存している他のオブジェクトがあると、ビューの削除に失敗するかもしれません。\n"
+"-- また、このビューを参照する手続き関数の処理を、変更した列に合わせて\n"
+"-- 適切に修正しなければなりません。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2309
 #: pgadmin/tools/import_export/__init__.py:300
 #: pgadmin/tools/maintenance/__init__.py:181
 msgid "Could not find the given server"
-msgstr "入力されたサーバーが見つかりませんでした"
+msgstr "指定されたサーバーが見つかりませんでした"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2321
 #: pgadmin/tools/backup/__init__.py:426
@@ -7092,19 +7092,19 @@ msgstr "ツリーからサーバーか子ノードを選択してください。
 #: pgadmin/tools/restore/static/js/restore.js:145
 #: pgadmin/tools/restore/static/js/restore.js:170
 msgid "Utility not found"
-msgstr "ユーティリティが存在しません"
+msgstr "ユーティリティが見つかりません"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:207
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:214
 msgid "Failed to create materialized view refresh job."
-msgstr "マテリアライズドビューのリフレッシュジョブを作成できませんでした。"
+msgstr "マテリアライズドビューのリフレッシュジョブの作成に失敗しました。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:221
 #: pgadmin/tools/import_export/static/js/import_export.js:192
 #: pgadmin/tools/maintenance/static/js/maintenance.js:215
 #: pgadmin/tools/restore/static/js/restore.js:171
 msgid "Failed to fetch Utility information"
-msgstr "ユーティリティ情報を取得できませんでした"
+msgstr "ユーティリティ情報の取得に失敗しました"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:69
 msgid "System materialized view?"
@@ -7121,7 +7121,7 @@ msgstr "パラメーター"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:150
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.ui.js:131
 msgid "Please enter view code."
-msgstr "ビューのコードは必須です。"
+msgstr "ビューのコードを入力してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:163
 msgid ""
@@ -7141,7 +7141,7 @@ msgstr "システムのビュー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.ui.js:76
 msgid "Security barrier?"
-msgstr "セキュリティバリア"
+msgstr "セキュリティバリアー"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.ui.js:80
 msgid "Security invoker?"
@@ -7172,7 +7172,7 @@ msgid ""
 "view. This may fail if other objects are dependent upon this view, or may"
 " cause procedural functions to fail if they are not modified to take "
 "account of the changes."
-msgstr "ビューの列を変更するには、ビューをいったん削除し、再度作成する必要があります。このビューに依存する他のオブジェクトがある場合、ビューの削除に失敗するかもしれません。また、このビューを利用する手続き関数の処理を、変更される列に合わせて適切に修正しなければなりません。"
+msgstr "ビューの列を変更するには、そのビューをいったん削除し、再度作成する必要があります。このビューに依存している他のオブジェクトがあると、ビューの削除に失敗するかもしれません。また、このビューを参照する手続き関数の処理を、変更した列に合わせて適切に修正しなければなりません。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.ui.js:168
 msgid "Do you wish to continue?"
@@ -7216,7 +7216,7 @@ msgstr "データベースに接続"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:101
 msgid "Selected database is already connected."
-msgstr "選択したデータベースへはすでに接続されています。"
+msgstr "選択したデータベースにはすでに接続されています。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:106
 msgid "Drop (Force)"
@@ -7304,7 +7304,7 @@ msgstr "データベースに接続"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:464
 msgid "Database already connected."
-msgstr "データベースへはすでに接続されています。"
+msgstr "データベースにはすでに接続されています。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:512
 #: pgadmin/static/js/helpers/Notifier.jsx:126
@@ -7345,7 +7345,7 @@ msgstr "文字の分類"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:199
 msgid "ICU Locale"
-msgstr "ICU のロケール"
+msgstr "ICU ロケール"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:213
 msgid "Collation Version"
@@ -7353,7 +7353,7 @@ msgstr "照合順序のバージョン"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:217
 msgid "ICU Rules"
-msgstr "ICU のルール"
+msgstr "ICU ルール"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:230
 msgid "Builtin Locale"
@@ -7390,13 +7390,13 @@ msgstr "スキーマ制限"
 msgid ""
 "Note: Changes to the schema restriction will require the Schemas node in "
 "the browser to be refreshed before they will be shown."
-msgstr "注: スキーマ制限の変更を正確に反映させるため、スキーマノードがすでにブラウザー内に表示されていないことを確認してください。"
+msgstr "注: スキーマ制限の変更を反映させるには、ブラウザーのスキーマノード表示を再読み込みする必要があります。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:315
 msgid ""
 "Please refresh the Schemas node to make changes to the schema restriction"
 " take effect."
-msgstr "スキーマ制限の変更を適用するには、スキーマノードを再読み込みしてください。"
+msgstr "スキーマ制限の変更を反映させるには、スキーマノードを再読み込みしてください。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.ui.js:329
 msgid "Please specify Builtin Locale."
@@ -7482,7 +7482,7 @@ msgstr "接続"
 msgid ""
 "To apply changes to the connection configuration, please disconnect from "
 "the server and then reconnect."
-msgstr "接続設定の変更を適用するには、いったんサーバーから切断し、再接続してください。"
+msgstr "接続設定の変更を適用するには、いったんサーバーから切断し、再度接続してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:164
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:92
@@ -7547,35 +7547,35 @@ msgstr "必須"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:213
 msgid "Verify-CA"
-msgstr "Verify-CA"
+msgstr "必須 (+ 認証局を検証)"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:214
 msgid "Verify-Full"
-msgstr "Verify-Full"
+msgstr "必須 (+ 認証局とホスト名を検証)"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:217
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:257
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:98
 msgid "Client certificate"
-msgstr "クライアント認証"
+msgstr "クライアント証明書"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:226
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:265
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:100
 msgid "Client certificate key"
-msgstr "クライアント認証キー"
+msgstr "クライアント証明書の鍵"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:234
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:273
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:105
 msgid "Root certificate"
-msgstr "ロール認証"
+msgstr "ルート証明書"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:242
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:281
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:107
 msgid "Certificate revocation list"
-msgstr "認証撤回リスト"
+msgstr "証明書失効リスト"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:251
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:289
