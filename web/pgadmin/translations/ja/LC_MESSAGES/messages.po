@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-14 23:12+0900\n"
+"PO-Revision-Date: 2025-08-16 21:05+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -7605,13 +7605,15 @@ msgid ""
 "publisher.This field will be disabled and set to false if subscription "
 "connects to same database.Otherwise, the CREATE SUBSCRIPTION call will "
 "hang."
-msgstr "パブリッシャー上にレプリケーションスロットを作成するかどうか指定します。サブスクリプションが同一のデータベースに接続する場合は、ハングアップを防ぐため、この設定は無効化されます。"
+msgstr ""
+"パブリッシャー上にレプリケーションスロットを作成するかどうか指定します。サブスクリプションが同一のデータベースに接続する場合は CREATE "
+"SUBSCRIPTION の呼び出しがハングアップするのを防ぐため、このオプションは無効化されます。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:326
 msgid ""
 "Specifies whether the subscription should be actively replicating, or "
 "whether it should be just setup but not started yet."
-msgstr "サブスクリプションをすぐに処理するか、あるいは後で行えるように準備だけしておくかを指定します。"
+msgstr "すぐにサブスクリプションを処理するか、あるいはあとで行えるように準備だけしておくか指定します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:330
 msgid "Refresh publication?"
@@ -7631,8 +7633,8 @@ msgid ""
 " at all. Setting this to false will change default values of enabled, "
 "create_slot and copy_data to false."
 msgstr ""
-"このコマンドでパブリッシャーに接続するかどうか指定します。これを false にすると、enabled, create_slot, "
-"copy_data の既定値も false になります。"
+"この CREATE SUBSCRIPTION コマンドで、パブリッシャーに接続するかどうか指定します。これを false にすると "
+"enabled, create_slot, copy_data の既定値も false になります。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:357
 #: pgadmin/dashboard/static/js/Replication/PGDReplication.jsx:118
@@ -7643,7 +7645,7 @@ msgstr "スロット名"
 msgid ""
 "Name of the replication slot to use. The default behavior is to use the "
 "name of the subscription for the slot name."
-msgstr "レプリケーションスロットの名前です。何も指定しないと、サブスクリプション名と同じものを使用します。"
+msgstr "レプリケーションスロットに使用する名前です。何も指定しないと、サブスクリプション名と同じものを使用します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:364
 msgid "Synchronous commit"
@@ -7664,7 +7666,7 @@ msgid ""
 "Specifies whether to enable streaming of in-progress transactions for "
 "this subscription. By default, all transactions are fully decoded on the "
 "publisher and only then sent to the subscriber as a whole."
-msgstr "このサブスクリプションにおいて、進行中のトランザクションをストリーミングするかどうか指定します。既定では、すべてのトランザクションはパブリッシャー側で完全にデコードされ、その後でのみ全体をサブスクライバーに送信します。"
+msgstr "このサブスクリプションにおいて、進行中のトランザクションをストリーミングするかどうか指定します。既定では、すべてのトランザクションはパブリッシャー側で完全にデコードされ、そのあとでのみ全体をサブスクライバーに送信します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:414
 msgid "Binary?"
@@ -7677,8 +7679,8 @@ msgid ""
 "enabled, only data types having binary send and receive functions will be"
 " transferred in binary."
 msgstr ""
-"サブスクリプション側からパブリッシャー側に対し、データを (テキスト形式ではなく) "
-"バイナリ形式で送信してもらうよう要求するかどうか指定します。このオプションが有効であっても、バイナリ送受信関数を持つデータ型でないと、バイナリ形式で転送することはできません。"
+"このサブスクリプションがパブリッシャー側に対し、データを (テキスト形式ではなく) "
+"バイナリ形式で送信してもらうように要求するかどうか指定します。このオプションが有効であっても、バイナリ送受信関数を持つデータ型でないと、バイナリ形式で転送することはできません。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:422
 msgid "Two phase?"
@@ -7686,7 +7688,7 @@ msgstr "2 相コミット"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:426
 msgid "Specifies whether two-phase commit is enabled for this subscription."
-msgstr "このサブスクリプションにおいて、2 相コミットを有効にするかどうか指定します。"
+msgstr "このサブスクリプションにおいて 2 相コミットを有効にするかどうか指定します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:430
 msgid "Disable on error?"
@@ -7697,7 +7699,7 @@ msgid ""
 "Specifies whether the subscription should be automatically disabled if "
 "any errors are detected by subscription workers during data replication "
 "from the publisher."
-msgstr "パブリッシャーからのデータを複製する際に、サブスクリプションワーカーがエラーを検出したら、自動でサブスクリプションを無効にするかどうか指定します。"
+msgstr "パブリッシャーからのデータを複製する際に、サブスクリプションワーカーがエラーを検出したら、自動的にサブスクリプションを無効にするかどうか指定します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:438
 msgid "Run as owner?"
@@ -7709,12 +7711,12 @@ msgid ""
 " If false, replication workers will perform actions on each table as the "
 "owner of that table."
 msgstr ""
-"true にすると、サブスクリプションの所有者として、すべてのレプリケーションのアクションが実行されます。false "
-"にすると、各テーブルの所有者として、それぞれにアクションが実行されます。"
+"true にすると、レプリケーションのアクションはすべて、このサブスクリプションの所有者として実行されます。false "
+"にすると、各テーブルの所有者として実行されます。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:446
 msgid "Password required?"
-msgstr "パスワード必須"
+msgstr "パスワードを必須とする"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:450
 msgid ""
@@ -7722,8 +7724,8 @@ msgid ""
 "subscription must use password authentication. Only superusers can set "
 "this value to false."
 msgstr ""
-"このサブスクリプションがパブリッシャー側に接続することになったとき、パスワード認証を使うべきかどうか指定します。この値を false "
-"にできるのはスーパユーザーだけです。"
+"このサブスクリプションがパブリッシャー側に接続することになったとき、パスワード認証を使用すべきかどうか指定します。この値を false "
+"にできるのはスーパユーザーのみです。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:454
 #: pgadmin/dashboard/static/js/Replication/schema_ui/pgd_incoming.ui.js:31
@@ -7749,8 +7751,8 @@ msgid ""
 "origin to any means that the publisher sends changes regardless of their "
 "origin."
 msgstr ""
-"サブスクリプション側がパブリッシャー側に対し、オリジンがない変更のみの送信を要求する (オリジンを 'なし' に設定した場合) "
-"か、オリジンとは無関係に変更の送信を要求する (オリジンを 'any' に設定した場合) か指定します。"
+"サブスクリプション側がパブリッシャー側に対し、オリジンがない変更のみの送信を要求する (オリジンを 'なし' にした場合) "
+"か、オリジンとは無関係に変更の送信を要求する (オリジンを 'any' にした場合) か指定します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:473
 msgid "Either Host name, Address must be specified."
@@ -7759,17 +7761,17 @@ msgstr "ホスト名、またはアドレスを指定してください。"
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:481
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:584
 msgid "Username must be specified."
-msgstr "ユーザー名は必須です。"
+msgstr "ユーザー名を指定してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:489
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:592
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:317
 msgid "Port must be specified."
-msgstr "ポート番号は必須です。"
+msgstr "ポート番号を指定してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:497
 msgid "Publication must be specified."
-msgstr "パブリケーションは必須です。"
+msgstr "パブリケーションを指定してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/templates/subscriptions/sql/default/stats.sql:2
 msgid "Subscription name"
@@ -7777,7 +7779,7 @@ msgstr "サブスクリプション名"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/templates/subscriptions/sql/default/stats.sql:3
 msgid "Latest end time"
-msgstr "最新の終了日時"
+msgstr "最新の終了時刻"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/templates/subscriptions/sql/default/stats.sql:4
 msgid "Latest end lsn"
@@ -7785,11 +7787,11 @@ msgstr "最新の終端 LSN"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/templates/subscriptions/sql/default/stats.sql:5
 msgid "Last message receipt"
-msgstr "最後のメッセージ受信"
+msgstr "最終メッセージ受信"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/templates/subscriptions/sql/default/stats.sql:6
 msgid "Last message send time"
-msgstr "最後のメッセージ送信日時"
+msgstr "最終メッセージ送信時刻"
 
 #: pgadmin/browser/server_groups/servers/databases/templates/databases/sql/default/stats.sql:4
 msgid "Backends"
@@ -7835,7 +7837,7 @@ msgstr "ディレクトリが削除されました"
 #: pgadmin/browser/server_groups/servers/directories/__init__.py:481
 #: pgadmin/browser/server_groups/servers/directories/__init__.py:533
 msgid "Could not find the directory on the server."
-msgstr "サーバーにディレクトリが見つかりませんでした。"
+msgstr "ディレクトリをサーバーから見つけられませんでした。"
 
 #: pgadmin/browser/server_groups/servers/directories/static/js/directory.js:38
 #: pgadmin/tools/backup/static/js/backup.ui.js:549
@@ -7873,7 +7875,7 @@ msgstr "pgAgent ジョブをサーバーから見つけられませんでした�
 
 #: pgadmin/browser/server_groups/servers/pgagent/__init__.py:573
 msgid "Updated the next runtime to now."
-msgstr "次回実行時間を現在に更新しました。"
+msgstr "次回実行日時を現時刻に更新しました。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/__init__.py:44
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:22
@@ -7884,7 +7886,7 @@ msgstr "スケジュール"
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/__init__.py:257
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/__init__.py:313
 msgid "Could not find the specified job step."
-msgstr "指定されたジョブステップが見つかりません。"
+msgstr "指定されたジョブステップが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/__init__.py:450
 msgid "Job schedule update failed."
@@ -7907,8 +7909,9 @@ msgstr "スケジュール..."
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:39
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:45
+#, fuzzy
 msgid "<any>"
-msgstr "<any>"
+msgstr "<無条件>"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:43
 msgid "Time"
@@ -7930,7 +7933,7 @@ msgstr "cron スタイル"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:138
 msgid "For each selected time or date element, the schedule will execute."
-msgstr "選択したそれぞれの時刻・日付に合わせて、スケジュールが実行されます。"
+msgstr "選択したそれぞれの時刻・日付にしたがって、スケジュールが実行されます。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:140
 msgid ""
@@ -7948,7 +7951,7 @@ msgstr "複数の設定欄を組み合わせることで、より具体的にス
 msgid ""
 "e.g. To execute at 12:05 and 14:05 every Monday and Thursday, you would "
 "click minute 05, hours 12 and 14, and weekdays Monday and Thursday."
-msgstr "例: 毎週月曜と木曜の 12 時 5 分、14 時 5 分に実行するには、分を 05、時を 12 と 14、曜日を月曜日と木曜日にします。"
+msgstr "例: 毎週月曜と木曜の 12:05 と 14:05 に実行するには、分を 05、時を 12 と 14、曜日を月曜日と木曜日にします。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:146
 msgid ""
@@ -7983,7 +7986,7 @@ msgstr "時刻"
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:208
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:228
 msgid "Exceptions"
-msgstr "除外"
+msgstr "例外"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.ui.js:239
 msgid "Please enter the start time."
@@ -8004,7 +8007,7 @@ msgstr "pgAgent ジョブ..."
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:70
 msgid "Run now"
-msgstr "いますぐ実行"
+msgstr "今すぐ実行"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.ui.js:55
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.ui.js:60
@@ -8027,7 +8030,7 @@ msgid ""
 "Enter the hostname of a machine running pgAgent if you wish to ensure "
 "only that machine will run this job. Leave blank if any host may run the "
 "job."
-msgstr "このジョブを実行させることのできる pgAgent マシンのホスト名を入力してください。どんなホストでも受け付ける場合は、空のままにしてください。"
+msgstr "このジョブを実行させたい pgAgent マシンのホスト名を入力してください。どのホストで実行させてもいいのであれば、空のままにしてください。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.ui.js:76
 msgid "Created"
@@ -8035,7 +8038,7 @@ msgstr "作成日時"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.ui.js:79
 msgid "Changed"
-msgstr "変更"
+msgstr "変更日時"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.ui.js:82
 msgid "Next run"
@@ -8055,7 +8058,7 @@ msgstr "不明"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.ui.js:96
 msgid "Running at"
-msgstr "実行日時"
+msgstr "稼働中"
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.ui.js:100
 msgid "Not running currently."
@@ -8073,7 +8076,7 @@ msgstr "ジョブステップの作成に失敗しました。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/__init__.py:473
 msgid "Job step update failed."
-msgstr "ジョブステップの更新に失敗しましした。"
+msgstr "ジョブステップの更新に失敗しました。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:43
 msgid "Step"
@@ -8139,7 +8142,7 @@ msgid ""
 msgstr ""
 "リモートデータベースサーバーの接続文字列を指定してください。各パラメーターは keyword = value の形式で設定します。= "
 "前後のスペースは任意です。空文字や、スペースを含む値を記述するには、シングルクォートで囲います。例: keyword = 'a "
-"value'。値の中のシングルクォートとバックスラッシュは ' や \\ "
+"value'。値の中のシングルクォートとバックスラッシュは \\' や \\\\ "
 "のように、バックスラッシュでエスケープします。<br>詳しくはドキュメント <a "
 "href=\"https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-"
 "CONNSTRING\" target=\"_blank\">libpq connection strings</a> を参照してください。"
