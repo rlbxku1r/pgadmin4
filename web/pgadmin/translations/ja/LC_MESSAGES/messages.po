@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-19 05:03+0900\n"
+"PO-Revision-Date: 2025-08-21 04:55+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -12051,12 +12051,12 @@ msgstr "再確認"
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:99
 #, python-brace-format
 msgid "Error while getting the host ip: ${error.response.data.errormsg}"
-msgstr "ホスト IP の取得中にエラーが発生しました: ${error.response.data.errormsg}"
+msgstr "ホスト IP の取得中にエラーがありました: ${error.response.data.errormsg}"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:153
 #, python-brace-format
 msgid "Error while saving cloud wizard data: ${error.response.data.errormsg}"
-msgstr "クラウドウィザードのデータ保存中にエラーが発生しました: ${error.response.data.errormsg}"
+msgstr "クラウドウィザードのデータ保存中にエラーがありました: ${error.response.data.errormsg}"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:261
 msgid "Validating credentials..."
@@ -12065,7 +12065,7 @@ msgstr "資格情報を検証しています..."
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:282
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:283
 msgid "Error while checking cloud credentials"
-msgstr "クラウドの資格情報を確認中にエラーが発生しました"
+msgstr "クラウドの資格情報の確認中にエラーがありました"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:287
 msgid "Getting EDB BigAnimal verification URL..."
@@ -12073,7 +12073,7 @@ msgstr "EDB BigAnimal の認証 URL を取得しています..."
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:305
 msgid "Checking cluster name availability..."
-msgstr "クラスター名が使用できるかを確認しています..."
+msgstr "クラスター名が使用できるか確認しています..."
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:309
 msgid "Specified cluster name is already used."
@@ -12114,7 +12114,7 @@ msgstr "認証が中止されました。"
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:369
 #, python-brace-format
 msgid "Error while verifying EDB BigAnimal: ${error.response.data.errormsg}"
-msgstr "EDB BigAnimal への認証中にエラーが発生しました: ${error.response.data.errormsg}"
+msgstr "EDB BigAnimal への認証中にエラーがありました: ${error.response.data.errormsg}"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:393
 #: pgadmin/misc/cloud/static/js/cloud.js:80
@@ -12127,7 +12127,7 @@ msgstr "PostgreSQL データベースのクラウドプロバイダーを選択�
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:415
 msgid "The verification code to authenticate the pgAdmin to EDB BigAnimal is: "
-msgstr "pgAdmin を EDB BigAnimal へ認証させる確認コードは: "
+msgstr "pgAdmin を EDB BigAnimal に認証させる確認コードは: "
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:416
 msgid ""
@@ -12137,7 +12137,7 @@ msgstr "下のボタンをクリックすると、新しいタブで EDB BigAnim
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:420
 msgid "Click here to authenticate yourself to EDB BigAnimal"
-msgstr "ここをクリックして EDB BigAnimal へ認証します"
+msgstr "ここをクリックして EDB BigAnimal に認証します"
 
 #: pgadmin/misc/cloud/static/js/CloudWizard.jsx:511
 msgid "Please review the details before creating the cloud instance."
@@ -12333,15 +12333,15 @@ msgstr "GiB 単位での容量です。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:311
 msgid "Allocated storage should be between 20 - 65536 GiB."
-msgstr "割り当てストレージは 20 から 65536 GiB まででないといけません。"
+msgstr "割り当てるストレージは 20 から 65536 GiB までにしてください。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:315
 msgid "Allocated storage should be between 100 - 65536 GiB."
-msgstr "割り当てストレージは 100 から 65536 GiB まででないといけません。"
+msgstr "割り当てるストレージは 100 から 65536 GiB までにしてください。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:319
 msgid "Allocated storage should be between 5 - 3072 GiB."
-msgstr "割り当てストレージは 5 から 3072 GiB まででないといけません。"
+msgstr "割り当てるストレージは 5 から 3072 GiB までにしてください。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:339
 msgid ""
@@ -12355,7 +12355,7 @@ msgstr ""
 #: pgadmin/misc/cloud/static/js/azure.js:54
 #, python-brace-format
 msgid "Error while verifying Microsoft Azure: ${error}"
-msgstr "Microsoft Azure への認証中にエラーが発生しました: ${error}"
+msgstr "Microsoft Azure への認証中にエラーがありました: ${error}"
 
 #: pgadmin/misc/cloud/static/js/azure.js:276
 #, python-brace-format
@@ -12363,7 +12363,7 @@ msgid ""
 "Error while checking server name availability with Microsoft Azure: "
 "${error.response.data.errormsg}"
 msgstr ""
-"Microsoft Azure でサーバー名が使用できるかどうかの確認中にエラーが発生しました: "
+"Microsoft Azure でサーバー名が使用できるかどうかの確認中にエラーがありました: "
 "${error.response.data.errormsg}"
 
 #: pgadmin/misc/cloud/static/js/azure.js:294
@@ -12401,7 +12401,7 @@ msgid ""
 "authenticate a user interactively."
 msgstr ""
 "Azure CLI では、ローカルマシン上の Azure CLI を介して、現在ログインしている ID "
-"を使用した認証を行います。ブラウザー対話では、新しくブラウザーウィンドウが開かれるので、そこからユーザーを認証します。"
+"を使用した認証を行います。ブラウザー対話では、新しくブラウザーウィンドウが開かれるので、そこからユーザーを認証してください。"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:77
 msgid "Azure tenant id"
@@ -12413,7 +12413,7 @@ msgstr "認証するユーザーの Azure テナント ID を入力してくだ�
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:100
 msgid "Click here to authenticate yourself to Microsoft Azure"
-msgstr "ここをクリックして Microsoft Azure へ認証します"
+msgstr "ここをクリックして Microsoft Azure に認証します"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:101
 msgid ""
@@ -12472,8 +12472,8 @@ msgid ""
 "\"azure_superuser\", \"azure_pg_admin\", \"admin\", \"administrator\", "
 "\"root\", \"guest\", \"public\", or start with \"pg_\"."
 msgstr ""
-"管理者ユーザー名は 1-63 文字にし、英数字とアンダースコアだけを使ってください。また、ユーザー名を \"azure_superuser\", "
-"\"azure_pg_admin\", \"admin\", \"administrator\", \"root\", \"guest\", "
+"管理者ユーザー名は 1-63 文字にし、英数字とアンダースコアのみを使用してください。また、ユーザー名を \"azure_superuser\","
+" \"azure_pg_admin\", \"admin\", \"administrator\", \"root\", \"guest\", "
 "\"public\" のどれかにしたり、\"pg_\" で始めることはできません。"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:494
@@ -12484,7 +12484,7 @@ msgid ""
 " (!, $, #, %, etc.), and cannot contain all or part of the login name"
 msgstr ""
 "パスワードは 8-128 文字にし、次に挙げる分類の文字を 3 種類混ぜてください - 大文字アルファベット、小文字アルファベット、数字 "
-"(0-9)、記号 (!, $, #, % など), また、ログイン名の全部または一部を含めることもできません"
+"(0-9)、記号 (!, $, #, % など)。また、ログイン名の全部または一部を含めることもできません"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:521
 msgid ""
@@ -12493,8 +12493,8 @@ msgid ""
 "addresses/ranges separated with commas, for example: \"192.168.0.50, "
 "192.168.0.100 -  192.168.0.200\""
 msgstr ""
-"どの IP アドレスからのインバウンドトラフィックを許容するかです。IP アドレスの一覧か、IP アドレスの範囲 (開始 IP アドレス - 終了"
-" IP アドレス) を指定できます。複数の IP アドレス/範囲を追加するには、コンマで区切って並べてください。例: "
+"どの IP アドレスからのインバウンドトラフィックを許容するかです。IP アドレスのリストか、IP アドレスの範囲 (開始 IP アドレス - "
+"終了 IP アドレス) を指定できます。複数の IP アドレス/範囲を追加するには、コンマで区切って並べてください。例: "
 "\"192.168.0.50, 192.168.0.100 -  192.168.0.200\""
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:551
@@ -12728,13 +12728,13 @@ msgstr "クラウドインスタンスを展開..."
 #: pgadmin/misc/cloud/static/js/cloud.js:94
 #, python-brace-format
 msgid "Error while clearing cloud wizard data: ${error.response.data.errormsg}"
-msgstr "クラウドウィザードのデータ消去中にエラーが発生しました: ${error.response.data.errormsg}"
+msgstr "クラウドウィザードのデータ消去中にエラーがありました: ${error.response.data.errormsg}"
 
 #: pgadmin/misc/cloud/static/js/google.js:55
 #: pgadmin/misc/cloud/static/js/google.js:56
 #, python-brace-format
 msgid "Error while authentication: ${error}"
-msgstr "認証中にエラーが発生しました: ${error}"
+msgstr "認証中にエラーがありました: ${error}"
 
 #: pgadmin/misc/cloud/static/js/google.js:308
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:313
@@ -12753,7 +12753,7 @@ msgid ""
 "=%2Cuser-consent%2Cpublic-and-internal-applications\" "
 "target=\"_blank\">link</a> for creating client secret."
 msgstr ""
-"Google 認証に使うクライアント ID、クライアントシークレット、その他 OAuth 2.0 "
+"Google 認証に使用するクライアント ID、クライアントシークレット、その他 OAuth 2.0 "
 "のパラメーターを含むクライアントシークレットファイルを選択します。クライアントシークレットの作成については、<a "
 "href=\"https://support.google.com/cloud/answer/6158849?hl=en#userconsent&zippy"
 "=%2Cuser-consent%2Cpublic-and-internal-applications\" "
@@ -12761,7 +12761,7 @@ msgstr ""
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:53
 msgid "Click here to authenticate yourself to Google"
-msgstr "ここをクリックして Google へ認証します"
+msgstr "ここをクリックして Google に認証します"
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:54
 msgid ""
@@ -12799,7 +12799,7 @@ msgstr "GB 単位での容量です。"
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:258
 msgid "Please enter the value between 10 and 65,536."
-msgstr "値を 10 から 65,536 までの範囲で入力してください。"
+msgstr "値を 10 から 65,536 までで入力してください。"
 
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:307
 msgid "High availability?"
@@ -12826,7 +12826,7 @@ msgstr "名前は 97 文字以下の小文字アルファベット、数字、�
 #: pgadmin/misc/cloud/utils/__init__.py:81
 #, python-brace-format
 msgid "Deployment on {0} is started for instance {1}."
-msgstr "{0} 上へのインスタンス {1} 展開を開始しました。"
+msgstr "{0} 上にインスタンス {1} 展開を開始しました。"
 
 #: pgadmin/misc/cloud/utils/__init__.py:97
 msgid "Cloud Deployment"
