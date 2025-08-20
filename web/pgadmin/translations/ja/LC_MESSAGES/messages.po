@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-21 04:55+0900\n"
+"PO-Revision-Date: 2025-08-21 04:58+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -12457,8 +12457,8 @@ msgid ""
 "English lowercase letters, numbers (0-9), and non-alphanumeric characters"
 " (!, $, #, %, etc.)"
 msgstr ""
-"パスワードは 8-128 文字にし、次に挙げる分類の文字を 3 種類混ぜてください - 大文字アルファベット、小文字アルファベット、数字 "
-"(0-9)、記号 (!, $, #, % など)"
+"パスワードは 8-128 文字にし、次に挙げる分類の文字を 3 種類混ぜてください - 大文字アルファベット・小文字アルファベット・数字 "
+"(0-9)・記号 (!, $, #, % など)"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:480
 #: pgadmin/misc/cloud/static/js/google_schema.ui.js:374
@@ -12483,8 +12483,8 @@ msgid ""
 "English lowercase letters, numbers (0-9), and non-alphanumeric characters"
 " (!, $, #, %, etc.), and cannot contain all or part of the login name"
 msgstr ""
-"パスワードは 8-128 文字にし、次に挙げる分類の文字を 3 種類混ぜてください - 大文字アルファベット、小文字アルファベット、数字 "
-"(0-9)、記号 (!, $, #, % など)。また、ログイン名の全部または一部を含めることもできません"
+"パスワードは 8-128 文字にし、次に挙げる分類の文字を 3 種類混ぜてください - 大文字アルファベット・小文字アルファベット・数字 "
+"(0-9)・記号 (!, $, #, % など)。また、ログイン名の全部または一部を含めることもできません"
 
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:521
 msgid ""
@@ -12563,7 +12563,7 @@ msgstr "パブリック IP の範囲は空にできません。"
 msgid ""
 "Name must be more than 2 characters and must only contain lowercase "
 "letters, numbers, and hyphens"
-msgstr "名前は 3 文字以上の小文字アルファベット、数字、ハイフンにしてください"
+msgstr "名前は 3 文字以上の小文字アルファベット・数字・ハイフンにしてください"
 
 #: pgadmin/misc/cloud/static/js/biganimal.js:225
 #: pgadmin/misc/cloud/static/js/biganimal.js:232
@@ -12821,7 +12821,7 @@ msgstr "既定の管理用ユーザー \"postgres\" のパスワードを設定�
 msgid ""
 "Name must only contain lowercase letters, numbers, and hyphens.Should "
 "start with a letter and must be 97 characters or less"
-msgstr "名前は 97 文字以下の小文字アルファベット、数字、ハイフンにしてください。また、名前はアルファベットから始まるようにしてください"
+msgstr "名前は 97 文字以下の小文字アルファベット・数字・ハイフンにしてください。また、名前はアルファベットから始まるようにしてください"
 
 #: pgadmin/misc/cloud/utils/__init__.py:81
 #, python-brace-format
