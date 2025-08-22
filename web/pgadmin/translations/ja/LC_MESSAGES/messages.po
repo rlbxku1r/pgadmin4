@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-21 04:58+0900\n"
+"PO-Revision-Date: 2025-08-22 21:56+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -1100,7 +1100,7 @@ msgstr "サーバーに接続してください。"
 #: pgadmin/browser/server_groups/servers/__init__.py:2101
 #: pgadmin/browser/server_groups/servers/__init__.py:2133
 msgid "The saved password cleared successfully."
-msgstr "保存されたパスワードを正常に消去しました。"
+msgstr "保存したパスワードを正常に消去しました。"
 
 #: pgadmin/browser/server_groups/servers/ppas.py:15
 #: pgadmin/browser/server_groups/servers/types.py:118
@@ -9143,7 +9143,7 @@ msgstr "WAL の適用を再開するには、リカバリモードで実行中�
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:150
 msgid "Clear Saved Password"
-msgstr "保存されたパスワードを消去"
+msgstr "保存したパスワードを消去"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:159
 msgid "Clear SSH Tunnel Password"
@@ -9182,12 +9182,12 @@ msgstr "パスワードを変更"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:440
 msgid "Clear saved password"
-msgstr "保存されたパスワードを消去"
+msgstr "保存したパスワードを消去"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:441
 #, python-format
 msgid "Are you sure you want to clear the saved password for server %s?"
-msgstr "サーバー %s に保存されたパスワードを消去しますか？"
+msgstr "サーバー %s に保存したパスワードを消去しますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:478
 msgid "Clear SSH Tunnel password"
@@ -9198,7 +9198,7 @@ msgstr "SSH トンネルパスワードを消去"
 msgid ""
 "Are you sure you want to clear the saved password of SSH Tunnel for "
 "server %s?"
-msgstr "サーバー %s に対して保存された SSH トンネルのパスワードを消去しますか？"
+msgstr "サーバー %s に対して保存した SSH トンネルのパスワードを消去しますか？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:585
 msgid ""
@@ -12867,11 +12867,11 @@ msgstr "グリッド"
 
 #: pgadmin/misc/file_manager/__init__.py:224
 msgid "Show hidden files and folders?"
-msgstr "隠しファイルとフォルダを表示"
+msgstr "隠しファイルとフォルダーを表示"
 
 #: pgadmin/misc/file_manager/__init__.py:386
 msgid "File type not supported"
-msgstr "サポートしていないファイル形式です"
+msgstr "サポートされていないファイル形式です"
 
 #: pgadmin/misc/file_manager/__init__.py:448
 #, python-brace-format
@@ -12880,7 +12880,7 @@ msgstr "エラー: {0}"
 
 #: pgadmin/misc/file_manager/__init__.py:475
 msgid "Not allowed"
-msgstr "許可されていません"
+msgstr "許可がありません"
 
 #: pgadmin/misc/file_manager/__init__.py:561
 #: pgadmin/misc/file_manager/__init__.py:573
@@ -12890,7 +12890,7 @@ msgstr "ファイルを選択"
 
 #: pgadmin/misc/file_manager/__init__.py:567
 msgid "Select Folder"
-msgstr "フォルダを選択"
+msgstr "フォルダーを選択"
 
 #: pgadmin/misc/file_manager/__init__.py:579
 msgid "Create File"
@@ -12944,11 +12944,11 @@ msgstr "ファイルを再読み込みしますか？"
 msgid ""
 "The file has been modified by another program. Do you want to reload it "
 "and lose changes made in pgAdmin?"
-msgstr "ファイルが別のプログラムから変更されました。pgAdmin で行った変更を破棄し、ファイルを再読み込みしますか？"
+msgstr "ファイルが別のプログラムによって変更されました。pgAdmin で行った変更を破棄し、ファイルを再読み込みしますか？"
 
 #: pgadmin/misc/file_manager/static/js/components/FileManager.jsx:632
 msgid "Are you sure you want to delete this file/folder?"
-msgstr "このファイル/フォルダを削除しますか？"
+msgstr "このファイル/フォルダーを削除しますか？"
 
 #: pgadmin/misc/file_manager/static/js/components/FileManager.jsx:676
 msgid "Are you sure you want to replace this file?"
@@ -12995,7 +12995,7 @@ msgstr "ダウンロード"
 
 #: pgadmin/misc/file_manager/static/js/components/FileManager.jsx:808
 msgid "New Folder"
-msgstr "新しいフォルダ"
+msgstr "新しいフォルダー"
 
 #: pgadmin/misc/file_manager/static/js/components/FileManager.jsx:822
 #: pgadmin/static/js/helpers/Layout/index.jsx:460
@@ -13039,11 +13039,11 @@ msgstr "すべてのファイル"
 #: pgadmin/misc/file_manager/static/js/components/GridView.jsx:146
 #: pgadmin/misc/file_manager/static/js/components/ListView.jsx:171
 msgid "No files/folders found"
-msgstr "ファイル/フォルダがありません"
+msgstr "ファイル/フォルダーがありません"
 
 #: pgadmin/misc/file_manager/static/js/components/ListView.jsx:124
 msgid "Date Modified"
-msgstr "変更日時"
+msgstr "更新日時"
 
 #: pgadmin/misc/file_manager/static/js/components/Uploader.jsx:110
 msgid "Remove from list"
@@ -13143,7 +13143,7 @@ msgid ""
 "tabs, making it easier to organize your work. You can select the existing"
 " servers or create a completely new ad-hoc connection to any database "
 "server as needed."
-msgstr "このワークスペースでは、複数のクエリタブを開いて一括管理することができるため、作業効率が向上します。既存のサーバーを選択して接続するのはもちろん、完全に異なるデータベースサーバーを指定して、新しい接続を確立させることもできます。"
+msgstr "このワークスペースでは、複数開いたクエリタブを一括管理することができるため、作業効率が向上します。既存のサーバーを選択して接続するのはもちろん、完全に異なるデータベースサーバーを指定して、新しい接続を確立させることもできます。"
 
 #: pgadmin/misc/workspaces/static/js/WorkspaceWelcomePage.jsx:97
 msgid "Welcome to the PSQL Workspace!"
@@ -13154,7 +13154,7 @@ msgid ""
 "The PSQL tool allows users to connect to PostgreSQL or EDB Advanced "
 "server using the psql command line interface."
 msgstr ""
-"PSQL ツールでは、psql コマンドラインインターフェイスを使用して、PostgreSQL や EDB Advanced Server "
+"PSQL ツールでは psql コマンドラインインターフェイスを使用して PostgreSQL や EDB Advanced Server "
 "に接続できます。"
 
 #: pgadmin/misc/workspaces/static/js/WorkspaceWelcomePage.jsx:99
@@ -13164,8 +13164,8 @@ msgid ""
 "servers or create a completely new ad-hoc connection to any database "
 "server as needed."
 msgstr ""
-"このワークスペースでは、複数の PSQL "
-"タブを開いて一括管理することができるため、作業効率が向上します。既存のサーバーを選択して接続するのはもちろん、完全に異なるデータベースサーバーを指定して、新しい接続を確立させることもできます。"
+"このワークスペースでは、複数開いた PSQL "
+"タブを一括管理することができるため、作業効率が向上します。既存のサーバーを選択して接続するのはもちろん、完全に異なるデータベースサーバーを指定して、新しい接続を確立させることもできます。"
 
 #: pgadmin/misc/workspaces/static/js/WorkspaceWelcomePage.jsx:120
 msgid "Let's connect to the server"
@@ -13175,7 +13175,7 @@ msgstr "サーバーに接続しましょう"
 #: pgadmin/preferences/__init__.py:138 pgadmin/preferences/__init__.py:145
 #: pgadmin/preferences/__init__.py:152 pgadmin/preferences/__init__.py:153
 msgid "label"
-msgstr "ラベル"
+msgstr "label"
 
 #: pgadmin/preferences/__init__.py:147
 msgid "help_str"
@@ -13204,13 +13204,13 @@ msgstr "オブジェクトエクスプローラーの再読み込みが必要で
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:284
 msgid "An object explorer refresh is required. Do you wish to refresh it now?"
-msgstr "オブジェクトエクスプローラーを再読み込みする必要があります。今すぐ行いますか？"
+msgstr "オブジェクトエクスプローラーを再読み込みする必要があります。今すぐ再読み込みしますか？"
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:293
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:307
 #: pgadmin/tools/user_management/static/js/Users.jsx:127
 msgid "Later"
-msgstr "後で"
+msgstr "あとで"
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:299
 msgid "Refresh required"
@@ -13218,7 +13218,7 @@ msgstr "再読み込みが必要です"
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:300
 msgid "A page refresh is required. Do you wish to refresh the page now?"
-msgstr "ページの再読み込みが必要です。今すぐページを再読み込みしますか？"
+msgstr "ページを再読み込みする必要があります。今すぐページを再読み込みしますか？"
 
 #: pgadmin/preferences/static/js/components/PreferencesComponent.jsx:314
 msgid "Failed to save preferences."
@@ -13251,7 +13251,7 @@ msgstr "すべての設定を初期化"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:36
 msgid "This settings is to Show/Hide nodes in the object explorer."
-msgstr "この設定を変更すると、オブジェクトエクスプローラーのノードを表示/非表示にできます。"
+msgstr "これらの設定を変更すると、オブジェクトエクスプローラーのノードを表示/非表示にできます。"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:81
 msgid ""
@@ -13260,8 +13260,8 @@ msgid ""
 "version. The default path will be used for server versions that do not "
 "have a path specified."
 msgstr ""
-"対応するバージョンの psql, pg_dump, pg_dumpall, pg_restore "
-"ユーティリティが存在するディレクトリを入力してください。既定のパスとして指定されたものは、パスが未指定のバージョンのサーバーにも使われるようになります。"
+"データベースサーバーに対応するバージョンの psql, pg_dump, pg_dumpall, pg_restore "
+"ユーティリティが存在しているディレクトリを入力してください。既定のパスとして指定されたものは、パスが未指定のバージョンのサーバーにも使用されるようになります。"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:118
 #: pgadmin/utils/constants.py:28
@@ -13283,7 +13283,7 @@ msgstr "保存 & 再読み込み"
 
 #: pgadmin/preferences/static/js/components/PreferencesHelper.jsx:245
 msgid "Save & Reload Later"
-msgstr "保存 & 後で再読み込み"
+msgstr "保存 & あとで再読み込み"
 
 #: pgadmin/preferences/static/js/components/RightPreference.jsx:49
 msgid "Navigate to any below item to view or edit its preferences."
@@ -13303,7 +13303,7 @@ msgstr "バイナリパス"
 
 #: pgadmin/preferences/static/js/components/binary_path.ui.js:59
 msgid "Select folder"
-msgstr "フォルダを選択"
+msgstr "フォルダーを選択"
 
 #: pgadmin/preferences/static/js/components/binary_path.ui.js:60
 msgid "Select binary path..."
@@ -13413,7 +13413,7 @@ msgid ""
 msgstr ""
 "開いたファイルには双方向 Unicode "
 "文字が含まれており、画面に表示されている内容とは異なる解釈がなされる恐れがあります。もしその文字に心当たりがないのであれば、隠れている "
-"Unicode 文字を視認できるアプリケーションを使って、テキストをよく検査してから取り扱うことをおすすめします。"
+"Unicode 文字を視認できるアプリケーションを使用して、よくテキストを検査してから取り扱うことをおすすめします。"
 
 #: pgadmin/static/js/utils.js:366
 msgid ""
@@ -13424,7 +13424,7 @@ msgid ""
 msgstr ""
 "貼り付けたテキストには双方向 Unicode "
 "文字が含まれており、画面に表示されている内容とは異なる解釈がなされる恐れがあります。もしその文字に心当たりがないのであれば、隠れている "
-"Unicode 文字を視認できるアプリケーションを使って、テキストをよく検査してから取り扱うことをおすすめします。"
+"Unicode 文字を視認できるアプリケーションを使用して、よくテキストを検査してから取り扱うことをおすすめします。"
 
 #: pgadmin/static/js/utils.js:368
 msgid "Trojan Source Warning"
@@ -13446,7 +13446,7 @@ msgstr ""
 msgid ""
 "The shared servers owned by <b></b> will be deleted. Do you wish to "
 "continue?"
-msgstr "<b></b> により所有されている共有サーバーは削除されます。よろしいですか？"
+msgstr "<b></b> によって所有されている共有サーバーは削除されます。よろしいですか？"
 
 #: pgadmin/static/js/Dialogs/ChangePasswordContent.jsx:26
 msgid "Current Password"
@@ -13458,7 +13458,7 @@ msgstr "新しいパスワード"
 
 #: pgadmin/static/js/Dialogs/ChangePasswordContent.jsx:39
 msgid "Confirm Password"
-msgstr "パスワードを確認"
+msgstr "パスワードの確認"
 
 #: pgadmin/static/js/Dialogs/ConfirmSaveContent.jsx:23
 msgid "Don't save"
@@ -13533,7 +13533,7 @@ msgstr "pgAdmin にマスターパスワードを設定してください。"
 msgid ""
 "This is required to unlock saved passwords and reconnect to the database "
 "server(s)."
-msgstr "これは保存されたパスワードを解除し、データベースサーバーへ再接続するために必要です。"
+msgstr "これは保存したパスワードを解除し、データベースサーバーに再接続するために必要です。"
 
 #: pgadmin/static/js/Dialogs/MasterPasswordContent.jsx:85
 msgid ""
@@ -13553,11 +13553,11 @@ msgstr "追加する復元ポイントの名前を入力してください"
 
 #: pgadmin/static/js/Dialogs/RenameTabContent.jsx:71
 msgid "Title cannot be empty"
-msgstr "題名は空にできません"
+msgstr "タイトルは空にできません"
 
 #: pgadmin/static/js/Dialogs/index.jsx:92
 msgid "Migration failed"
-msgstr "マイグレーションに失敗しました"
+msgstr "移行に失敗しました"
 
 #: pgadmin/static/js/Dialogs/index.jsx:93
 #, python-brace-format
@@ -13565,19 +13565,19 @@ msgid ""
 "Passwords previously saved can not be re-encrypted using encryption key "
 "stored in the ${res.data.data.keyring_name}. due to ${error}"
 msgstr ""
-"今までに保存したパスワードを ${res.data.data.keyring_name} "
-"に保管されている暗号鍵を使って再暗号化できません。エラー: ${error}"
+"今までに保存したパスワードを ${res.data.data.keyring_name} に保管されている暗号鍵で再暗号化できません。エラー: "
+"${error}"
 
 #: pgadmin/static/js/Dialogs/index.jsx:95
 msgid "Migration successful"
-msgstr "移行が成功しました"
+msgstr "移行に成功しました"
 
 #: pgadmin/static/js/Dialogs/index.jsx:96
 #, python-brace-format
 msgid ""
 "Passwords previously saved are re-encrypted using encryption key stored "
 "in the ${res.data.data.keyring_name}."
-msgstr "今までに保存したパスワードを ${res.data.data.keyring_name} に保管されている暗号鍵を使って再暗号化しました。"
+msgstr "今までに保存したパスワードを ${res.data.data.keyring_name} に保管されている暗号鍵で再暗号化しました。"
 
 #: pgadmin/static/js/Dialogs/index.jsx:108
 msgid "Set Master Password"
@@ -13585,11 +13585,11 @@ msgstr "マスターパスワードを設定"
 
 #: pgadmin/static/js/Dialogs/index.jsx:110
 msgid "Migrate Saved Passwords"
-msgstr "保存されたパスワードを移行"
+msgstr "保存したパスワードを移行"
 
 #: pgadmin/static/js/Dialogs/index.jsx:112
 msgid "Unlock Saved Passwords"
-msgstr "保存されたパスワードを解除"
+msgstr "保存したパスワードを解除"
 
 #: pgadmin/static/js/Dialogs/index.jsx:120
 msgid ""
@@ -13599,26 +13599,26 @@ msgstr "マスターパスワードのフックユーティリティから取得
 
 #: pgadmin/static/js/Dialogs/index.jsx:121
 msgid "Do you want to reset your master password to match?"
-msgstr "マスターパスワードが一致するように初期化しますか？"
+msgstr "マスターパスワードが一致するようにリセットしますか？"
 
 #: pgadmin/static/js/Dialogs/index.jsx:122
 msgid ""
 "Note that this will close all open database connections and remove all "
 "saved passwords."
-msgstr "注: 既存のデータベースへの接続はすべて切断され、保存されたパスワードも完全に削除されます。"
+msgstr "注: 既存のデータベース接続はすべて切断され、保存したパスワードも完全に削除されます。"
 
 #: pgadmin/static/js/Dialogs/index.jsx:150
 msgid ""
 "This will remove all the saved passwords. This will also remove "
 "established connections to the server and you may need to reconnect "
 "again. Do you wish to continue?"
-msgstr "これにより、保存されたパスワードはすべて削除されます。また、サーバーへの接続もすべて切断されるので、必要に応じて接続し直さなければなりません。続行しますか？"
+msgstr "これにより、保存したパスワードはすべて削除されます。また、サーバーへの接続もすべて切断されるので、必要に応じて接続し直さなければなりません。それでもよろしいですか？"
 
 #: pgadmin/static/js/Dialogs/index.jsx:210
 msgid ""
 "Please make sure to disconnect the server and update the new password in "
 "the pgpass file before performing any other operation"
-msgstr "他の操作をする前に、まずサーバーから切断して、pgpass ファイルを新しいパスワードで更新してください"
+msgstr "他の操作をする前に、まずサーバーから切断し、新しいパスワードで pgpass ファイルを更新してください"
 
 #: pgadmin/static/js/Dialogs/index.jsx:232
 msgid "Change pgAdmin User Password"
@@ -13706,17 +13706,17 @@ msgstr "- リレーション処理各々を占める割合"
 #: pgadmin/static/js/Explain/Graphical.jsx:425
 #: pgadmin/tools/erd/__init__.py:362
 msgid "Zoom in"
-msgstr "ズームイン"
+msgstr "拡大"
 
 #: pgadmin/static/js/Explain/Graphical.jsx:426
 #: pgadmin/tools/sqleditor/static/js/components/sections/GraphVisualiser.jsx:438
 msgid "Zoom to original"
-msgstr "ズーム倍率をリセット"
+msgstr "等倍"
 
 #: pgadmin/static/js/Explain/Graphical.jsx:427
 #: pgadmin/tools/erd/__init__.py:380
 msgid "Zoom out"
-msgstr "ズームアウト"
+msgstr "縮小"
 
 #: pgadmin/static/js/Explain/index.jsx:133
 msgid "Join Filter"
@@ -13766,8 +13766,8 @@ msgid ""
 "Use Explain/Explain analyze button to generate the plan for a query. "
 "Alternatively, you can also execute \"EXPLAIN (FORMAT JSON) [QUERY]\"."
 msgstr ""
-"クエリの実行計画を生成するには、実行計画ボタンを押してください。あるいは EXPLAIN (FORMAT JSON) [クエリ] "
-"を直接発行することもできます。"
+"クエリの実行計画を生成するには、実行計画ボタンを押してください。あるいは直接 \"EXPLAIN (FORMAT JSON) [クエリ]\" "
+"文を発行することもできます。"
 
 #: pgadmin/static/js/PgTreeView/index.jsx:132
 msgid "No objects are found to display"
@@ -18444,7 +18444,7 @@ msgstr "指定されたユーザー ID (%s) が見つかりませんでした。
 msgid ""
 "Access denied: You’re having limited access. You’re not allowed to "
 "Rename, Delete or Create any files/folders"
-msgstr "アクセスが拒否されました: アクセス権が制限されています。ファイル/フォルダを作成・削除したり、名前を変更することはできません"
+msgstr "アクセスが拒否されました: アクセス権が制限されています。ファイル/フォルダーを作成・削除したり、名前を変更することはできません"
 
 #: pgadmin/utils/constants.py:165
 msgid "Could not find the specified server."
