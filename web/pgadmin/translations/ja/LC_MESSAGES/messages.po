@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-22 21:56+0900\n"
+"PO-Revision-Date: 2025-08-23 22:08+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -14047,7 +14047,7 @@ msgstr "その他"
 
 #: pgadmin/static/js/helpers/MainMoreToolbar.jsx:42
 msgid "Nothing to open"
-msgstr "開けるものがありません"
+msgstr "開くものがありません"
 
 #: pgadmin/static/js/helpers/Menu.js:47 pgadmin/static/js/helpers/Menu.js:68
 msgid "Invalid MenuItem instance"
@@ -14109,21 +14109,21 @@ msgstr "完了"
 #: pgadmin/static/js/tree/pgadmin_tree_save_state.js:123
 #: pgadmin/static/js/tree/pgadmin_tree_save_state.js:136
 msgid "Error resetting the tree saved state.\""
-msgstr "ツリーの保存状態をリセット中にエラーが発生しました。\""
+msgstr "ツリーの保存状態のリセット中にエラーがありました。\""
 
 #: pgadmin/static/js/tree/tree_utils.js:36
 msgid ""
 "Databases with = symbols in the name cannot be backed up or restored "
 "using this utility."
-msgstr "このユーティリティでは、名前に = 記号の入ったデータベースをバックアップ、及び復元することができません。"
+msgstr "このユーティリティでは、名前に = 記号が入ったデータベースをバックアップ、および復元することができません。"
 
 #: pgadmin/static/js/tree/tree_utils.js:49
 msgid "Please select server or child node from the object explorer."
-msgstr "オブジェクトエクスプローラーからサーバーか子ノードを選択してください。"
+msgstr "オブジェクトエクスプローラーから、サーバーか子ノードを選択してください。"
 
 #: pgadmin/static/js/tree/tree_utils.js:81
 msgid "Please select a database or its child node from the browser."
-msgstr "ブラウザーからデータベースか子ノードを選択してください。"
+msgstr "ブラウザーから、データベースか子ノードを選択してください。"
 
 #: pgadmin/tools/backup/__init__.py:50 pgadmin/tools/backup/__init__.py:163
 #: pgadmin/tools/backup/static/js/backup.js:192
@@ -14184,7 +14184,7 @@ msgstr "グローバルオブジェクトをバックアップ..."
 msgid ""
 "Please select any server from the object explorer to take Backup of "
 "global objects."
-msgstr "グローバルオブジェクトのバックアップを取るサーバーをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、グローバルオブジェクトのバックアップを取るサーバーを選択してください。"
 
 #: pgadmin/tools/backup/static/js/backup.js:77
 #: pgadmin/tools/backup/static/js/backup.js:105
@@ -14194,14 +14194,14 @@ msgstr "サーバーをバックアップ..."
 #: pgadmin/tools/backup/static/js/backup.js:81
 #: pgadmin/tools/backup/static/js/backup.js:109
 msgid "Please select any server from the object explorer to take Server Backup."
-msgstr "全体のバックアップを取るサーバーをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、全体のバックアップを取るサーバーを選択してください。"
 
 #: pgadmin/tools/backup/static/js/backup.js:95
 #: pgadmin/tools/backup/static/js/backup.js:124
 msgid ""
 "Please select any database or schema or table from the object explorer to"
 " take Backup."
-msgstr "バックアップを取るデータベース、スキーマ、またはテーブルをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、バックアップを取るデータベース、スキーマ、またはテーブルを選択してください。"
 
 #: pgadmin/tools/backup/static/js/backup.js:118
 #: pgadmin/tools/backup/static/js/backup.js:137
@@ -14331,7 +14331,7 @@ msgstr "詳細メッセージ"
 #: pgadmin/tools/backup/static/js/backup.ui.js:375
 #: pgadmin/tools/backup/static/js/backupGlobal.ui.js:36
 msgid "Force double quote on identifiers"
-msgstr "識別子でダブルクォートを強制"
+msgstr "識別子にダブルクォートを強制"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:382
 #: pgadmin/tools/restore/static/js/restore.ui.js:288
@@ -14341,11 +14341,11 @@ msgstr "SET SESSION AUTHORIZATION を使用"
 #: pgadmin/tools/backup/static/js/backup.ui.js:389
 #: pgadmin/tools/restore/static/js/restore.ui.js:300
 msgid "Exclude schema"
-msgstr "スキーマを除外"
+msgstr "除外するスキーマ"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:398
 msgid "Exclude database"
-msgstr "データベースを除外"
+msgstr "除外するデータベース"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:407
 msgid "Extra float digits"
@@ -14428,7 +14428,7 @@ msgstr "ロール名"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:599
 msgid "The backup format will be PLAIN"
-msgstr "バックアップ形式には、平文が使用されます"
+msgstr "バックアップは平文形式で生成されます"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:607
 #: pgadmin/tools/backup/static/js/backup.ui.js:613
@@ -14457,16 +14457,16 @@ msgstr "INSERT コマンドごとの最大行数"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:635
 msgid "On conflict do nothing to INSERT command"
-msgstr "INSERT コマンドに ON CONFLICT DO NOTHING を付与"
+msgstr "INSERT コマンドに ON CONFLICT DO NOTHING を付加"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:650
 #: pgadmin/tools/restore/static/js/restore.ui.js:453
 msgid "Include CREATE DATABASE statement"
-msgstr "CREATE DATABASE 文を含む"
+msgstr "CREATE DATABASE 文を含める"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:658
 msgid "Include DROP DATABASE statement"
-msgstr "DROP DATABASE 文を含む"
+msgstr "DROP DATABASE 文を含める"
 
 #: pgadmin/tools/backup/static/js/backup.ui.js:672
 #: pgadmin/tools/restore/static/js/restore.ui.js:470
@@ -14518,13 +14518,13 @@ msgstr "スキーマが選択されている場合、そのスキーマのみを
 #: pgadmin/tools/import_export_servers/static/js/import_export_selection.ui.js:87
 #: pgadmin/tools/restore/static/js/restore.ui.js:530
 msgid "Please provide a filename."
-msgstr "ファイル名を指定してください。"
+msgstr "ファイル名を入力してください。"
 
 #: pgadmin/tools/backup/static/js/backupGlobal.ui.js:96
 msgid ""
 "Only objects global to the entire database will be backed up, in PLAIN "
 "format"
-msgstr "平文形式では、データベース全体のグローバルオブジェクトのみがバックアップされます"
+msgstr "データベース全体のグローバルオブジェクトのみが、平文形式でバックアップされます"
 
 #: pgadmin/tools/debugger/__init__.py:64
 #: pgadmin/tools/debugger/static/js/components/ToolBar.jsx:171
@@ -14589,13 +14589,13 @@ msgstr "名前にコロンを含む関数はデバッグできません。"
 
 #: pgadmin/tools/debugger/__init__.py:450
 msgid "EDB Advanced Server wrapped functions cannot be debugged."
-msgstr "EDB Advanced Server によってラップされた関数はデバッグできません。"
+msgstr "EDB Advanced Server でラップされた関数はデバッグできません。"
 
 #: pgadmin/tools/debugger/__init__.py:457
 msgid ""
 "An 'edbspl' target with a variadic argument is not supported and cannot "
 "be debugged."
-msgstr "可変長引数を持つ 'edbspl' ターゲットはサポートしていないため、デバッグできません。"
+msgstr "可変長引数を持つ 'edbspl' ターゲットはサポートされていないため、デバッグできません。"
 
 #: pgadmin/tools/debugger/__init__.py:532
 #: pgadmin/tools/debugger/__init__.py:546
@@ -14606,13 +14606,13 @@ msgstr "pldbgapi 拡張機能をデータベースから見つけられません
 msgid ""
 "The debugger plugin is not enabled. Please create the pldbgapi extension "
 "in this database."
-msgstr "デバッガープラグインが有効になっていません。pldbgapi 拡張機能をデータベースに作成してください。"
+msgstr "デバッガープラグインが有効になっていません。データベースに pldbgapi 拡張機能を作成してください。"
 
 #: pgadmin/tools/debugger/__init__.py:732
 msgid ""
 "You must be a superuser to set a global breakpoint and perform indirect "
 "debugging."
-msgstr "グローバルなブレークポイントの設定や、間接デバッグの実行には、スーパーユーザー権限が必要です。"
+msgstr "グローバルなブレークポイントを設定しつつ、間接デバッグを行うには、スーパーユーザー権限が必要です。"
 
 #: pgadmin/tools/debugger/__init__.py:742
 msgid "Could not fetch debugger plugin information."
@@ -14625,11 +14625,11 @@ msgid ""
 "the database server for indirect debugging."
 msgstr ""
 "デバッガープラグインが有効になっていません。間接デバッグを行うには postgresql.conf の "
-"shared_preload_libraries 設定にプラグインを追加し、データベースサーバーを再起動してください。"
+"shared_preload_libraries 設定にデバッガープラグインを追加し、データベースサーバーを再起動してください。"
 
 #: pgadmin/tools/debugger/__init__.py:768
 msgid "Please upgrade the pldbgapi extension to 1.1 or above and try again."
-msgstr "pldbgapi 拡張機能をバージョン 1.1 以上にアップグレードし、再試行してください。"
+msgstr "pldbgapi 拡張機能をバージョン 1.1 以上にアップグレードし、もう一度試してください。"
 
 #: pgadmin/tools/debugger/__init__.py:1249
 msgid "Debugging aborted successfully."
@@ -14641,7 +14641,7 @@ msgstr "値が保存されました"
 
 #: pgadmin/tools/debugger/__init__.py:1655
 msgid "Error while setting the value"
-msgstr "値の設定中にエラーが発生しました"
+msgstr "値の設定中にエラーがありました"
 
 #: pgadmin/tools/debugger/__init__.py:2034
 #: pgadmin/tools/debugger/__init__.py:2093
@@ -14727,7 +14727,7 @@ msgstr "デバッガーエラー"
 msgid ""
 "Current database has been moved or renamed to ${db_label}. Click on the "
 "OK button to refresh the database name."
-msgstr "現在のデータベースは移動されたか、${db_label} へと名前が変更されました。OK ボタンをクリックすると、データベース名を再読み込みします。"
+msgstr "現在のデータベースは移動されたか、${db_label} に名前が変更されました。OK ボタンをクリックすると、データベース名を再読み込みします。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgs.ui.js:47
 msgid "Null?"
@@ -14748,7 +14748,7 @@ msgstr "既定値を使用"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:433
 msgid "Unable to fetch the arguments from server"
-msgstr "サーバーから引数を取得できませんでした"
+msgstr "サーバーから引数を取得できません"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:493
 msgid "Clear failed"
@@ -14760,11 +14760,11 @@ msgstr "エラーが発生しました: "
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:773
 msgid "Debugger Listener Startup Error"
-msgstr "デバッガーリスナの開始エラー"
+msgstr "デバッグリスナーの開始エラー"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:797
 msgid "Debugger Listener Startup Set Arguments Error"
-msgstr "デバッガーリスナ開始時の引数設定エラー"
+msgstr "デバッグリスナー開始時の引数設定エラー"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerArgumentComponent.jsx:861
 msgid "Clear All"
@@ -14782,48 +14782,48 @@ msgstr "デバッガーが中断されました。OK ボタンをクリックす
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:168
 msgid "Error while starting debugging listener."
-msgstr "デバッグリスナの開始中にエラーが発生しました。"
+msgstr "デバッグリスナーの開始中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:177
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:956
 msgid "Error while polling result."
-msgstr "結果のポーリング中にエラーが発生しました。"
+msgstr "結果のポーリング中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:184
 msgid "Error while clearing all breakpoint."
-msgstr "全ブレークポイントの解除中にエラーが発生しました。"
+msgstr "すべてのブレークポイントの解除中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:191
 msgid "Error while fetching breakpoint information."
-msgstr "ブレークポイント情報の取得中にエラーが発生しました。"
+msgstr "ブレークポイント情報の取得中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:215
 #: pgadmin/utils/constants.py:40
 msgid "Not connected to server or connection with the server has been closed."
-msgstr "サーバーに接続していないか、切断されました。"
+msgstr "サーバーに接続していないか、サーバーとの接続が切断されました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:223
 msgid "Error while fetching messages information."
-msgstr "メッセージ情報の取得中にエラーが発生しました。"
+msgstr "メッセージ情報の取得中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:249
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:256
 msgid "Error while starting debugging session."
-msgstr "デバッグセッションの開始中にエラーが発生しました。"
+msgstr "デバッグセッションの開始中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:286
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:294
 msgid "Error while executing requested debugging information."
-msgstr "要求されたデバッグ情報の実行中にエラーが発生しました。"
+msgstr "要求されたデバッグ情報の実行中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:319
 msgid "Error while selecting frame."
-msgstr "フレームの選択中にエラーが発生しました。"
+msgstr "フレームの選択中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:462
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:469
 msgid "Error while executing stop in debugging session."
-msgstr "デバッグセッションでの停止中にエラーが発生しました。"
+msgstr "デバッグセッションでの停止中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:674
 msgid "Debugger poll end execution error"
@@ -14832,22 +14832,22 @@ msgstr "デバッグポール終了の実行エラー"
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:715
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:722
 msgid "Error while executing continue in debugging session."
-msgstr "デバッグセッションでの続行中にエラーが発生しました。"
+msgstr "デバッグセッションでの再開中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:742
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:749
 msgid "Error while executing step over in debugging session."
-msgstr "デバッグセッションでのステップオーバー中にエラーが発生しました。"
+msgstr "デバッグセッションでのステップオーバー中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:812
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:819
 msgid "Error while fetching variable information."
-msgstr "変数情報の取得中にエラーが発生しました。"
+msgstr "変数情報の取得中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:841
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:848
 msgid "Error while fetching stack information."
-msgstr "スタック情報の取得中にエラーが発生しました。"
+msgstr "スタック情報の取得中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:860
 msgid "Error in update"
@@ -14864,11 +14864,11 @@ msgstr "デバッガーエラー: poll_result"
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:980
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:987
 msgid "Error while executing step into in debugging session."
-msgstr "デバッグセッションでのステップイン中にエラーが発生しました。"
+msgstr "デバッグセッションでのステップイン中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:1020
 msgid "Error while depositing variable value."
-msgstr "変数値の送信中にエラーが発生しました。"
+msgstr "変数値の保存中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerComponent.jsx:1115
 msgid "Local Variables"
@@ -14886,7 +14886,7 @@ msgstr "スタック"
 
 #: pgadmin/tools/debugger/static/js/components/DebuggerEditor.jsx:60
 msgid "Error while setting debugging breakpoint."
-msgstr "ブレークポイントの設定中にエラーが発生しました。"
+msgstr "ブレークポイントの設定中にエラーがありました。"
 
 #: pgadmin/tools/debugger/static/js/components/LocalVariablesAndParams.jsx:146
 msgid "No data found"
@@ -14973,7 +14973,7 @@ msgstr "簡易/詳細な情報を表示"
 
 #: pgadmin/tools/erd/__init__.py:344
 msgid "Zoom to fit"
-msgstr "画面に合わせてズーム"
+msgstr "画面に合わせて拡大"
 
 #: pgadmin/tools/erd/__init__.py:398 pgadmin/tools/erd/__init__.py:437
 msgid "SQL With DROP Table"
@@ -14993,7 +14993,7 @@ msgstr "テーブルリレーションの深さ"
 msgid ""
 "The maximum depth pgAdmin should traverse to find related tables when "
 "generating an ERD for a table. Use -1 for no limit."
-msgstr "テーブルに対する ERD を生成するとき、関連するテーブルをどこまで深く追いかけるかの上限です。-1 で無制限になります。"
+msgstr "テーブルの ERD を生成するとき、関連するテーブルをどこまで深く追いかけるかの上限です。-1 で無制限になります。"
 
 #: pgadmin/tools/erd/__init__.py:424
 #: pgadmin/tools/erd/static/js/erd_tool/components/MainToolBar.jsx:283
@@ -15011,7 +15011,7 @@ msgstr "チェン"
 
 #: pgadmin/tools/erd/__init__.py:430
 msgid "Notation to be used to present cardinality."
-msgstr "カーディナリティを表現するのに使う記法です。"
+msgstr "カーディナリティを表現するために使用する記法です。"
 
 #: pgadmin/tools/erd/static/js/ERDModule.js:125
 #: pgadmin/tools/erd/static/js/ERDModule.js:134
@@ -15043,7 +15043,7 @@ msgstr "切断しました"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/ConnectionBar.jsx:82
 msgid "(Obtaining connection...)"
-msgstr "(接続を確立しています...)"
+msgstr "(接続を確立させています...)"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/ConnectionBar.jsx:83
 msgid "(Connection failed)"
@@ -15086,7 +15086,7 @@ msgstr "%s 個のテーブルと %s 個のリンクを選択しました。"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/ERDTool.jsx:567
 msgid "Are you sure you want to delete ?"
-msgstr "削除してもよろしいですか？"
+msgstr "削除しますか？"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/ERDTool.jsx:626
 msgid "Loading project..."
@@ -15230,15 +15230,15 @@ msgstr "詳細を表示"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/MainToolBar.jsx:288
 msgid "Zoom In"
-msgstr "ズームイン"
+msgstr "拡大"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/MainToolBar.jsx:293
 msgid "Zoom to Fit"
-msgstr "画面に合わせてズーム"
+msgstr "画面に合わせて拡大"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/MainToolBar.jsx:298
 msgid "Zoom Out"
-msgstr "ズームアウト"
+msgstr "縮小"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/MainToolBar.jsx:312
 msgid "File Menu"
@@ -15317,16 +15317,16 @@ msgstr "権限の選択"
 
 #: pgadmin/tools/grant_wizard/static/js/GrantWizard.jsx:146
 msgid "Error while fetching grant wizard data."
-msgstr "権限付与ウィザードのデータ取得中にエラーが発生しました。"
+msgstr "権限付与ウィザードのデータ取得中にエラーがありました。"
 
 #: pgadmin/tools/grant_wizard/static/js/GrantWizard.jsx:169
 msgid "Error while fetching SQL."
-msgstr "SQL の取得中にエラーが発生しました。"
+msgstr "SQL の取得中にエラーがありました。"
 
 #: pgadmin/tools/grant_wizard/static/js/GrantWizard.jsx:192
 #, python-brace-format
 msgid "Error while saving grant wizard data: ${error.response.data.errormsg}"
-msgstr "権限付与ウィザードのデータ保存中にエラーが発生しました: ${error.response.data.errormsg}"
+msgstr "権限付与ウィザードのデータ保存中にエラーがありました: ${error.response.data.errormsg}"
 
 #: pgadmin/tools/grant_wizard/static/js/GrantWizard.jsx:260
 msgid "Please select any database object."
@@ -15353,7 +15353,7 @@ msgstr "権限付与ウィザード..."
 msgid ""
 "Please select any database, schema or schema objects from the object "
 "explorer to access Grant Wizard Tool."
-msgstr "権限付与ウィザードを実行するデータベース、スキーマ、またはスキーマオブジェクトをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、権限付与ウィザードを実行するデータベース、スキーマ、またはスキーマオブジェクトを選択してください。"
 
 #: pgadmin/tools/import_export/__init__.py:42
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:56
