@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-23 22:08+0900\n"
+"PO-Revision-Date: 2025-08-25 05:01+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -15342,7 +15342,7 @@ msgstr "権限付与ウィザード"
 msgid ""
 "The SQL below will be executed on the database server to grant the "
 "selected privileges. Please click on Finish to complete the process."
-msgstr "データベースサーバーに次の SQL を発行し、選択された権限を付与します。これでよろしければ、完了をクリックしてください。"
+msgstr "データベースサーバーに次の SQL を発行し、選択された権限を付与します。この内容で間違いがなければ、完了をクリックしてください。"
 
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:44
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:64
@@ -15411,7 +15411,7 @@ msgstr "データをインポート/エクスポート..."
 
 #: pgadmin/tools/import_export/static/js/import_export.js:53
 msgid "Please select any table from the object explorer to Import/Export data."
-msgstr "データをインポート/エクスポートするテーブルをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、データをインポート/エクスポートするテーブルを選択してください。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:65
 msgid "Export Data Using Query..."
@@ -15421,7 +15421,7 @@ msgstr "クエリを使用してデータをエクスポート..."
 msgid ""
 "Please select any database from the object explorer to Export Data using "
 "query."
-msgstr "クエリを使用してデータをエクスポートするデータベースをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、クエリを使用してデータをエクスポートするデータベースを選択してください。"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:182
 #, python-format
@@ -15469,7 +15469,7 @@ msgstr "エラー発生時"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:125
 msgid "stop"
-msgstr "中断"
+msgstr "中止"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:129
 msgid "ignore"
@@ -15483,9 +15483,9 @@ msgid ""
 "the next one. The default is stop. The ignore option is applicable only "
 "for COPY FROM when the FORMAT is text or csv."
 msgstr ""
-"列の入力値をそのデータ型に変換するときに、エラーが発生した場合の動作を指定します。'中断' にするとコマンド自体が失敗し、'無視' "
-"にするとエラーがある入力行を破棄しつつ、そのまま次の行へ進みます。既定は '中断' です。'無視' オプションは、テキストまたは CSV "
-"形式のファイルを COPY FROM でコピーする場合にのみ適用できます。"
+"列の入力値をそのデータ型に変換するときに、エラーが発生した場合の動作を指定します。'中止' にするとコマンド自体が失敗し、'無視' "
+"にするとエラーがある入力行を破棄しつつ、そのまま次の行へ進みます。既定は '中止' です。'無視' オプションは、テキストまたは CSV "
+"形式のファイルを COPY FROM でコピーするときにのみ適用できます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:142
 msgid "Log Verbosity"
@@ -15507,7 +15507,7 @@ msgid ""
 "option is set to ignore."
 msgstr ""
 "COPY コマンドが出力するメッセージの量を指定します ('既定' または '冗長')。'冗長' "
-"にすると、処理中に追加のメッセージが出力されます。このオプションは今のところ、COPY FROM コマンドでエラーを '無視' "
+"にすると、処理中に追加のメッセージが出力されます。このオプションは、今のところ COPY FROM コマンドでエラーを '無視' "
 "しつつコピーするときに使用されます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:172
@@ -15541,7 +15541,7 @@ msgid ""
 "This option is allowed only when using CSV format."
 msgstr ""
 "データ値が引用符付けされているときの引用符を指定します。既定ではダブルクォートです。これは単一の 1 "
-"バイト文字でなければなりません。このオプションは CSV 形式にのみ使用できます。"
+"バイト文字でなければなりません。このオプションは CSV 形式専用です。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:236
 msgid "Escape"
@@ -15556,8 +15556,7 @@ msgid ""
 "using CSV format."
 msgstr ""
 "引用符と一致するデータ文字の前に置く文字を指定します。既定では引用符と同じ文字です "
-"(そのため、引用符がデータ内にあると二重になります)。これは単一の 1 バイト文字でなければなりません。このオプションは CSV "
-"形式にのみ使用できます。"
+"(そのため、引用符がデータ内にあると二重になります)。これは単一の 1 バイト文字でなければなりません。このオプションは CSV 形式専用です。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:254
 msgid "NULL String"
@@ -15571,8 +15570,9 @@ msgid ""
 " don't want to distinguish nulls from empty strings. This option is not "
 "allowed when using binary format."
 msgstr ""
-"NULL 値を表す文字列を指定します。テキスト形式では \\N (バックスラッシュ N)、CSV 形式では引用符のない空文字が既定値です。NULL"
-" と空文字を同じものと見なしたい場合には、テキスト形式でも空文字とすることができます。このオプションをバイナリ形式に使用することはできません。"
+"NULL 値を表現する文字列を指定します。テキスト形式では \\N (バックスラッシュ N)、CSV "
+"形式では引用符のない空文字が既定値です。NULL "
+"と空文字を同じものと見なしたい場合には、テキスト形式でも空文字とすることができます。このオプションをバイナリ形式に使用することはできません。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:265
 msgid "Default String"
@@ -15600,7 +15600,7 @@ msgstr "エクスポートする列..."
 msgid ""
 "An optional list of columns to be copied. If no column list is specified,"
 " all columns of the table will be copied."
-msgstr "コピーする列の一覧です (任意)。何も指定しなかった場合、テーブルのすべての列がコピーされます。"
+msgstr "コピーする任意の列のリストです。何も指定しなかった場合は、テーブルのすべての列がコピーされます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:316
 msgid "Export Data Query"
@@ -15629,7 +15629,7 @@ msgid ""
 "and only when using CSV format."
 msgstr ""
 "指定された列の非 NULL 値を常に引用符付けします。NULL 出力が引用符付けされることはありません。* を指定すると、すべての列の非 NULL"
-" 値を引用符付けします。このオプションは COPY TO かつ CSV 形式にのみ使用できます。"
+" 値を引用符付けします。このオプションは COPY TO かつ CSV 形式専用です。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:357
 msgid "NOT NULL columns"
@@ -15648,7 +15648,7 @@ msgid ""
 "using CSV format."
 msgstr ""
 "指定した列の値を NULL 文字と見なしません。既定だと NULL 文字は空なので、引用符付けに関わらず、空の値は (NULL ではなく) 0 "
-"文字の値と見なされます。このオプションはインポート時、かつ CSV 形式にのみ使用できます。"
+"文字の値と見なされます。このオプションはインポート時、かつ CSV 形式専用です。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:377
 msgid "NULL columns"
@@ -15667,8 +15667,7 @@ msgid ""
 "when using CSV format."
 msgstr ""
 "指定された列の値を (引用符付けの有無に関わらず) 'NULL 文字列' と比較し、一致したら値を NULL に設定します。既定の 'NULL "
-"文字列' は空のため、引用符付けされた空の文字列が NULL に変換されます。このオプションは COPY FROM かつ CSV "
-"形式にのみ使用できます。"
+"文字列' は空のため、引用符付けされた空の文字列が NULL に変換されます。このオプションは COPY FROM かつ CSV 形式専用です。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:410
 msgid "Export Data Query can not be empty."
@@ -15687,7 +15686,7 @@ msgstr "指定されたファイルの形式が正しくありません。"
 
 #: pgadmin/tools/import_export_servers/__init__.py:152
 msgid "Unable to load the specified file."
-msgstr "指定されたファイルを読み込めませんでした。"
+msgstr "指定されたファイルを読み込めません。"
 
 #: pgadmin/tools/import_export_servers/__init__.py:154
 msgid "The specified file does not exist."
@@ -15731,7 +15730,7 @@ msgstr "インポートエラー"
 msgid ""
 "The following servers will be imported. Click the Finish button to "
 "complete the import process."
-msgstr "次のサーバーがインポートされます。インポート処理を完了させるには、完了ボタンをクリックします。"
+msgstr "次のサーバーがインポートされます。この内容で間違いがなければ、完了ボタンをクリックしてください。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:157
 msgid ""
@@ -15747,7 +15746,7 @@ msgstr "インポート処理が成功したら、オブジェクトエクスプ
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:180
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:181
 msgid "Error while fetching Server Groups and Servers."
-msgstr "サーバーグループとサーバーの取得中にエラーが発生しました。"
+msgstr "サーバーグループとサーバーの取得中にエラーがありました。"
 
 #: pgadmin/tools/import_export_servers/static/js/ImportExportServers.jsx:237
 msgid "Select the Server Groups/Servers to import/export:"
@@ -15854,7 +15853,7 @@ msgstr "メンテナンス..."
 #: pgadmin/tools/maintenance/static/js/maintenance.js:53
 #: pgadmin/tools/maintenance/static/js/maintenance.js:72
 msgid "Please select any database from the object explorer to do Maintenance."
-msgstr "メンテナンスを行うデータベースをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、メンテナンスを行うデータベースを選択してください。"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.js:168
 msgid "Maintenance error"
@@ -15864,7 +15863,7 @@ msgstr "メンテナンスエラー"
 msgid ""
 "Maintenance job creation failed. Databases with = symbols in the name "
 "cannot be maintained using this utility."
-msgstr "メンテナンスジョブの作成に失敗しました。このユーティリティでは、名前に = 記号の入ったデータベースをメンテナンスすることができません。"
+msgstr "メンテナンスジョブの作成に失敗しました。このユーティリティでは、名前に = 記号が入ったデータベースをメンテナンスすることができません。"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:39
 msgid "FULL"
@@ -15963,14 +15962,14 @@ msgid ""
 "for the appropriate server version, or select \"Set as default\" to use "
 "an existing binary path."
 msgstr ""
-"PSQL ユーティリティが見つかりませんでした。設定から適切にサーバーバージョンとバイナリパスを指定するか、既存のバイナリパスを "
+"PSQL ユーティリティが見つかりませんでした。設定から適切なサーバーバージョンとバイナリパスを指定するか、既存のバイナリパスを "
 "\"既定値として使用\" してください。"
 
 #: pgadmin/tools/psql/__init__.py:433
 msgid ""
 "Connection terminated, To create new connection please open another psql "
 "tool."
-msgstr "接続が切断されました。再接続するには、新しく psql ツールを開き直してください。"
+msgstr "接続が切断されました。新しい接続を確立させるには、別の psql ツールを開き直してください。"
 
 #: pgadmin/tools/psql/__init__.py:496 pgadmin/tools/psql/__init__.py:530
 msgid "Invalid session.\r\n"
@@ -15978,7 +15977,7 @@ msgstr "セッションが無効です。\r\n"
 
 #: pgadmin/tools/psql/static/js/PsqlModule.js:95
 msgid "Please select a database from the object explorer to access Pql Tool."
-msgstr "PSQL ツールでアクセスするデータベースをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから PSQL ツールでアクセスするデータベースを選択してください。"
 
 #: pgadmin/tools/psql/static/js/PsqlModule.js:136
 #: pgadmin/tools/psql/static/js/PsqlModule.js:144
@@ -16009,11 +16008,11 @@ msgstr "PSQL 端末にデータを貼り付けるには、クリップボード�
 #: pgadmin/tools/restore/__init__.py:98
 #, python-brace-format
 msgid "Restoring backup on the server '{0}'"
-msgstr "サーバー '{0}' のバックアップを復元しています"
+msgstr "サーバー '{0}' にバックアップを復元しています"
 
 #: pgadmin/tools/restore/__init__.py:103
 msgid "Restoring backup on the server"
-msgstr "サーバーのバックアップを復元しています"
+msgstr "サーバーにバックアップを復元しています"
 
 #: pgadmin/tools/restore/__init__.py:140
 msgid "File could not be found."
@@ -16028,7 +16027,7 @@ msgstr "復元..."
 msgid ""
 "Please select any schema or table from the object explorer to Restore "
 "data."
-msgstr "データを復元するスキーマ、またはテーブルをオブジェクトエクスプローラーから選択してください。"
+msgstr "オブジェクトエクスプローラーから、データを復元するスキーマ、またはテーブルを選択してください。"
 
 #: pgadmin/tools/restore/static/js/restore.js:134
 msgid "Restore Error"
@@ -16049,11 +16048,11 @@ msgstr "スキーマのみ"
 #: pgadmin/tools/restore/static/js/restore.ui.js:303
 #: pgadmin/tools/restore/static/js/restore.ui.js:518
 msgid "Miscellaneous / Behavior"
-msgstr "その他 / 挙動"
+msgstr "その他 / 振る舞い"
 
 #: pgadmin/tools/restore/static/js/restore.ui.js:294
 msgid "Exit on error"
-msgstr "エラー発生時に終了"
+msgstr "エラー時に終了"
 
 #: pgadmin/tools/restore/static/js/restore.ui.js:360
 msgid "Custom or tar"
@@ -16061,7 +16060,7 @@ msgstr "カスタム、または Tar"
 
 #: pgadmin/tools/restore/static/js/restore.ui.js:458
 msgid "Clean before restore"
-msgstr "復元前に削除"
+msgstr "復元前に掃除"
 
 #: pgadmin/tools/restore/static/js/restore.ui.js:484
 msgid "Single transaction"
