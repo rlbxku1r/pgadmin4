@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-25 22:49+0900\n"
+"PO-Revision-Date: 2025-08-29 05:01+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -13863,12 +13863,12 @@ msgstr "%s 個を超える '%s' は指定できません"
 #: pgadmin/static/js/SchemaView/SchemaState/common.js:278
 #, python-format
 msgid "%s must be unique."
-msgstr "%s は重複しない値にしてください。"
+msgstr "%s は重複しないようにしてください。"
 
 #: pgadmin/static/js/SchemaView/SchemaState/common.js:282
 #, python-format
 msgid "%s in %s must be unique."
-msgstr "%s (%s) は重複しない値にしてください。"
+msgstr "%s (%s) は重複しないようにしてください。"
 
 #: pgadmin/static/js/SchemaView/SchemaState/common.js:330
 #, python-format
@@ -15043,7 +15043,7 @@ msgstr "切断しました"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/ConnectionBar.jsx:82
 msgid "(Obtaining connection...)"
-msgstr "(接続を確立させています...)"
+msgstr "(接続を確立しています...)"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/ConnectionBar.jsx:83
 msgid "(Connection failed)"
@@ -16579,11 +16579,11 @@ msgstr "サーバーへの接続に問題があります。"
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolDataGrid/Editors.jsx:306
 #, python-brace-format
 msgid "Arrays must start with \"{\" and end with \"}\""
-msgstr "配列は \"{\" で始まり、\"}\" で終わる必要があります"
+msgstr "配列は \"{\" で始まり \"}\" で終わらないといけません"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolDataGrid/Editors.jsx:291
 msgid "Please enter a valid number"
-msgstr "有効な数字を入力してください"
+msgstr "正しい数字を入力してください"
 
 #: pgadmin/tools/sqleditor/static/js/components/QueryToolDataGrid/Editors.jsx:428
 msgid "Invalid JSON input"
@@ -16630,17 +16630,17 @@ msgstr "データの並べ替え"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/MacrosDialog.jsx:101
 msgid "Key must be unique."
-msgstr "キーが重複しています。"
+msgstr "キーは重複しないようにしてください。"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/MacrosDialog.jsx:104
 msgid "Name must be unique."
-msgstr "名前が重複しています。"
+msgstr "名前は重複しないようにしてください。"
 
 #: pgadmin/tools/sqleditor/static/js/components/dialogs/NewConnectionDialog.jsx:39
 msgid ""
 "By changing the connection you will lose all your unsaved data for the "
 "current connection. <br> Do you want to continue?"
-msgstr "接続を変更すると、現在の接続で行われている未保存のデータは失われます。 <br> 続行しますか？"
+msgstr "接続を変更すると、現在の接続で保存されていないデータは失われます。 <br> 続行しますか？"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ConnectionBar.jsx:115
 msgid "(Obtaining connection)"
@@ -16657,11 +16657,11 @@ msgstr "%s / %s のジオメトリが描画されています。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/GeometryViewer.jsx:105
 msgid "3D geometries not rendered."
-msgstr "3 次元ジオメトリは描画されません。"
+msgstr "3 次元ジオメトリは描画されていません。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/GeometryViewer.jsx:108
 msgid "Unsupported geometries not rendered."
-msgstr "未対応のジオメトリは描画されません。"
+msgstr "サポートされていないジオメトリは描画されていません。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/GeometryViewer.jsx:124
 msgid "Empty row."
@@ -16670,7 +16670,7 @@ msgstr "行がありません。"
 #: pgadmin/tools/sqleditor/static/js/components/sections/GeometryViewer.jsx:183
 #, python-format
 msgid "Geometries with non-SRID %s not rendered."
-msgstr "非 SRID %s のジオメトリは描画されません。"
+msgstr "非 SRID %s のジオメトリは描画されていません。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/GeometryViewer.jsx:364
 msgid "Empty"
@@ -16738,7 +16738,7 @@ msgstr "生成"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/GraphVisualiser.jsx:418
 msgid "Collapse"
-msgstr "折り畳む"
+msgstr "折りたたむ"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/GraphVisualiser.jsx:418
 msgid "Expand"
@@ -16760,13 +16760,13 @@ msgstr "クエリツールを閉じますか？"
 msgid ""
 "There is an active query running currently. Are you sure you want to "
 "close?"
-msgstr "まだ実行中のクエリがあります。それでもこのまま閉じますか？"
+msgstr "まだ実行中のクエリがあります。それでも閉じますか？"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:252
 msgid ""
 "The current transaction is not committed to the database. Do you want to "
 "commit or rollback the transaction?"
-msgstr "現在のトランザクションがデータベースにコミットされていません。トランザクションをコミット、またはロールバックしますか？"
+msgstr "現在のトランザクションがデータベースにコミットされていません。トランザクションをコミット、もしくはロールバックしますか？"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:255
 msgid ""
@@ -16950,7 +16950,7 @@ msgstr "コスト"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:652
 msgid "Buffers"
-msgstr "バッファ"
+msgstr "バッファー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:654
 msgid "Timing"
@@ -17022,7 +17022,7 @@ msgstr "行が影響を受けました"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/QueryHistory.jsx:350
 msgid "Copy to Query Editor"
-msgstr "クエリエディターへコピー"
+msgstr "クエリエディターにコピー"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/QueryHistory.jsx:399
 msgid "Fetching history..."
@@ -17053,7 +17053,7 @@ msgstr "履歴を消去しますか？"
 msgid ""
 "This will remove all of your query history from this and other sessions "
 "for this database."
-msgstr "このデータベースを使用する、すべてのセッションのクエリ履歴が削除されます。"
+msgstr "あなたがこのデータベースで実行した、すべてのセッションのクエリ履歴が削除されます。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/QueryHistory.jsx:467
 msgid "Removing history..."
@@ -17103,11 +17103,11 @@ msgstr "接続エラー"
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:366
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:367
 msgid "Execution Cancelled!"
-msgstr "実行をキャンセルしました！"
+msgstr "実行がキャンセルされました！"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:369
 msgid "Execution Cancelled"
-msgstr "実行をキャンセルしました"
+msgstr "実行がキャンセルされました"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:440
 msgid "Server Connected."
@@ -17121,7 +17121,7 @@ msgstr "クエリ完了"
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:725
 #, python-format
 msgid "Query returned successfully in %s."
-msgstr "クエリが %s で成功しました。"
+msgstr "クエリが %sで成功しました。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:731
 #, python-format
@@ -17184,7 +17184,7 @@ msgstr "このクエリは pgAdmin が \"データを保存\" 操作の一環と
 msgid ""
 "Saving data changes was rolled back but the current transaction is still "
 "active; previous queries are unaffected."
-msgstr "保存しようとした変更データはロールバックされましたが、現在のトランザクションはまだ続行中です。今までに実行したクエリへの影響はありません。"
+msgstr "保存しようとした変更データはロールバックされましたが、現在のトランザクションはまだ走行中です。今までに実行したクエリへの影響はありません。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1259
 msgid "Data saved successfully."
@@ -17192,7 +17192,7 @@ msgstr "データの保存に成功しました。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1261
 msgid "Auto-commit is off. You still need to commit changes to the database."
-msgstr "自動コミットが無効です。データベースへの変更は、手動でコミットを行わない限り反映されません。"
+msgstr "自動コミットがオフになっています。データベースへの変更は、手動でコミットを行わない限り反映されません。"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1436
 msgid "Geometry Viewer"
@@ -17328,7 +17328,7 @@ msgstr "削除: %s"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:118
 msgid "Query executed with server cursor"
-msgstr "サーバーカーソルでクエリが実行されました"
+msgstr "クエリがサーバーカーソルで実行されました"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:118
 #, python-format
@@ -17338,7 +17338,7 @@ msgstr "合計の行数: %s"
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:126
 #, python-format
 msgid "Rows selected: %s"
-msgstr "選択した行数: %s"
+msgstr "選択中の行数: %s"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/StatusBar.jsx:129
 #, python-format
@@ -17408,7 +17408,7 @@ msgstr "コストを表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:39
 msgid "Show buffers?"
-msgstr "バッファを表示"
+msgstr "バッファーを表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:45
 msgid "Show timing?"
@@ -17428,11 +17428,11 @@ msgstr "WAL を表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:71
 msgid "Set auto commit on or off by default in new Query Tool tabs."
-msgstr "新しいクエリツールのタブで、自動コミットを既定で有効にするかどうか指定します。"
+msgstr "新しいクエリツールのタブにおいて、自動コミットを最初からオンにするかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:79
 msgid "Set auto rollback on or off by default in new Query Tool tabs."
-msgstr "新しいクエリツールのタブで、自動ロールバックを既定で有効にするかどうか指定します。"
+msgstr "新しいクエリツールのタブにおいて、自動ロールバックを最初からオンにするかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:87
 msgid ""
@@ -17442,7 +17442,7 @@ msgid ""
 "entirely into memory."
 msgstr ""
 "True "
-"にすると、クエリを実行したあとのデータ集合を、サーバー側のカーソルを使って取得します。膨大なデータ集合すべてをメモリに読み込まずに、必要な部分のデータだけを受信するため、クライアントへのデータ転送量を抑えられます。"
+"にすると、クエリを実行したあとのデータ集合を、サーバー側のカーソルを使用して取得します。膨大なデータ集合すべてを一度にメモリに読み込まず、必要な部分のデータだけを受信すれば済むため、クライアントへのデータ転送量を抑えられます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:96
 msgid "Prompt to save unsaved query changes?"
@@ -17456,7 +17456,7 @@ msgstr "クエリツールを閉じるとき、未保存のクエリを保存す
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:106
 msgid "Sort View Data results by primary key columns?"
-msgstr "データの閲覧時、主キーの列でソート"
+msgstr "データの閲覧時、主キーの列で並べ替え"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:109
 msgid ""
@@ -17464,7 +17464,7 @@ msgid ""
 "option will be sorted by the Primary Key columns by default. When using "
 "the First/Last 100 Rows options, data is always sorted."
 msgstr ""
-"True の場合、データを表示するときに、すべての行を主キーで並べ替えた状態にします。最初/最後の 100 "
+"True にすると、'データを閲覧/編集' するときに、すべての行が主キーで並べ替えられた状態になります。最初/最後の 100 "
 "行の選択時は、常に並べ替えられたデータを表示します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:117
@@ -17479,13 +17479,13 @@ msgstr "データグリッドを閉じるとき、未保存のデータを保存
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:127
 msgid "Prompt to commit/rollback active transactions?"
-msgstr "実行中のトランザクションをコミットするか確認"
+msgstr "走行中のトランザクションをコミットするか確認"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:131
 msgid ""
 "Specifies whether or not to prompt user to commit or rollback an active "
 "transaction on Query Tool exit."
-msgstr "クエリツールを閉じるとき、実行中のトランザクションをコミット、もしくはロールバックするかどうか確認します。"
+msgstr "クエリツールを閉じるとき、走行中のトランザクションをコミット、もしくはロールバックするかどうか確認します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:138
 msgid "Copy SQL from main window to query tool?"
@@ -17511,7 +17511,7 @@ msgstr "'データを閲覧/編集' の切り替え時に警告を表示"
 msgid ""
 "If set to True, View/Edit Data tool will show promote to Query tool "
 "confirm dialog on query edit."
-msgstr "True にすると、'データを閲覧/編集' ツールのクエリ文を編集したとき、クエリツールに切り替える確認のダイアログを表示します。"
+msgstr "True にすると、'データを閲覧/編集' ツールのクエリ文を編集するとき、クエリツールに切り替える確認のダイアログを表示します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:170
 msgid "Underline query at cursor?"
@@ -17545,18 +17545,20 @@ msgid ""
 "When set to True, keywords won't be highlighted and code folding will be "
 "disabled. Plain text mode will improve editor performance with large "
 "files."
-msgstr "True の場合、キーワードが強調表示されなくなり、コードを折り畳むこともできなくなりますが、巨大なファイルを扱う際のパフォーマンスが向上します。"
+msgstr ""
+"True "
+"にすると、キーワードが強調表示されなくなり、コードを折りたたむこともできなくなりますが、巨大なファイルを扱う際のパフォーマンスが向上します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:204
 msgid "Code folding?"
-msgstr "コードの折り畳み"
+msgstr "コードの折りたたみ"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:207
 msgid ""
 "Enable or disable code folding. In plain text mode, this will have no "
 "effect as code folding is always disabled in that mode. Disabling will "
 "improve editor performance with large files."
-msgstr "コードを折り畳めるようにするかどうか指定します。無効にすると、巨大なファイルを扱う際のパフォーマンスが向上します。平文モードでは、この設定に関わらず常に無効化されます。"
+msgstr "コードを折りたためるようにするかどうか指定します。この設定を無効にすると、巨大なファイルを扱う際のパフォーマンスが向上します。※平文モードではこの設定に関わらず、常に折りたたむことができなくなります。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:215
 msgid "Line wrapping?"
@@ -17572,7 +17574,7 @@ msgstr "括弧を挿入"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:227
 msgid "Specifies whether or not to insert paired brackets in the editor."
-msgstr "エディターで括弧を自動的に補完するかどうか指定します。"
+msgstr "エディターで閉じ括弧を自動補完するかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:234
 msgid "Highlight selection matches?"
@@ -17580,7 +17582,7 @@ msgstr "選択中の文字列との一致を強調表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:237
 msgid "Specifies whether or not to highlight matched selected text in the editor."
-msgstr "エディターで選択中の文字列と他に一致する箇所を見つけ出し、強調表示するかどうか指定します。"
+msgstr "エディターで選択中の文字列と一致する箇所を見つけ出し、強調表示するかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:244
 msgid "Brace matching?"
@@ -17588,7 +17590,7 @@ msgstr "括弧の対応"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:247
 msgid "Specifies whether or not to highlight matched braces in the editor."
-msgstr "エディターで対になっている括弧を強調表示するかどうか指定します。"
+msgstr "エディターで対となっている開き括弧・閉じ括弧を強調表示するかどうか指定します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:254
 msgid "CSV quoting"
@@ -17631,7 +17633,7 @@ msgid ""
 "Specifies the string that represents a null value while downloading query"
 " results as CSV. You can specify any arbitrary string to represent a null"
 " value, with quotes if desired."
-msgstr "CSV でクエリ結果をダウンロードするとき、NULL 値を表現するために使う文字列を指定します。引用符を含む、任意の文字列を使用できます。"
+msgstr "CSV でクエリ結果をダウンロードするとき、NULL 値を表現するための文字列を指定します。引用符を含む、任意の文字列を使用できます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:308
 msgid "Result copy quoting"
@@ -17655,7 +17657,7 @@ msgstr "列のデータ"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:349
 msgid "Column name"
-msgstr "列の名前"
+msgstr "列名"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:352
 msgid ""
@@ -17664,7 +17666,7 @@ msgid ""
 "name', the column will be sized to the widest of the data type or column "
 "name."
 msgstr ""
-"'列のデータ' にすると、列に含まれているデータの最大幅に合わせて、表示領域の広さを調整します。'列の名前' "
+"'列のデータ' にすると、その列に含まれているデータの最大幅に合わせて、表示領域の広さを調整します。'列名' "
 "にすると、データ型の名前や、列名の幅に合わせます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:362
@@ -17731,7 +17733,7 @@ msgid ""
 "provided the configured font family supports them."
 msgstr ""
 "True にすると、SQL "
-"テキストボックスとエディターに使用されるフォントの合字を有効にします。ただし、そのフォントファミリーが合字をサポートしていない場合は無視されます。"
+"テキストボックスとエディターに使用されるフォントの合字を有効にします。※そのフォントファミリーが合字をサポートしていない場合は無視されます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:424
 msgid "Font family"
@@ -17755,7 +17757,7 @@ msgstr "接続状態"
 msgid ""
 "If set to True, the Query Tool will monitor and display the connection "
 "and transaction status."
-msgstr "True の場合、クエリツールが接続状態とトランザクション状態を監視・表示します。"
+msgstr "True にすると、クエリツールが接続状態とトランザクション状態を監視・表示します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:445
 msgid "Connection status refresh rate"
@@ -17773,7 +17775,7 @@ msgstr "クエリ成功の通知を表示"
 msgid ""
 "If set to True, the Query Tool will show notifications on successful "
 "query execution."
-msgstr "True の場合、クエリの実行が成功したとき、クエリツールに通知を表示します。"
+msgstr "True にすると、クエリの実行が成功したとき、クエリツールに通知を表示します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:503
 msgid "Save data changes"
@@ -17840,7 +17842,7 @@ msgstr "自動補完"
 msgid ""
 "If set to True, Keywords will be displayed in upper case for auto "
 "completion."
-msgstr "True の場合、自動補完時のキーワードが大文字で表示されます。"
+msgstr "True にすると、自動補完時のキーワードが大文字で表示されます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:843
 msgid "Autocomplete on key press"
@@ -17852,7 +17854,7 @@ msgid ""
 "CTRL/CMD + Space. If set to False, autocomplete is only activated when "
 "CTRL/CMD + Space is pressed."
 msgstr ""
-"True の場合、何らかのキーを押すたびに自動補完が発動します。False の場合、手動で Ctrl/Cmd + Space "
+"True にすると、何らかのキーを押すたびに自動補完が発動します。False にすると、手動で Ctrl/Cmd + Space "
 "を押さない限り、自動補完は発動しません。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:928
@@ -17905,7 +17907,7 @@ msgstr "演算子前後のスペース挿入"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1053
 msgid "If set to True, spaces are used around all operators."
-msgstr "True の場合、演算子すべての前後にスペースを使用します。"
+msgstr "True にすると、演算子すべての前後にスペースを使用します。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:1059
 msgid "Tab size"
@@ -18051,7 +18053,7 @@ msgstr "'{0}' ロールを削除する前に、所属しているユーザー全
 
 #: pgadmin/tools/user_management/__init__.py:568
 msgid "Role name must be unique."
-msgstr "ロール名が重複しています。"
+msgstr "ロール名は重複しないようにしてください。"
 
 #: pgadmin/tools/user_management/__init__.py:599
 msgid "User email/username must be unique for an authentication source."
