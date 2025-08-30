@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-30 21:54+0900\n"
+"PO-Revision-Date: 2025-08-30 22:17+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -5659,7 +5659,7 @@ msgstr "システムのテーブル"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:210
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:676
 msgid "Inherited tables count"
-msgstr "継承テーブル数"
+msgstr "継承テーブルの数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:224
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:830
@@ -7441,7 +7441,7 @@ msgstr "パブリケーションを正常に取得しました。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.js:111
 msgid "Check connection?"
-msgstr "接続を確認"
+msgstr "接続を確認してください"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:125
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:299
@@ -10377,7 +10377,7 @@ msgstr "%s \"%s\" のパネルの変更内容をリセットして開き直し�
 
 #: pgadmin/browser/static/js/node.js:487
 msgid "Edit in progress?"
-msgstr "編集中"
+msgstr "編集の途中です"
 
 #: pgadmin/browser/static/js/node.js:535
 #, python-format
