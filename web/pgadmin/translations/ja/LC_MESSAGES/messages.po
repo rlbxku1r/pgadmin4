@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-30 20:46+0900\n"
+"PO-Revision-Date: 2025-08-30 21:33+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -8182,7 +8182,7 @@ msgstr "正しい接続文字列を入力してください。"
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:198
 #, python-format
 msgid "Invalid parameter in the connection string - %s."
-msgstr "接続文字列 - %s に不正なパラメーターがあります。"
+msgstr "接続文字列に無効なパラメーター - %s があります。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:216
 msgid "Please specify code to execute."
@@ -8190,7 +8190,7 @@ msgstr "実行するコードを指定してください。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.ui.js:223
 msgid "Please select valid on error option."
-msgstr "有効なエラーオプションを選択してください。"
+msgstr "正しいエラーオプションを選択してください。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_job/sql/pre3.4/stats.sql:2
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_jobstep/sql/pre3.4/stats.sql:2
@@ -8444,7 +8444,7 @@ msgstr "ログイン/グループロール"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:181
 msgid "Date format is invalid."
-msgstr "日付の形式が不正です。"
+msgstr "日付の書式が不正です。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:200
 msgid "Connection limit must be an integer value or equal to -1."
@@ -9598,7 +9598,7 @@ msgstr "ホスト名、またはサービスを指定してください。"
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:575
 #: pgadmin/misc/workspaces/static/js/AdHocConnection.jsx:309
 msgid "Host name must be valid hostname or IPv4 or IPv6 address."
-msgstr "有効なホスト名、または IPv4/v6 アドレスを指定してください。"
+msgstr "正しいホスト名、または IPv4/v6 アドレスを指定してください。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:606
 msgid "SSH Tunnel host must be specified."
@@ -11819,7 +11819,7 @@ msgstr ""
 
 #: pgadmin/misc/__init__.py:337
 msgid "Invalid binary path."
-msgstr "バイナリパスが不正です。"
+msgstr "無効なバイナリパスです。"
 
 #: pgadmin/misc/bgprocess/processes.py:46
 msgid "Could not find a process with the specified ID."
@@ -12260,7 +12260,7 @@ msgstr "パスワードは 8 文字以上にしてください。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:142
 msgid "Invalid password."
-msgstr "無効なパスワードです。"
+msgstr "不正なパスワードです。"
 
 #: pgadmin/misc/cloud/static/js/aws_schema.ui.js:155
 #: pgadmin/misc/cloud/static/js/azure_schema.ui.js:471
@@ -14051,7 +14051,7 @@ msgstr "開くものがありません"
 
 #: pgadmin/static/js/helpers/Menu.js:47 pgadmin/static/js/helpers/Menu.js:68
 msgid "Invalid MenuItem instance"
-msgstr "無効な MenuItem インスタンスです"
+msgstr "不正な MenuItem インスタンスです"
 
 #: pgadmin/static/js/helpers/ModalProvider.jsx:326
 msgid "Maximize"
@@ -15973,7 +15973,7 @@ msgstr "接続が切断されました。新しい接続を確立させるには
 
 #: pgadmin/tools/psql/__init__.py:496 pgadmin/tools/psql/__init__.py:530
 msgid "Invalid session.\r\n"
-msgstr "セッションが無効です。\r\n"
+msgstr "無効なセッションです。\r\n"
 
 #: pgadmin/tools/psql/static/js/PsqlModule.js:95
 msgid "Please select a database from the object explorer to access Pql Tool."
@@ -18062,7 +18062,7 @@ msgstr "認証ソースのユーザー名/メールアドレスは重複しな�
 #: pgadmin/tools/user_management/__init__.py:615
 #, python-brace-format
 msgid "Invalid email address {0}."
-msgstr "メールアドレス {0} が不正です。"
+msgstr "不正なメールアドレス {0} です。"
 
 #: pgadmin/tools/user_management/__init__.py:671
 #, python-brace-format
@@ -18164,7 +18164,7 @@ msgstr "メールアドレスは空にできません"
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:152
 #, python-format
 msgid "Invalid email address: %s"
-msgstr "メールアドレスが不正です: %s"
+msgstr "不正なメールアドレスです: %s"
 
 #: pgadmin/tools/user_management/static/js/UserDialog.jsx:160
 #, python-format
@@ -18469,7 +18469,7 @@ msgstr "ハートビートの記録を停止しました。"
 #: pgadmin/utils/preferences.py:217
 #, python-brace-format
 msgid "Invalid value for {0} option."
-msgstr "オプション {0} の値が無効です。"
+msgstr "{0} オプションの値が不正です。"
 
 #: pgadmin/utils/preferences.py:642
 msgid "Could not find the specified module."
