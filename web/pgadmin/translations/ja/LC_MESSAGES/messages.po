@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-30 21:33+0900\n"
+"PO-Revision-Date: 2025-08-30 21:54+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -15485,7 +15485,7 @@ msgid ""
 msgstr ""
 "列の入力値をそのデータ型に変換するときに、エラーが発生した場合の動作を指定します。'中止' にするとコマンド自体が失敗し、'無視' "
 "にするとエラーがある入力行を破棄しつつ、そのまま次の行へ進みます。既定は '中止' です。'無視' オプションは、テキストまたは CSV "
-"形式のファイルを COPY FROM でコピーするときにのみ適用できます。"
+"形式のファイルを COPY FROM でコピーするときにのみ適用されます。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:142
 msgid "Log Verbosity"
@@ -16890,7 +16890,7 @@ msgstr "コメントを切り替え"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:612
 msgid "Toggle Case Of Selected Text"
-msgstr "選択したテキストの大文字小文字を切り替え"
+msgstr "選択した文字列の大文字小文字を変換"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:614
 msgid "Clear Query"
@@ -17827,7 +17827,7 @@ msgstr "編集のオプション"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:818
 msgid "Toggle case of selected text"
-msgstr "選択中のテキストの大文字小文字を変換"
+msgstr "選択した文字列の大文字小文字を変換"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:835
 msgid "Keywords in uppercase"
