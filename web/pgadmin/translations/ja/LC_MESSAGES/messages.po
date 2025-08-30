@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-30 18:33+0900\n"
+"PO-Revision-Date: 2025-08-30 20:10+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -5008,7 +5008,7 @@ msgstr "排他制約"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/default/stats.sql:7
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/indexes/sql/default/stats.sql:12
 msgid "Index size"
-msgstr "インデックスサイズ"
+msgstr "インデックスのサイズ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:47
 msgid "Exclusion constraint..."
@@ -5512,7 +5512,7 @@ msgstr "合計サイズ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/pg/default/sql/stats.sql:31
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/ppas/default/sql/stats.sql:31
 msgid "Indexes size"
-msgstr "インデックスサイズ"
+msgstr "インデックスのサイズ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:48
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:34
@@ -5523,14 +5523,14 @@ msgstr "インデックスサイズ"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/pg/default/sql/stats.sql:24
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/ppas/default/sql/stats.sql:24
 msgid "Table size"
-msgstr "テーブルサイズ"
+msgstr "テーブルのサイズ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:49
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:35
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:51
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:70
 msgid "TOAST table size"
-msgstr "TOAST テーブルサイズ"
+msgstr "TOAST テーブルのサイズ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:49
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:35
@@ -6581,7 +6581,7 @@ msgstr "TOAST インデックスブロックヒット"
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/pg/default/sql/stats.sql:28
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/templates/mviews/ppas/default/sql/stats.sql:28
 msgid "Toast table size"
-msgstr "TOAST テーブルサイズ"
+msgstr "TOAST テーブルのサイズ"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/16_plus/stats.sql:35
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/tables/sql/default/stats.sql:34
@@ -10529,7 +10529,7 @@ msgstr "閉じる"
 msgid ""
 "You are currently running version {0} of {1}, however the current version"
 " is {2}."
-msgstr "現在 {1} のバージョン {0} を実行中ですが、最新バージョンは {2} です。"
+msgstr "現在 {1} のバージョン {0} を実行していますが、最新のバージョンは {2} です。"
 
 #: pgadmin/browser/templates/browser/upgrade.html:3
 #, python-brace-format
