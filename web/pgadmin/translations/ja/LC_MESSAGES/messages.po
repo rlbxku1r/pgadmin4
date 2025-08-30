@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-29 22:19+0900\n"
+"PO-Revision-Date: 2025-08-30 18:33+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -4790,17 +4790,17 @@ msgstr "複合トリガーを無効化"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/static/js/rule.ui.js:77
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:208
 msgid "Enable Replica"
-msgstr "REPLICA を有効化"
+msgstr "有効 (REPLICA)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:111
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/static/js/rule.ui.js:78
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.ui.js:209
 msgid "Enable Always"
-msgstr "ALWAYS を有効化"
+msgstr "有効 (ALWAYS)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:115
 msgid "FOR Events"
-msgstr "FOR イベント"
+msgstr "対象イベント"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:115
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.ui.js:118
@@ -7633,7 +7633,7 @@ msgid ""
 " at all. Setting this to false will change default values of enabled, "
 "create_slot and copy_data to false."
 msgstr ""
-"この CREATE SUBSCRIPTION コマンドで、パブリッシャーに接続するかどうか指定します。これを false にすると "
+"この CREATE SUBSCRIPTION コマンドの実行と同時に、パブリッシャーに接続するかどうか指定します。これを false にすると "
 "enabled, create_slot, copy_data の既定値も false になります。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:357
@@ -10387,7 +10387,7 @@ msgid ""
 " to proceed?"
 msgstr ""
 "強制的にデータベースを削除しようとしています。これにより、データベース <b>\"%s\"</b> "
-"への既存の接続がすべて切断されます。よろしいですか？"
+"への現在の接続がすべて切断されます。よろしいですか？"
 
 #: pgadmin/browser/static/js/node.js:536
 #, python-format
