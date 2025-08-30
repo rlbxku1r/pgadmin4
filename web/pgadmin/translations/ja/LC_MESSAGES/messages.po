@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-08-30 20:10+0900\n"
+"PO-Revision-Date: 2025-08-30 20:46+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -1246,7 +1246,7 @@ msgstr "指定されたキャストが見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:366
 msgid "Could not find the cast information."
-msgstr "キャスト情報が見つかりませんでした。"
+msgstr "キャストの情報が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:529
 msgid "The specified cast object could not be found.\n"
@@ -2941,7 +2941,7 @@ msgstr "パブリケーション"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/__init__.py:169
 msgid "Could not find the publication information."
-msgstr "パブリケーション情報が見つかりませんでした。"
+msgstr "パブリケーションの情報が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/publications/__init__.py:337
 msgid "Could not find the specified publication."
@@ -5865,7 +5865,7 @@ msgstr "ハッシュパーティションで有効になります。"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:1042
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.ui.js:110
 msgid "Storage settings"
-msgstr "ストレージ設定"
+msgstr "ストレージの設定"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:449
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.ui.js:375
@@ -7411,7 +7411,7 @@ msgstr "サブスクリプション"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/__init__.py:180
 msgid "Could not find the subscription information."
-msgstr "サブスクリプション情報が見つかりませんでした。"
+msgstr "サブスクリプションの情報が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/__init__.py:342
 msgid "Could not find the specified subscription."
@@ -7613,7 +7613,7 @@ msgstr ""
 msgid ""
 "Specifies whether the subscription should be actively replicating, or "
 "whether it should be just setup but not started yet."
-msgstr "すぐにサブスクリプションを処理するか、あるいはあとで行えるように準備だけしておくか指定します。"
+msgstr "すぐにサブスクリプションを処理するか、あるいはあとで行えるように準備のみをしておくか指定します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:330
 msgid "Refresh publication?"
@@ -7621,7 +7621,7 @@ msgstr "パブリケーションを再読み込み"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:333
 msgid "Fetch missing table information from publisher."
-msgstr "パブリッシャーから足りないテーブル情報を取得します。"
+msgstr "パブリッシャーから足りないテーブルの情報を取得します。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:349
 msgid "Connect?"
@@ -9676,7 +9676,7 @@ msgstr "テーブル空間が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:269
 msgid "Could not find the tablespace information."
-msgstr "テーブル空間情報が見つかりませんでした。"
+msgstr "テーブル空間の情報が見つかりませんでした。"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/__init__.py:353
 #, python-brace-format
@@ -15518,7 +15518,7 @@ msgstr "凍結"
 msgid ""
 "Requests copying the data with rows already frozen, just as they would be"
 " after running the VACUUM FREEZE command."
-msgstr "すでに行が凍結された状態 (つまり VACUUM FREEZE コマンド実行後のような状態です) でのデータのコピーを要求します。"
+msgstr "すでに行が凍結された状態 (つまり VACUUM FREEZE コマンド実行直後のような状態です) でのデータのコピーを要求します。"
 
 #: pgadmin/tools/import_export/static/js/import_export.ui.js:214
 msgid ""
