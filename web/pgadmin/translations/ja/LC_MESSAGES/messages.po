@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-09-04 17:25+0900\n"
+"PO-Revision-Date: 2025-09-04 18:18+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -7482,7 +7482,7 @@ msgstr "接続"
 msgid ""
 "To apply changes to the connection configuration, please disconnect from "
 "the server and then reconnect."
-msgstr "接続設定の変更を適用するには、いったんサーバーから切断し、再度接続してください。"
+msgstr "接続構成の変更を適用するには、いったんサーバーから切断し、再度接続してください。"
 
 #: pgadmin/browser/server_groups/servers/databases/subscriptions/static/js/subscription.ui.js:164
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.ui.js:92
