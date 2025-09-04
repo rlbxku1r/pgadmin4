@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-09-02 00:21+0900\n"
+"PO-Revision-Date: 2025-09-04 17:25+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -15159,7 +15159,7 @@ msgstr "スキーマのデータを取得しています..."
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:322
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:951
 msgid "Unsaved changes"
-msgstr "保存されていない変更"
+msgstr "未保存の変更"
 
 #: pgadmin/tools/erd/static/js/erd_tool/components/MainToolBar.jsx:102
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:323
@@ -16640,7 +16640,7 @@ msgstr "名前は重複しないようにしてください。"
 msgid ""
 "By changing the connection you will lose all your unsaved data for the "
 "current connection. <br> Do you want to continue?"
-msgstr "接続を変更すると、現在の接続で保存されていないデータは失われます。 <br> 続行しますか？"
+msgstr "接続を変更すると、現在の接続で未保存のデータは失われます。 <br> 続行しますか？"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ConnectionBar.jsx:115
 msgid "(Obtaining connection)"
