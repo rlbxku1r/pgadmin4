@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-09-04 18:18+0900\n"
+"PO-Revision-Date: 2025-09-05 21:42+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -5664,7 +5664,7 @@ msgstr "継承テーブルの数"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:224
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:830
 msgid "Toast tuple target"
-msgstr "TOAST タプル対象"
+msgstr "TOAST タプルの対象"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.ui.js:229
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:835
@@ -16840,7 +16840,7 @@ msgstr "実行計画"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:554
 msgid "Explain Analyze"
-msgstr "実行計画 (ANALYZE)"
+msgstr "実行計画 (アナライズ)"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:556
 msgid "Explain Settings"
