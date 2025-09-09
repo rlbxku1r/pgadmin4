@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-09-05 21:42+0900\n"
+"PO-Revision-Date: 2025-09-09 20:39+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -4064,7 +4064,7 @@ msgstr "STRICT"
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:342
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:196
 msgid "Security of definer?"
-msgstr "SECURITY DEFINER"
+msgstr "関数所有者の権限で実行"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.ui.js:348
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.ui.js:200
@@ -6154,7 +6154,7 @@ msgstr "テーブル定義の基となる複合型を変更すると、列の定
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.ui.js:879
 msgid "Like"
-msgstr "LIKE"
+msgstr "テーブル構造の複製 (LIKE)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/17_plus/stats.sql:2
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/templates/columns/sql/default/stats.sql:2
