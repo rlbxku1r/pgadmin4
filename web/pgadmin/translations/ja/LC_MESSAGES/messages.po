@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-09-09 20:39+0900\n"
+"PO-Revision-Date: 2025-09-09 21:17+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -15806,35 +15806,35 @@ msgstr "スキーマ '{0}/{1}'"
 #: pgadmin/tools/maintenance/__init__.py:93
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:372
 msgid "VACUUM"
-msgstr "VACUUM"
+msgstr "バキューム"
 
 #: pgadmin/tools/maintenance/__init__.py:95
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:71
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:377
 msgid "ANALYZE"
-msgstr "ANALYZE"
+msgstr "アナライズ"
 
 #: pgadmin/tools/maintenance/__init__.py:97
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:382
 msgid "REINDEX"
-msgstr "REINDEX"
+msgstr "インデックスを再生成"
 
 #: pgadmin/tools/maintenance/__init__.py:101
 msgid "REINDEX INDEX"
-msgstr "REINDEX INDEX"
+msgstr "特定のインデックスを再生成"
 
 #: pgadmin/tools/maintenance/__init__.py:103
 msgid "REINDEX TABLE"
-msgstr "REINDEX TABLE"
+msgstr "テーブルのインデックスを再生成"
 
 #: pgadmin/tools/maintenance/__init__.py:105
 msgid "REINDEX SCHEMA"
-msgstr "REINDEX SCHEMA"
+msgstr "スキーマのインデックスを再生成"
 
 #: pgadmin/tools/maintenance/__init__.py:107
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:387
 msgid "CLUSTER"
-msgstr "CLUSTER"
+msgstr "クラスタリング"
 
 #: pgadmin/tools/maintenance/__init__.py:109
 #, python-brace-format
@@ -15867,39 +15867,39 @@ msgstr "メンテナンスジョブの作成に失敗しました。このユー
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:39
 msgid "FULL"
-msgstr "FULL"
+msgstr "完全"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:55
 msgid "FREEZE"
-msgstr "FREEZE"
+msgstr "タプルを凍結"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:87
 msgid "DISABLE PAGE SKIPPING"
-msgstr "DISABLE PAGE SKIPPING"
+msgstr "ページのスキップを無効化"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:103
 msgid "SKIP LOCKED"
-msgstr "SKIP LOCKED"
+msgstr "ロックされたリレーションを無視"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:137
 msgid "PROCESS TOAST"
-msgstr "PROCESS TOAST"
+msgstr "TOAST を処理"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:154
 msgid "PROCESS MAIN"
-msgstr "PROCESS MAIN"
+msgstr "主リレーションを処理"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:171
 msgid "SKIP DATABASE STATS"
-msgstr "SKIP DATABASE STATS"
+msgstr "データベースの統計情報を更新しない"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:188
 msgid "ONLY DATABASE STATS"
-msgstr "ONLY DATABASE STATS"
+msgstr "データベースの統計情報のみを更新"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:206
 msgid "INDEX CLEANUP"
-msgstr "INDEX CLEANUP"
+msgstr "インデックスを掃除"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:210
 msgid "ON"
@@ -15915,11 +15915,11 @@ msgstr "自動"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:242
 msgid "PARALLEL"
-msgstr "PARALLEL"
+msgstr "並列実行"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:259
 msgid "BUFFER USAGE LIMIT"
-msgstr "BUFFER USAGE LIMIT"
+msgstr "バッファー使用率上限"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:270
 msgid ""
@@ -15932,7 +15932,7 @@ msgstr ""
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:276
 msgid "SYSTEM"
-msgstr "SYSTEM"
+msgstr "システム"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:287
 msgid ""
@@ -15942,7 +15942,7 @@ msgstr "このオプションは、オブジェクトエクスプローラーで
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:306
 msgid "TABLESPACE"
-msgstr "TABLESPACE"
+msgstr "テーブル空間"
 
 #: pgadmin/tools/maintenance/static/js/maintenance.ui.js:367
 msgid "Maintenance operation"
