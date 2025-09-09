@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-17 18:28+0530\n"
-"PO-Revision-Date: 2025-09-09 21:17+0900\n"
+"PO-Revision-Date: 2025-09-09 21:24+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -8843,11 +8843,11 @@ msgstr ""
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:1433
 msgid "Reassign owned executed successfully!"
-msgstr "REASSIGN OWNED を正常に実行しました！"
+msgstr "所有オブジェクトを正常に移譲しました！"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:1435
 msgid "Drop owned executed successfully!"
-msgstr "DROP OWNED を正常に実行しました！"
+msgstr "所有オブジェクトを正常に削除しました！"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:43
 msgid "Login/Group Role"
