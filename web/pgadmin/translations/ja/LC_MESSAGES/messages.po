@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-14 16:22+0530\n"
-"PO-Revision-Date: 2025-09-10 21:46+0900\n"
+"PO-Revision-Date: 2025-09-12 21:49+0900\n"
 "Last-Translator: \n"
 "Language-Team: ja\n"
 "Language: ja\n"
@@ -9100,71 +9100,71 @@ msgstr "random"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:140
 msgid "GSS delegation?"
-msgstr ""
+msgstr "GSS 資格情報の転送"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:143
 msgid "Require authentication"
-msgstr ""
+msgstr "要求する認証方式"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:146
 msgid "SSL negotiation"
-msgstr ""
+msgstr "SSL ネゴシエーション"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:147
 msgid "postgres"
-msgstr ""
+msgstr "postgres"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:147
 msgid "direct"
-msgstr ""
+msgstr "direct"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:150
 msgid "SSL Key Logfile"
-msgstr ""
+msgstr "SSL 鍵のログファイル"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:153
 msgid "Min protocol version"
-msgstr ""
+msgstr "最小プロトコルバージョン"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:155 pgadmin/browser/server_groups/servers/static/js/server.ui.js:159
 msgid "3.0"
-msgstr ""
+msgstr "3.0"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:155 pgadmin/browser/server_groups/servers/static/js/server.ui.js:159
 msgid "3.2"
-msgstr ""
+msgstr "3.2"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:155 pgadmin/browser/server_groups/servers/static/js/server.ui.js:159
 msgid "latest"
-msgstr ""
+msgstr "latest"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:157
 msgid "Max protocol version"
-msgstr ""
+msgstr "最大プロトコルバージョン"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:161
 msgid "Scram client key"
-msgstr ""
+msgstr "SCRAM クライアント鍵"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:164
 msgid "Scram server key"
-msgstr ""
+msgstr "SCRAM サーバー鍵"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:167
 msgid "OAuth issuer"
-msgstr ""
+msgstr "OAuth 発行者"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:170
 msgid "OAuth client id"
-msgstr ""
+msgstr "OAuth クライアント ID"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:173
 msgid "OAuth client secret"
-msgstr ""
+msgstr "OAuth クライアントシークレット"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:176
 msgid "OAuth scope"
-msgstr ""
+msgstr "OAuth スコープ"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.ui.js:260
 msgid "Server group"
@@ -9518,7 +9518,7 @@ msgstr "登録"
 #: pgadmin/browser/static/js/browser.js:319
 #, python-brace-format
 msgid "${error.response?.data?.errormsg || error?.message}"
-msgstr ""
+msgstr "${error.response?.data?.errormsg || error?.message}"
 
 #: pgadmin/browser/static/js/browser.js:335
 #, python-format
@@ -12722,11 +12722,11 @@ msgstr "アプリケーションを終了しますか？"
 
 #: pgadmin/static/js/BrowserComponent.jsx:205
 msgid "An update is ready. Restart the app now to install it, or later to keep using the current version."
-msgstr ""
+msgstr "更新の準備ができました。今すぐアプリを再起動して更新をインストールするか、あるいはあとでインストールすることもできます。"
 
 #: pgadmin/static/js/BrowserComponent.jsx:210
 msgid "Update installed successfully!"
-msgstr ""
+msgstr "更新を正常にインストールしました！"
 
 #: pgadmin/static/js/ToolErrorView.jsx:28
 #, python-brace-format
@@ -13403,19 +13403,19 @@ msgstr "ブラウザーから、データベースか子ノードを選択して
 
 #: pgadmin/static/js/tree/ObjectExplorer/ObjectExplorerFilter.jsx:70
 msgid "Applying filter..."
-msgstr ""
+msgstr "絞り込みを適用しています..."
 
 #: pgadmin/static/js/tree/ObjectExplorer/ObjectExplorerFilter.jsx:152
 msgid "Specify the tags..."
-msgstr ""
+msgstr "タグを指定..."
 
 #: pgadmin/static/js/tree/ObjectExplorer/ObjectExplorerFilter.jsx:153
 msgid "Applying the filter will only hide the servers from view, it won't close any active connections."
-msgstr ""
+msgstr "絞り込みを適用すると、サーバーが非表示にはなりますが、すでに確立されている接続は閉じられません。"
 
 #: pgadmin/static/js/tree/ObjectExplorer/ObjectExplorerToolbar.jsx:88
 msgid "Filter Objects"
-msgstr ""
+msgstr "オブジェクトを絞り込み"
 
 #: pgadmin/static/js/tree/ObjectExplorer/ObjectExplorerToolbar.jsx:96 pgadmin/tools/sqleditor/static/js/SQLEditorModule.js:127
 msgid "All Rows"
@@ -15939,15 +15939,15 @@ msgstr "コスト"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:667
 msgid "Generic Plan"
-msgstr ""
+msgstr "汎用的な計画"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:670
 msgid "Serialize"
-msgstr ""
+msgstr "シリアライズ"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:674
 msgid "Binary"
-msgstr ""
+msgstr "バイナリ"
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/MainToolBar.jsx:677
 msgid "Settings"
@@ -16134,7 +16134,7 @@ msgstr "変更されたデータがありますが、保存されていません
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:967
 msgid "Applying the new filter..."
-msgstr "新しい絞り込み条件を適用しています..."
+msgstr "新しい絞り込みを適用しています..."
 
 #: pgadmin/tools/sqleditor/static/js/components/sections/ResultSet.jsx:1008
 msgid "Downloading results..."
@@ -16406,11 +16406,11 @@ msgstr "WAL を表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:65
 msgid "Show generic plan?"
-msgstr ""
+msgstr "汎用的な計画を表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:71
 msgid "Show memory?"
-msgstr ""
+msgstr "メモリを表示"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:79
 msgid "Set auto commit on or off by default in new Query Tool tabs."
