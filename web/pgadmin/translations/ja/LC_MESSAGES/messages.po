@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-25 00:51+0530\n"
-"PO-Revision-Date: 2026-09-01 21:43+0900\n"
+"PO-Revision-Date: 2026-09-01 21:46+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -12594,9 +12594,8 @@ msgstr "AI レポート"
 
 #: pgadmin/llm/static/js/ai_tools.js:72 pgadmin/llm/static/js/ai_tools.js:250
 #: pgadmin/llm/static/js/ai_tools.js:265
-#, fuzzy
 msgid "Please select a server, database, or schema."
-msgstr "サーバー、データベース、またはスキーマを選択してください。"
+msgstr "サーバー・データベース・スキーマのいずれかを選択してください。"
 
 #: pgadmin/llm/static/js/ai_tools.js:104 pgadmin/llm/static/js/ai_tools.js:123
 msgid "Performance"
@@ -12604,9 +12603,8 @@ msgstr "パフォーマンス"
 
 #: pgadmin/llm/static/js/ai_tools.js:108 pgadmin/llm/static/js/ai_tools.js:300
 #: pgadmin/llm/static/js/ai_tools.js:315
-#, fuzzy
 msgid "Please select a server or database."
-msgstr "サーバー、またはデータベースを選択してください。"
+msgstr "サーバー・データベースのどちらかを選択してください。"
 
 #: pgadmin/llm/static/js/ai_tools.js:140 pgadmin/llm/static/js/ai_tools.js:159
 msgid "Design"
@@ -12614,9 +12612,8 @@ msgstr "デザイン"
 
 #: pgadmin/llm/static/js/ai_tools.js:144 pgadmin/llm/static/js/ai_tools.js:350
 #: pgadmin/llm/static/js/ai_tools.js:365
-#, fuzzy
 msgid "Please select a database or schema."
-msgstr "データベース、またはスキーマを選択してください。"
+msgstr "データベース・スキーマのどちらかを選択してください。"
 
 #: pgadmin/llm/static/js/ai_tools.js:206
 msgid "Checking AI configuration..."
