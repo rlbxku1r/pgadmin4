@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-25 00:51+0530\n"
-"PO-Revision-Date: 2026-09-01 21:16+0900\n"
+"PO-Revision-Date: 2026-09-01 21:36+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -14152,9 +14152,8 @@ msgid "Foraging for ideas..."
 msgstr "いいアイデアを探し求めています..."
 
 #: pgadmin/static/js/ai_thinking_messages.js:22
-#, fuzzy
 msgid "Pondering pachyderm thoughts..."
-msgstr "ゾウに思いを馳せています..."
+msgstr "ゾウが思いを馳せています..."
 
 #: pgadmin/static/js/ai_thinking_messages.js:23
 msgid "Charging through the tall grass..."
@@ -14189,7 +14188,6 @@ msgid "Munching on some peanuts..."
 msgstr "ピーナッツをおいしく頂いています..."
 
 #: pgadmin/static/js/ai_thinking_messages.js:31
-#, fuzzy
 msgid "Doing a trunk stand..."
 msgstr "自慢の鼻を持ち上げています..."
 
@@ -15622,11 +15620,10 @@ msgid "Please upgrade the pldbgapi extension to 1.1 or above and try again."
 msgstr "pldbgapi 拡張機能をバージョン 1.1 以上にアップグレードし、もう一度試してください。"
 
 #: pgadmin/tools/debugger/__init__.py:816
-#, fuzzy
 msgid ""
 "Once a default value is passed, no subsequent arguments should be "
 "provided."
-msgstr "いったん既定値を渡したら、その後続する引数に値を渡すことはできません。"
+msgstr "いったん既定値を渡したら、その後続する引数には値を渡せません。"
 
 #: pgadmin/tools/debugger/__init__.py:1291
 msgid "Debugging aborted successfully."
@@ -16036,20 +16033,18 @@ msgid "Very High"
 msgstr "最高"
 
 #: pgadmin/tools/erd/__init__.py:476
-#, fuzzy
 msgid "Higher values will use higher memory and slower rendering."
-msgstr "値を高くするとメモリ消費量が増加し、描画速度も遅くなります。"
+msgstr "値を高くするとメモリ使用量が増加し、描画速度も遅くなります。"
 
 #: pgadmin/tools/erd/__init__.py:496
 msgid "Format ERD Project File?"
 msgstr "ERD プロジェクトファイルを整形"
 
 #: pgadmin/tools/erd/__init__.py:501
-#, fuzzy
 msgid ""
 "If enabled, the .pgerd project file of the ERD tool will be formatted "
 "before saving."
-msgstr "有効にすると、ERD ツールで保存する .pgerd プロジェクトファイルを整形します"
+msgstr "有効にすると、ERD ツールで保存する .pgerd プロジェクトファイルを整形します。"
 
 #: pgadmin/tools/erd/static/js/ERDModule.js:124
 #: pgadmin/tools/erd/static/js/ERDModule.js:133
@@ -18909,11 +18904,10 @@ msgid "Data result rows per page"
 msgstr "1 ページに表示する結果データの行数"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:338
-#, fuzzy
 msgid ""
 "Specify the number of records to fetch in one batch. Changing this value "
 "will override the DATA_RESULT_ROWS_PER_PAGE setting from the config file."
-msgstr "一度に取得するレコード数を指定します。この値を変更すると、設定ファイルの DATA_RESULT_ROWS_PER_PAGE 設定値を上書きします。"
+msgstr "一度に取得するレコード数を指定します。ここでの値は、設定ファイルの DATA_RESULT_ROWS_PER_PAGE の値よりも優先されます。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:346
 msgid "Striped rows?"
