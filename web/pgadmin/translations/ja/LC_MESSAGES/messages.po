@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-25 00:51+0530\n"
-"PO-Revision-Date: 2026-09-01 22:06+0900\n"
+"PO-Revision-Date: 2026-09-01 22:11+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -8920,7 +8920,7 @@ msgid "Connection limit must be an integer value or equal to -1."
 msgstr "接続制限は整数値か -1 にしてください。"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:280
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "\n"
 "Role members information must be passed as an array of JSON objects in "
@@ -8950,7 +8950,6 @@ msgstr ""
 "]"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:306
-#, fuzzy
 msgid ""
 "\n"
 "Role membership information must be passed as a string representing an "
@@ -9012,7 +9011,7 @@ msgstr ""
 "        ]\n"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:359
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "\n"
 "Role membership information must be passed as an array of JSON objects in"
@@ -9042,7 +9041,6 @@ msgstr ""
 "]"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:385
-#, fuzzy
 msgid ""
 "\n"
 "Role membership information must be passed as a string representing an "
@@ -9104,7 +9102,7 @@ msgstr ""
 "        ]\n"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:438
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "\n"
 "Security Label must be passed as an array of JSON objects in the "
@@ -9128,7 +9126,6 @@ msgstr ""
 "]"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:453
-#, fuzzy
 msgid ""
 "\n"
 "Security Label must be passed as an array of JSON objects in the "
@@ -9178,7 +9175,7 @@ msgstr ""
 "        ]\n"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:492
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "\n"
 "Configuration parameters/variables must be passed as an array of JSON "
@@ -9204,7 +9201,6 @@ msgstr ""
 "]"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:508
-#, fuzzy
 msgid ""
 "\n"
 "Configuration parameters/variables must be passed as an array of JSON "
