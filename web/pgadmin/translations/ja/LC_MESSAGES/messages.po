@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-25 00:51+0530\n"
-"PO-Revision-Date: 2026-09-01 21:36+0900\n"
+"PO-Revision-Date: 2026-09-01 21:43+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -12265,14 +12265,13 @@ msgid "Max Tool Iterations"
 msgstr "ツール呼び出しの最大回数"
 
 #: pgadmin/llm/__init__.py:105
-#, fuzzy
 msgid ""
 "Maximum number of tool call iterations allowed during an AI conversation."
 " Higher values allow more complex queries but may consume more resources."
 " Default is 20."
 msgstr ""
 "AI "
-"との会話中にツールを呼び出すことができる最大の回数です。値を高くするとより複雑な問い合わせを実行できますが、リソースの消費量も増加します。既定値は"
+"との会話中にツールを呼び出すことができる最大の回数です。値を高くするとより複雑な問い合わせに応答できますが、リソースの消費量も増加します。既定値は"
 " 20 です。"
 
 #: pgadmin/llm/__init__.py:121 pgadmin/llm/__init__.py:182
