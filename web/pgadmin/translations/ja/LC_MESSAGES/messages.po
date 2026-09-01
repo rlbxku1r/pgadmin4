@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-25 00:51+0530\n"
-"PO-Revision-Date: 2026-09-01 21:46+0900\n"
+"PO-Revision-Date: 2026-09-01 22:06+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -12251,7 +12251,6 @@ msgid "AI Configuration"
 msgstr "AI の構成"
 
 #: pgadmin/llm/__init__.py:85
-#, fuzzy
 msgid ""
 "The LLM provider to use for AI features. Select \"None (Disabled)\" to "
 "disable AI features. Note: AI features must also be enabled in the server"
