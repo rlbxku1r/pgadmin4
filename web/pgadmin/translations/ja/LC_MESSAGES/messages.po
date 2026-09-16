@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin 4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-15 17:11+0530\n"
-"PO-Revision-Date: 2026-09-16 20:12+0900\n"
+"PO-Revision-Date: 2026-09-16 20:29+0900\n"
 "Last-Translator: \n"
 "Language: ja\n"
 "Language-Team: ja\n"
@@ -14091,7 +14091,7 @@ msgstr "パスは空にできません。"
 
 #: pgadmin/preferences/static/js/components/binary_path.ui.jsx:75
 msgid "not found on the specified binary path."
-msgstr "指定されたバイナリパスに見つかりませんでした。"
+msgstr "指定されたバイナリパスから見つかりませんでした。"
 
 #: pgadmin/preferences/static/js/components/binary_path.ui.jsx:78
 msgid "Validate binary path"
